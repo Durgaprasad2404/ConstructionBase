@@ -19,7 +19,7 @@ function ElectronicsElectricalItemDisplay(props) {
       <div className='singleitem-details'>
         <div>
           <h1>{item.itemname}</h1>
-          <p>$ {item.price} <span className='offer'>{item.offer}% OFF</span></p>
+          <p>&#8377; {item.price} <span className='offer'>{item.offer}% OFF</span></p>
           <p>This essential construction tool is a heavy-duty apparatus designed to blend various construction materials with precision and efficiency.</p>
         </div>
         <div>
