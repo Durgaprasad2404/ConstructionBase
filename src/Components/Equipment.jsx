@@ -5,7 +5,7 @@ import { productData } from '../itemsData/productsData'
 function Equipment() {
   return (
     <div className='backGround'>
-      <h1>Equipment Needs</h1>
+      <h1>Equipment Needs for Construction</h1>
       <div style={{margin:'20px 25px'}}>
         <h2>Electrical</h2>
         <div className='allItems'>

@@ -32,6 +32,7 @@ code {
 }
 
 .allItems {
+  padding-top: 25px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;

@@ -4,14 +4,13 @@ import './navbar.css';
 import { FaCartPlus } from 'react-icons/fa';
 import { ImMenu3, ImMenu4 } from 'react-icons/im';
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
     const navbarLinks = document.querySelector('.navbar-links');
     navbarLinks.classList.toggle('active');
     setIsOpen(!isOpen);
   };
-
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -60,10 +59,14 @@ const Navbar = () => {
         </ul>
         <div style={{display:'flex',gap:'10px',flexDirection:'row-reverse',justifyContent:'center',alignItems:'center'}}>
           <div>
-              <Link to='/cart'>
-                <span className='cart'>
-                  <FaCartPlus/>
+              <Link to='/cart' style={{textDecoration:'none'}}>
+                <div className='cart'>
+                  <span >
+                  <FaCartPlus/> 
                 </span>
+                <span>{props.size}</span>
+                </div>
+                
               </Link>
           </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>

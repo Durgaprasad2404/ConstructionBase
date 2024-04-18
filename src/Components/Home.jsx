@@ -38,7 +38,7 @@ function Home() {
     <div className='shopCategory'>
         <div style={{display:'flex'}}>
           <h1 className='homeHeading'>
-          Shop By Category
+          Shop By Category wise
         </h1>
         
         </div>

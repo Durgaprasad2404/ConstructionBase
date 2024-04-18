@@ -23,7 +23,7 @@ function Footer() {
           <div className="footCon3">
               <b>Contact Us</b><br/>
               <div>
-                <input type='text'/>
+                <input type='text' name='name' id='name' autoComplete="name" placeholder='Let me know you name'/>
               <button>contact</button>
               </div>
               <div className='connect'>

@@ -21,6 +21,7 @@ const Cart=(props)=> {
     })
   return (
     <div>
+        
       {props.cart.map((i)=>{
         return(
             <div className="cart_box" key={i.id}>

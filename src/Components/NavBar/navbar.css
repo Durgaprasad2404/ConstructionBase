@@ -75,19 +75,29 @@ li {
     display: block;
 }
 
-.cart {
-    color: #f9f9f9;
-    text-align: center;
-    font-size: larger;
-    padding: 3px 15px;
-    padding-top: 10px;
-    border-radius: 10px;
-    background-color: rgba(187, 255, 0, 0.505);
-
-}
 
 .menu {
     font-size: 38px;
+}
+
+.cart {
+    cursor: pointer;
+
+}
+
+.cart span:nth-child(1) {
+    font-size: 2rem;
+    color: white;
+}
+
+.cart span:nth-child(2) {
+    padding: 0 7px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    position: relative;
+    top: -23px;
 }
 
 @media screen and (max-width: 768px) {

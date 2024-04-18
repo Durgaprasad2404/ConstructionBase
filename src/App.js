@@ -47,7 +47,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Navbar />
+        <Navbar size={cart.length} />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/findworkers" element={<Workers />} />
@@ -77,6 +77,7 @@ function App() {
             path="/Bcpath/:id"
             element={<BuildingItemDisplay handleClick={handleClick} />}
           />
+          {/* CartItemsRoute */}
           <Route
             path="/cart"
             element={
