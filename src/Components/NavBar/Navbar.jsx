@@ -60,7 +60,7 @@ const Navbar = () => {
         </ul>
         <div style={{display:'flex',gap:'10px',flexDirection:'row-reverse',justifyContent:'center',alignItems:'center'}}>
           <div>
-              <Link to='/Cart'>
+              <Link to='/cart'>
                 <span className='cart'>
                   <FaCartPlus/>
                 </span>

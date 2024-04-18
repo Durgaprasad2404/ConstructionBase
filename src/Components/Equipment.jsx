@@ -1,6 +1,6 @@
 import React from 'react'
-import {Items} from '../itemsData/Equipmentdata'
 import Equipmentitems from './EquipmentFolder/EquipmentItems'
+import { productData } from '../itemsData/productsData'
 
 function Equipment() {
   return (
@@ -9,9 +9,9 @@ function Equipment() {
       <div style={{margin:'20px 25px'}}>
         <h2>Electrical</h2>
         <div className='allItems'>
-          {Items.map((i)=>{
+          {productData.map((i)=>{
             if (i.category==="Electrical"){
-              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.image_url} price={i.price} oldprice={i.oldprice} offer={i.offer} />
+              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.imgUrl} price={i.price} oldprice={i.oldprice} offer={i.offer} />
             }else{
               return null
             }
@@ -21,9 +21,9 @@ function Equipment() {
       <div style={{margin:'20px 25px'}}>
         <h2>Hard Tools</h2>
         <div className='allItems'>
-          {Items.map((i)=>{
+          {productData.map((i)=>{
             if (i.category==="Hard Tools"){
-              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.image_url} price={i.price} oldprice={i.oldprice} offer={i.offer} />
+              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.imgUrl} price={i.price} oldprice={i.oldprice} offer={i.offer} />
             }else{
               return null
             }
@@ -33,9 +33,9 @@ function Equipment() {
       <div style={{margin:'20px 25px'}}>
         <h2>Heavy Machinery</h2>
         <div className='allItems'>
-          {Items.map((i)=>{
+          {productData.map((i)=>{
             if (i.category==="Heavy Machinery"){
-              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.image_url} price={i.price} oldprice={i.oldprice} offer={i.offer} />
+              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.imgUrl} price={i.price} oldprice={i.oldprice} offer={i.offer} />
             }else{
               return null
             }
@@ -45,9 +45,9 @@ function Equipment() {
       <div style={{margin:'20px 25px'}}>
         <h2>Ladders</h2>
         <div className='allItems'>
-          {Items.map((i)=>{
+          {productData.map((i)=>{
             if (i.category==="Ladders"){ 
-              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.image_url} price={i.price} oldprice={i.oldprice} offer={i.offer} />
+              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.imgUrl} price={i.price} oldprice={i.oldprice} offer={i.offer} />
             }else{
               return null
             }
@@ -57,9 +57,9 @@ function Equipment() {
       <div style={{margin:'20px 25px'}}>
         <h2>Safety Gear</h2>
         <div className='allItems'>
-          {Items.map((i)=>{
+          {productData.map((i)=>{
             if (i.category==="Safety Gear"){
-              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.image_url} price={i.price} oldprice={i.oldprice} offer={i.offer} />
+              return <Equipmentitems key={i.id} id={i.id} itemname={i.itemname} imgUrl={i.imgUrl} price={i.price} oldprice={i.oldprice} offer={i.offer} />
             }else{
               return null
             }

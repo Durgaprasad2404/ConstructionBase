@@ -1,13 +1,13 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { construction_equipment } from '../../itemsData/Electrical'
 import { FaCartPlus } from "react-icons/fa";
 import { ImPower } from "react-icons/im";
 import './electronics.css'
+import { productData } from '../../itemsData/productsData';
 
-function ElectronicsElectricalItemDisplay() {
+function ElectronicsElectricalItemDisplay(props) {
     const {id}=useParams()
-    const item= construction_equipment.find((i)=>i.id===id)
+    const item= productData.find((i)=>i.id===id)
 
   return (
     <>
@@ -23,7 +23,7 @@ function ElectronicsElectricalItemDisplay() {
           <p>This essential construction tool is a heavy-duty apparatus designed to blend various construction materials with precision and efficiency.</p>
         </div>
         <div>
-          <button type="button" className='cartBtn'>
+          <button type="button" className='cartBtn' onClick={()=>props.handleClick(item)}>
             <FaCartPlus />  Add To Cart
           </button>
           <button type="button" className='buyBtn'>

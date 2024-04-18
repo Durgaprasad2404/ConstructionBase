@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/NavBar/Navbar";
 import "./App.css";
@@ -13,12 +13,37 @@ import ElectronicsElectricalItemDisplay from "./Components/ElectronicsElectrical
 import ShowOwners from "./Components/rentalFolder/ShowOwners";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import CartItems from "./Components/CartFolder/CartItems";
 import Footer from "./Components/Footer";
 import Shoppingfeatures from "./Components/shoppingfeatures";
 import Workers from "./Components/Workers";
+import Cart from "./Components/CartFolder/Cart";
 
 function App() {
+  const [cart, setCart] = useState([]);
+
+  const handleClick = (item) => {
+    let isPresent = false;
+    cart.forEach((product) => {
+      if (item.id === product.id) isPresent = true;
+    });
+    if (isPresent) {
+      alert("Already in CartBox");
+      return;
+    }
+    setCart([...cart, item]);
+  };
+
+  const handleChange = (item, d) => {
+    let ind = -1;
+    cart.forEach((data, index) => {
+      if (data.id === item.id) ind = index;
+    });
+    const tempArr = cart;
+    tempArr[ind].quantity += d;
+
+    if (tempArr[ind].quantity === 0) tempArr[ind].quantity = 1;
+    setCart([...tempArr]);
+  };
   return (
     <div>
       <BrowserRouter>
@@ -32,21 +57,32 @@ function App() {
           {/* EquipmentRoute */}
 
           <Route exact path="/Equipment" element={<Equipment />} />
-          <Route path="/Equipment/:id" element={<ItemDisplay />} />
+          <Route
+            path="/Equipment/:id"
+            element={<ItemDisplay handleClick={handleClick} />}
+          />
           {/* ElectricalRoute */}
           <Route exact path="/EEpath" element={<ElectronicsElectrical />} />
           <Route
             path="/EEpath/:id"
-            element={<ElectronicsElectricalItemDisplay />}
+            element={
+              <ElectronicsElectricalItemDisplay handleClick={handleClick} />
+            }
           />
 
           {/* BuildingEquipmentRoute */}
 
           <Route exact path="/Bcpath" element={<Building />} />
-          <Route path="/Bcpath/:id" element={<BuildingItemDisplay />} />
-
-          {/* CartRoute */}
-          <Route exact path="/Cart" element={<CartItems />} />
+          <Route
+            path="/Bcpath/:id"
+            element={<BuildingItemDisplay handleClick={handleClick} />}
+          />
+          <Route
+            path="/cart"
+            element={
+              <Cart handleChange={handleChange} cart={cart} setCart={setCart} />
+            }
+          />
         </Routes>
         <Shoppingfeatures />
         <Footer />

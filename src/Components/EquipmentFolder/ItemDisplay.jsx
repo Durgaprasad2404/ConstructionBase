@@ -1,19 +1,19 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { Items } from '../../itemsData/Equipmentdata' 
 import { FaCartPlus } from "react-icons/fa";
 import { ImPower } from "react-icons/im";
 import './equipment.css'
+import { productData } from '../../itemsData/productsData';
 
-
-function ItemDisplay() {
+function ItemDisplay(props) {
     const {id}=useParams()
-    const item= Items.find((i)=>i.id===id)
+    const item= productData.find((i)=>i.id===id)
+    
   return (
     <>
     <div className='singleItem'>
       <div>
-        <img src={item.image_url} alt="#" className='singleimg' />
+        <img src={item.imgUrl} alt="#" className='singleimg' />
         <p>{item.description}</p>
       </div>
       <div className='singleitem-details'>
@@ -23,7 +23,7 @@ function ItemDisplay() {
           <p>This essential construction tool is a heavy-duty apparatus designed to blend various construction materials with precision and efficiency.</p>
         </div>
         <div>
-          <button type="button" className='cartBtn'>
+          <button type="button" className='cartBtn' onClick={()=>props.handleClick(item)}>
             <FaCartPlus />  Add To Cart
           </button>
           <button type="button" className='buyBtn'>
