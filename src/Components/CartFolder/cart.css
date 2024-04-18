@@ -64,7 +64,7 @@ article {
 
 .total {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .total span:nth-child(1) {
