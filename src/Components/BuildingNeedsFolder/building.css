@@ -1,0 +1,67 @@
+.item-con {
+    background-color: rgb(220, 236, 245);
+    padding: 20px 25px;
+    text-align: center;
+}
+
+p {
+    padding: 20px 0px;
+}
+
+.oldprice {
+    color: red;
+    font-style: italic;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.offer {
+    color: green;
+    font-style: italic;
+    font-size: x-small;
+    margin-left: 5px;
+}
+
+.singleItem {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    background: rgb(133, 162, 179);
+    background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+}
+
+.singleimg {
+    width: 100%;
+}
+
+.singleitem-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cartBtn {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(190, 55, 55);
+    border: none;
+    font-size: medium;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.buyBtn {
+    text-align: center;
+    color: #fff;
+    background-color: rgb(196, 71, 212);
+    border: none;
+    font-size: large;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width:640px) {
+    .singleItem {
+        flex-direction: column;
+    }
+}
