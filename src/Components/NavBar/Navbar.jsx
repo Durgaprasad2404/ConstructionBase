@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import { FaCartPlus } from 'react-icons/fa';
+import { FaCaretDown, FaCartPlus } from 'react-icons/fa';
 import { ImMenu3, ImMenu4 } from 'react-icons/im';
 import { MdAdminPanelSettings } from 'react-icons/md';
 import User from '../LoginUser/User';
@@ -29,7 +29,7 @@ const Navbar = (props) => {
             <Link to='/RentedVehicles'>Rental Vehicles</Link>
           </li>
           <li className="dropdown">
-              <Link to="/Equipment">Equipment</Link>
+              <Link to="/Equipment">Equipment <FaCaretDown /></Link>
               <div className="dropdown-content">
                 <a href='#Electrical'>Electrical</a>
                 <a href='#Handtools'>Handtools</a>
@@ -39,7 +39,7 @@ const Navbar = (props) => {
               </div>
             </li>
           <li className="dropdown">
-              <Link to="/EEpath">Electronics & Electrical</Link>
+              <Link to="/EEpath">Electronics & Electrical<FaCaretDown /></Link>
               <div className="dropdown-content">
                 <a href='#Cables'>Cables & wires</a>
                 <a href='#Circuites'>Circuites</a>
@@ -49,7 +49,7 @@ const Navbar = (props) => {
               </div>
             </li>
           <li className="dropdown">
-              <Link to="/Bcpath">Building & Construction </Link>
+              <Link to="/Bcpath">Building & Construction<FaCaretDown /></Link>
               <div className="dropdown-content">
                 <a href='#Bricks'>Bricks</a>
                 <a href='#Cement'>Cement</a>
