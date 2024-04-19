@@ -1,23 +1,24 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { RentalData } from '../../itemsData/Rentaldata'
-import { MdAddIcCall } from 'react-icons/md'
+import { WorkersData } from '../../itemsData/workers'; 
+import { MdAddIcCall } from "react-icons/md";
 
-function ShowOwners() {
+function Showworkers() {
     const {category}=useParams()
-    console.log(RentalData)
   return (
     <div className='backGround'>
       <h1>Here are some <q style={{color:'red',fontSize:'35px'}}>{category}</q> </h1>
-      {RentalData.map((i)=>{
+      {WorkersData.map((i)=>{
         if (i.category===category){
             return(
                 <div className='owners'>
                     <h2 style={{width:'150px'}}>
                         {i.ownerName}
                     </h2>
-                    <p style={{width:'150px'}}><MdAddIcCall /> {i.contactNumber}</p>
-                    <p style={{width:'150px'}}>&#8377; {i.amount}/- <span style={{fontSize:'xx-small'}}>Per hour</span></p>
+                    <div style={{width:'150px'}}>
+                      <p><MdAddIcCall /> {i.contactNumber}</p>
+                    </div>
+                    <p style={{width:'150px'}}>&#8377; {i.amount}/- <span style={{fontSize:'xx-small'}}>Per Day</span></p>
                 </div>
             )
         }else{
@@ -28,4 +29,4 @@ function ShowOwners() {
   )
 }
 
-export default ShowOwners
+export default Showworkers

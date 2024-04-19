@@ -8,7 +8,7 @@ function Footer() {
     <hr />
     <footer>
             <div className="footCon1">
-                <b>Logo</b>
+                <img src="../Assets/E-logo.png" alt="#" className='logofoot' />
                 <p>Your one-stop shop for the tools that build tomorrow.</p>
             </div>
           <div className="footCon2">

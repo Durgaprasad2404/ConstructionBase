@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/NavBar/Navbar";
 import "./App.css";
@@ -17,10 +17,13 @@ import Footer from "./Components/Footer";
 import Shoppingfeatures from "./Components/shoppingfeatures";
 import Workers from "./Components/Workers";
 import Cart from "./Components/CartFolder/Cart";
+import Showworkers from "./Components/workersFolder/ShowOwners";
+import PageNotFound from "./Components/PageNotFound";
+
+const LocalCart = JSON.parse(localStorage.getItem("cart") || "[]");
 
 function App() {
-  const [cart, setCart] = useState([]);
-
+  const [cart, setCart] = useState(LocalCart);
   const handleClick = (item) => {
     let isPresent = false;
     cart.forEach((product) => {
@@ -44,26 +47,33 @@ function App() {
     if (tempArr[ind].quantity === 0) tempArr[ind].quantity = 1;
     setCart([...tempArr]);
   };
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart));
+  }, [cart]);
+
   return (
     <div>
       <BrowserRouter>
         <Navbar size={cart.length} />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/findworkers" element={<Workers />} />
           <Route exact path="/RentedVehicles" element={<RentedVehicles />} />
-          <Route path="/rental/:category" element={<ShowOwners />} />
+          <Route exact path="/rental/:category" element={<ShowOwners />} />
 
+          <Route exact path="/workers" element={<Workers />} />
+          <Route exact path="/workers/:category" element={<Showworkers />} />
           {/* EquipmentRoute */}
 
           <Route exact path="/Equipment" element={<Equipment />} />
           <Route
+            exact
             path="/Equipment/:id"
             element={<ItemDisplay handleClick={handleClick} />}
           />
           {/* ElectricalRoute */}
           <Route exact path="/EEpath" element={<ElectronicsElectrical />} />
           <Route
+            exact
             path="/EEpath/:id"
             element={
               <ElectronicsElectricalItemDisplay handleClick={handleClick} />
@@ -74,16 +84,19 @@ function App() {
 
           <Route exact path="/Bcpath" element={<Building />} />
           <Route
+            exact
             path="/Bcpath/:id"
             element={<BuildingItemDisplay handleClick={handleClick} />}
           />
           {/* CartItemsRoute */}
           <Route
+            exact
             path="/cart"
             element={
               <Cart handleChange={handleChange} cart={cart} setCart={setCart} />
             }
           />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Shoppingfeatures />
         <Footer />

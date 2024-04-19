@@ -6,7 +6,7 @@ function Equipment() {
   return (
     <div className='backGround'>
       <h1>Equipment Needs for Construction</h1>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='#Electrical'>
         <h2>Electrical</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -18,7 +18,7 @@ function Equipment() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Handtools'>
         <h2>Hard Tools</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -30,7 +30,7 @@ function Equipment() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Heavy'>
         <h2>Heavy Machinery</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -42,7 +42,7 @@ function Equipment() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Ladders'>
         <h2>Ladders</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -54,7 +54,7 @@ function Equipment() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Safety'>
         <h2>Safety Gear</h2>
         <div className='allItems'>
           {productData.map((i)=>{

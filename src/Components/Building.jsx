@@ -6,7 +6,7 @@ function Building() {
   return (
     <div className='backGround'>
       <h1>Building & Construction</h1>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Bricks'>
         <h2>Bricks</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -18,7 +18,7 @@ function Building() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Cement'>
         <h2>Cement</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -30,7 +30,7 @@ function Building() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Iron'>
         <h2>Iron</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -42,7 +42,7 @@ function Building() {
           })}
         </div>
       </div>
-       <div style={{margin:'20px 25px'}}>
+       <div style={{margin:'20px 25px'}} id='Woods'>
         <h2>Woods</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -54,7 +54,7 @@ function Building() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='CrushedStone'>
         <h2>Crushed stone</h2>
         <div className='allItems'>
           {productData.map((i)=>{
@@ -66,7 +66,7 @@ function Building() {
           })}
         </div>
       </div>
-      <div style={{margin:'20px 25px'}}>
+      <div style={{margin:'20px 25px'}} id='Sand'>
         <h2>Sand</h2>
         <div className='allItems'>
           {productData.map((i)=>{
