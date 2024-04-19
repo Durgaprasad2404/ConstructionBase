@@ -288,6 +288,64 @@ b {
   height: 100dvh;
 }
 
+
+
+
+
+/*style.css*/
+
+.loginBG {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transition: transform 0.2s;
+  width: 500px;
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+
+.login-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:768px) {
   .carImg {
     width: 100%;

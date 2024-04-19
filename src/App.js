@@ -19,6 +19,7 @@ import Workers from "./Components/Workers";
 import Cart from "./Components/CartFolder/Cart";
 import Showworkers from "./Components/workersFolder/ShowOwners";
 import PageNotFound from "./Components/PageNotFound";
+import LoginPage from "./Components/LoginPage";
 
 const LocalCart = JSON.parse(localStorage.getItem("cart") || "[]");
 
@@ -97,6 +98,7 @@ function App() {
             }
           />
           <Route path="*" element={<PageNotFound />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
         <Shoppingfeatures />
         <Footer />

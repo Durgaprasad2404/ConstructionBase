@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaUser } from 'react-icons/fa'
 import './user.css'
+import { Link } from 'react-router-dom'
 
 function User() {
   return (
@@ -10,7 +11,9 @@ function User() {
       </div>
       <div className='userbio'>
         <h3 className='username'>User name</h3>
-        <p className='userStatus'>Login/Logout</p>
+        <Link to='/login'>
+          <p className='userStatus'>Login/Logout</p>
+        </Link>
       </div>
     </div>
   )
