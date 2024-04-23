@@ -110,7 +110,7 @@ function Home() {
     </div>
     <div className='promot'>
       <h1>
-        Buy Building & Construction Materials Online in Nalgonda
+        Buy Building & Construction Materials Online in <q style={{color:'red',fontSize:'35px',fontStyle:'oblique'}}>Nalgonda</q>
       </h1>
       <p>We supply complete building and construction materials like Cement, TMT Steel, Bricks & Blocks, Sand, Tiles, Electrical Materials, Plywood, Plumbing Materials, etc. at wholesale prices across nalgonda. </p>
     </div>
