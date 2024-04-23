@@ -1,5 +1,5 @@
 .item-con {
-    background-color: rgb(220, 236, 245);
+    background-color: #fff;
     padding: 20px 25px;
     text-align: center;
     border-radius: 15px;
@@ -27,8 +27,7 @@ p {
     padding: 30px;
     display: flex;
     gap: 30px;
-    background: rgb(133, 162, 179);
-    background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+    background: rgb(209, 230, 242);
 }
 
 .singleimg {

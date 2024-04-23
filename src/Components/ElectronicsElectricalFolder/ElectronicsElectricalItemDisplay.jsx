@@ -4,6 +4,8 @@ import { FaCartPlus } from "react-icons/fa";
 import { ImPower } from "react-icons/im";
 import './electronics.css'
 import { productData } from '../../itemsData/productsData';
+import Shoppingfeatures from '../shoppingfeatures';
+import Footer from '../Footer';
 
 function ElectronicsElectricalItemDisplay(props) {
     const {id}=useParams()
@@ -32,6 +34,8 @@ function ElectronicsElectricalItemDisplay(props) {
         </div>
       </div>
     </div>
+    <Shoppingfeatures/>
+    <Footer/>
     </>
   )
 }

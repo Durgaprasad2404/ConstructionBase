@@ -60,7 +60,7 @@ const Navbar = (props) => {
               </div>
             </li>
             <li className='nav-item'>
-            <Link to='/workers'>Find Workers Here</Link>
+            <Link to='/workers'>Workers</Link>
           </li>
 
         </ul>

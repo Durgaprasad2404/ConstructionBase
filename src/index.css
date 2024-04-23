@@ -38,13 +38,12 @@ h1 {
 }
 
 .backGround {
-  background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+  background: rgb(209, 230, 242);
   padding: 10px 35px;
 }
 
 .HomepageBg {
-  background: rgb(133, 162, 179);
-  background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+  background: rgb(209, 230, 242);
   padding: 10px 35px;
 }
 
@@ -123,14 +122,10 @@ h1 {
   color: rgb(41, 34, 34);
   font-size: 35px;
   padding: 0px 10px 26px 10px;
-  border-top: 1px solid #000;
-  text-decoration: underline;
 }
 
 .shopCategory {
-  background: rgb(133, 162, 179);
-  background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
-
+  background-color: rgb(209, 230, 242);
 }
 
 
@@ -154,6 +149,10 @@ h1 {
   &:hover {
     transform: scale(1.1);
   }
+}
+
+.slick-slide>div {
+  margin: 0 14px;
 }
 
 .offerBg {
@@ -182,13 +181,11 @@ h1 {
   border-bottom: 0.5px solid #000;
   text-align: center;
   padding: 45px 30px;
-  background: rgb(133, 162, 179);
-  background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+  background: rgb(209, 230, 242);
 }
 
 .Shoppingfeatures {
-  background: rgb(133, 162, 179);
-  background: radial-gradient(circle, rgba(133, 162, 179, 1) 0%, rgba(182, 174, 176, 1) 100%);
+  background: rgb(209, 230, 242);
   padding: 40px 10px;
   display: flex;
 }

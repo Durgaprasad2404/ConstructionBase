@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { WorkersData } from '../../itemsData/workers'; 
 import { MdAddIcCall } from "react-icons/md";
+import { FaUser } from 'react-icons/fa';
 
 function Showworkers() {
     const {category}=useParams()
@@ -13,7 +14,7 @@ function Showworkers() {
             return(
                 <div className='owners'>
                     <h2 style={{width:'150px'}}>
-                        {i.ownerName}
+                        <FaUser /> {i.ownerName}
                     </h2>
                     <div style={{width:'150px'}}>
                       <p><MdAddIcCall /> {i.contactNumber}</p>

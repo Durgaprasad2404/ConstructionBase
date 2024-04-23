@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './cart.css'
+import Footer from '../Footer';
 
 const Cart=(props)=> {
      const [price, setPrice] = useState(0);
@@ -48,6 +49,7 @@ const Cart=(props)=> {
             <span>Rs - {price}</span>
         </div>
         {/* <button>Check Out</button> */}
+        <Footer/>
     </div>
   )
 }

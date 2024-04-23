@@ -13,8 +13,6 @@ import ElectronicsElectricalItemDisplay from "./Components/ElectronicsElectrical
 import ShowOwners from "./Components/rentalFolder/ShowOwners";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "./Components/Footer";
-import Shoppingfeatures from "./Components/shoppingfeatures";
 import Workers from "./Components/Workers";
 import Cart from "./Components/CartFolder/Cart";
 import Showworkers from "./Components/workersFolder/ShowOwners";
@@ -102,8 +100,6 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
         </Routes>
-        <Shoppingfeatures />
-        <Footer />
       </BrowserRouter>
     </div>
   );

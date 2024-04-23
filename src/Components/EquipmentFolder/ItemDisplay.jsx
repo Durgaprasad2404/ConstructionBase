@@ -4,6 +4,8 @@ import { FaCartPlus } from "react-icons/fa";
 import { ImPower } from "react-icons/im";
 import './equipment.css'
 import { productData } from '../../itemsData/productsData';
+import Footer from '../Footer';
+import Shoppingfeatures from '../shoppingfeatures';
 
 function ItemDisplay(props) {
     const {id}=useParams()
@@ -32,6 +34,8 @@ function ItemDisplay(props) {
         </div>
       </div>
     </div>
+    <Shoppingfeatures/>
+    <Footer/>
     </>
   )
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Slider from "react-slick";
+import Footer from './Footer';
+import Shoppingfeatures from './shoppingfeatures';
 
 function Home() {
   var settings = {
@@ -36,12 +38,9 @@ function Home() {
       </Slider>
     </div>
     <div className='shopCategory'>
-        <div style={{display:'flex'}}>
           <h1 className='homeHeading'>
           Shop By Category wise
         </h1>
-        
-        </div>
         <div className='shopItemCon'>
          <Link to='/Bcpath' style={{textDecoration:'none'}}>
            <div className="shopItem">
@@ -115,6 +114,8 @@ function Home() {
       </h1>
       <p>We supply complete building and construction materials like Cement, TMT Steel, Bricks & Blocks, Sand, Tiles, Electrical Materials, Plywood, Plumbing Materials, etc. at wholesale prices across nalgonda. </p>
     </div>
+    <Shoppingfeatures />
+    <Footer/>
       </>
   );
 }

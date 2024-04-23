@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { RentalData } from '../../itemsData/Rentaldata'
 import { MdAddIcCall } from 'react-icons/md'
+import { FaUser } from 'react-icons/fa'
 
 function ShowOwners() {
     const {category}=useParams()
@@ -14,7 +15,7 @@ function ShowOwners() {
             return(
                 <div className='owners'>
                     <h2 style={{width:'150px'}}>
-                        {i.ownerName}
+                        <FaUser /> {i.ownerName}
                     </h2>
                     <p style={{width:'150px'}}><MdAddIcCall /> {i.contactNumber}</p>
                     <p style={{width:'150px'}}>&#8377; {i.amount}/- <span style={{fontSize:'xx-small'}}>Per hour</span></p>
