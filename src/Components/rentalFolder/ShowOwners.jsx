@@ -2,11 +2,10 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { RentalData } from '../../itemsData/Rentaldata'
 import { MdAddIcCall } from 'react-icons/md'
-import { FaUser } from 'react-icons/fa'
+
 
 function ShowOwners() {
     const {category}=useParams()
-    console.log(RentalData)
   return (
     <div className='backGround'>
       <h1>Here are some <q style={{color:'red',fontSize:'35px'}}>{category}</q> </h1>
@@ -14,11 +13,26 @@ function ShowOwners() {
         if (i.category===category){
             return(
                 <div className='owners'>
-                    <h2 style={{width:'150px'}}>
-                        <FaUser /> {i.ownerName}
-                    </h2>
-                    <p style={{width:'150px'}}><MdAddIcCall /> {i.contactNumber}</p>
-                    <p style={{width:'150px'}}>&#8377; {i.amount}/- <span style={{fontSize:'xx-small'}}>Per hour</span></p>
+                  <div className='vhimgCon'>
+                    <div>
+                      <img src={i.imgUrl} alt="#" className='vhImgfull'/>
+                    </div>
+                    <div className='vhCon'>
+                      <img src={i.imgUrl} alt="#" className='vhImg'/>
+                      <img src={i.imgUrl} alt="#" className='vhImg'/>
+                      <img src={i.imgUrl} alt="#" className='vhImg'/>
+                      <img src={i.imgUrl} alt="#" className='vhImg'/>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>{i.ownerName}</h3>
+                    <div className='ownerContact'>
+                      <div>
+                        <button className='OwnerContactBtn'><MdAddIcCall /> Connect</button>
+                      </div>
+                      <p>&#8377; {i.amount}/- <span className='hourspan'>per hour</span></p>
+                    </div>
+                  </div>
                 </div>
             )
         }else{

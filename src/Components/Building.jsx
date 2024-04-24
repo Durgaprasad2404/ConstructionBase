@@ -8,7 +8,7 @@ function Building() {
     <><div className='backGround'>
       <h1>Building & Construction</h1>
       <div style={{ margin: '20px 25px' }} id='Bricks'>
-        <h2>Bricks</h2>
+        <h2 className='shopSideHeading'>Bricks</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Bricks") {
@@ -20,7 +20,7 @@ function Building() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Cement'>
-        <h2>Cement</h2>
+        <h2 className='shopSideHeading'>Cement</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Cement") {
@@ -32,7 +32,7 @@ function Building() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Iron'>
-        <h2>Iron</h2>
+        <h2 className='shopSideHeading'>Iron</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Iron") {
@@ -44,7 +44,7 @@ function Building() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Woods'>
-        <h2>Woods</h2>
+        <h2 className='shopSideHeading'>Woods</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Woods") {
@@ -56,7 +56,7 @@ function Building() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='CrushedStone'>
-        <h2>Crushed stone</h2>
+        <h2 className='shopSideHeading'>Crushed stone</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Crushed stone") {
@@ -68,7 +68,7 @@ function Building() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Sand'>
-        <h2>Sand</h2>
+        <h2 className='shopSideHeading'>Sand</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Sand") {

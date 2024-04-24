@@ -38,13 +38,14 @@ h1 {
 }
 
 .backGround {
-  background: rgb(209, 230, 242);
   padding: 10px 35px;
 }
 
-.HomepageBg {
-  background: rgb(209, 230, 242);
-  padding: 10px 35px;
+.shopSideHeading {
+  color: #000000b7;
+  border: 1px solid #55555561;
+  background-color: #55555561;
+  padding: 2px 5px;
 }
 
 .allItems {
@@ -53,8 +54,6 @@ h1 {
   gap: 20px;
   flex-wrap: wrap;
 }
-
-
 
 .img {
   width: 150px;
@@ -67,84 +66,80 @@ h1 {
   }
 }
 
-.rentalVehicles {
-  padding-top: 25px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  flex-wrap: wrap;
-}
+/* Home Page Styles */
 
-.rentalVehiclesCon {
-  text-align: center;
+
+.HomepageBg {
+  background-image: url('../public/Assets/bgs/homeBG.png');
+  background-size: cover;
+  height: 90dvh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  border: 2px solid gray;
-  padding: 10px 25px;
-  border-radius: 20px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.owners {
-  border: 2px solid rgb(5, 63, 95);
-  margin: 10px;
-  padding: 15px;
+.homePageCon {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
-
-
-.carImg {
-  max-height: 70vh;
-  width: 100%;
-  aspect-ratio: 3/2;
-  object-fit: fill;
-  padding: 15px 0px;
-}
-
-.Caro-heading {
-  margin: 0;
-  padding: 0;
-  font-size: 30px;
-  text-align: center;
-  font-weight: 600;
-  color: bisque;
-  -webkit-text-stroke: 1px #000;
-}
-
-
-
 
 .homeHeading {
-  width: 100%;
-  color: rgb(41, 34, 34);
-  font-size: 35px;
-  padding: 0px 10px 26px 10px;
-  border-top: 1px solid #000;
+  padding: 0px 15px;
+  color: #dea90b;
+  font-size: 45px;
+  font-weight: 600;
 }
+
+.homePara {
+  width: 80%;
+  padding: 8px 15px;
+  color: rgb(213, 209, 209);
+}
+
+.homeImg {
+  height: 300px;
+  padding: 0px 10px;
+}
+
+.linebt {
+  padding: 0px 25px;
+  margin: 10px;
+  height: 1px;
+  border-radius: 15px;
+  border-bottom: 3px solid rgba(66, 64, 64, 0.158);
+}
+
+/* home-page(shopcategory) */
 
 .shopCategory {
-  background-color: rgb(209, 230, 242);
+  background-color: #fff;
 }
 
+.categoryHeading {
+  font-weight: 800;
+  font-size: 35px;
+  padding: 10px;
+}
 
 
 .shopItemCon {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  padding: 15px;
 }
 
-.shopItem {
-  padding: 15px 20px;
-  text-align: center;
+.shoplanding {
+  padding: 10px;
+  border-radius: 1px 1px 15px 15px;
+  margin-top: 15px;
+  background-color: rgba(155, 157, 160, 0.174);
+  display: flex;
+  gap: 4rem;
+  border-top: 3px solid #dea90b;
 }
 
 .shopImg {
-  max-height: 200px;
-  border-radius: 25px;
+  height: 300px;
+  width: 200px;
   transition: all 2s;
 
   &:hover {
@@ -152,12 +147,26 @@ h1 {
   }
 }
 
-.slick-slide>div {
-  margin: 0 14px;
+.shopPara {
+  color: #555;
 }
 
+.shopBtn {
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #555;
+
+  &:hover {
+    border-top: 2px solid #dea90b;
+  }
+}
+
+/* home-page(offers) */
+
 .offerBg {
-  background: navy;
+  background: rgb(220, 220, 227);
 }
 
 .offerBG {
@@ -171,22 +180,35 @@ h1 {
 }
 
 .offerHeading {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 35px;
   padding: 25px 10px;
-  text-align: center;
-  font-weight: 600;
+  font-weight: 800;
 }
+
+.slick-slide>div {
+  margin: 0 14px;
+}
+
+/* home-page(promot) */
 
 .promot {
   border-bottom: 0.5px solid #000;
   text-align: center;
   padding: 45px 30px;
-  background: rgb(209, 230, 242);
 }
 
+.nalgonda {
+  color: #dea90b;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+/* home-page(shopFeatures) */
+
 .Shoppingfeatures {
-  background: rgb(209, 230, 242);
   padding: 40px 10px;
   display: flex;
 }
@@ -195,6 +217,10 @@ h1 {
   text-align: center;
   width: 50%;
 }
+
+/* end of home-page styles */
+
+/* Footer styles */
 
 footer {
   background: #000;
@@ -252,6 +278,88 @@ b {
 
 }
 
+/* footerStyles end */
+
+
+/* rental styles */
+.rentalVehicles {
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.rentalVehiclesCon {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid gray;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.owners {
+  border: 2px solid rgb(5, 63, 95);
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.vhImg {
+  height: 40px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #555;
+  }
+}
+
+.vhImgfull {
+  height: 100px;
+}
+
+.vhCon {
+  display: flex;
+  gap: 4px;
+}
+
+.vhCon:hover> :not(:hover) {
+  opacity: 0.4;
+}
+
+.vhimgCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ownerContact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.OwnerContactBtn {
+  background-color: rgb(43, 190, 43);
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.hourspan {
+  color: #dea90b;
+  font-size: x-small;
+}
+
+/* workers-page styles */
+
 .workers {
   padding-top: 25px;
   display: flex;
@@ -286,11 +394,7 @@ b {
   height: 100dvh;
 }
 
-
-
-
-
-/*style.css*/
+/*Login-page style*/
 
 .loginBG {
   display: flex;
@@ -337,7 +441,7 @@ label {
   align-items: center;
 }
 
-/* register */
+/* register page styles */
 
 .register-form {
   max-width: 400px;
@@ -384,9 +488,13 @@ label {
 
 
 
-
+/* mediaQuories */
 
 @media screen and (max-width:768px) {
+  .homeImg {
+    display: none;
+  }
+
   .carImg {
     width: 100%;
     aspect-ratio: 3/2;
@@ -404,6 +512,25 @@ label {
 }
 
 @media screen and (max-width:576px) {
+  .homeHeading {
+    font-size: medium;
+  }
+
+  .homePara {
+    font-size: small;
+  }
+
+  .shoplanding {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .owners {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   footer {
     flex-direction: column;
   }

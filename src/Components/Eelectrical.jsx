@@ -8,7 +8,7 @@ function ElectronicsElectrical() {
     <><div className='backGround'>
       <h1>Electronics & Electrical</h1>
       <div style={{ margin: '20px 25px' }} id='Cables'>
-        <h2>Cables & wires</h2>
+        <h2 className='shopSideHeading'>Cables & wires</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Wires") {
@@ -20,7 +20,7 @@ function ElectronicsElectrical() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Circuites'>
-        <h2>Circuites</h2>
+        <h2 className='shopSideHeading'>Circuites</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Circuits") {
@@ -32,7 +32,7 @@ function ElectronicsElectrical() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Pannels'>
-        <h2>Pannels</h2>
+        <h2 className='shopSideHeading'>Pannels</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Panels") {
@@ -44,7 +44,7 @@ function ElectronicsElectrical() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='Pipes'>
-        <h2>Pipes</h2>
+        <h2 className='shopSideHeading'>Pipes</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Pipes") {
@@ -56,7 +56,7 @@ function ElectronicsElectrical() {
         </div>
       </div>
       <div style={{ margin: '20px 25px' }} id='WireCutters'>
-        <h2>Wire Cutters</h2>
+        <h2 className='shopSideHeading'>Wire Cutters</h2>
         <div className='allItems'>
           {productData.map((i) => {
             if (i.category === "Wire Cutters") {

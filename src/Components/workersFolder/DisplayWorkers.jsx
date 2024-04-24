@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function DisplayWorkers(props) {
   return (
-    <div className='workersCon'>
+    <div className='workersCon' key={props.id}>
       <Link to={`/workers/${props.category}`}>
         <img src={props.imgUrl} alt='#' className='img'/>
       </Link>

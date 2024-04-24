@@ -1,5 +1,5 @@
 .item-con {
-    background-color: #fff;
+    background-color: #c3bebe5e;
     padding: 20px 25px;
     text-align: center;
     border-radius: 15px;
@@ -28,6 +28,8 @@ p {
     display: flex;
     gap: 30px;
     background: rgb(209, 230, 242);
+    margin: 10px;
+    border-radius: 10px;
 }
 
 .singleimg {
