@@ -525,6 +525,10 @@ label {
     gap: 1.5rem;
   }
 
+  .shopImg {
+    width: 100%;
+  }
+
   .owners {
     flex-direction: column;
     justify-content: center;
