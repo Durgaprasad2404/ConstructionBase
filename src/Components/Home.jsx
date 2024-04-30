@@ -25,7 +25,7 @@ function Home() {
           </Slide>
         </div>
         {/* <div>
-          <img src="../Assets/bgs/3.jpg" alt="#" className='homeImg' />
+          <img src="../Assets/bgs/Group 1.png" alt="#" className='homeImg' />
         </div> */}
       </div>
     </div>

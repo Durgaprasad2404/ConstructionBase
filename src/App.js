@@ -19,6 +19,7 @@ import Showworkers from "./Components/workersFolder/ShowOwners";
 import PageNotFound from "./Components/PageNotFound";
 import LoginPage from "./Components/LoginPage";
 import RegisterPage from "./Components/RegisterPage";
+import swal from "sweetalert";
 
 const LocalCart = JSON.parse(localStorage.getItem("cart") || "[]");
 
@@ -30,10 +31,11 @@ function App() {
       if (item.id === product.id) isPresent = true;
     });
     if (isPresent) {
-      alert("Already in CartBox");
+      alert("Item Already Exist");
       return;
     }
     setCart([...cart, item]);
+    swal("Good job!", "Item Added to cart!", "success");
   };
 
   const handleChange = (item, d) => {

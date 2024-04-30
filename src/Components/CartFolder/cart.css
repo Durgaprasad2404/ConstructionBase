@@ -46,7 +46,7 @@ article {
     border: none;
     outline: none;
     color: white;
-    background-color: skyblue;
+    background-color: red;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -63,6 +63,7 @@ article {
 }
 
 .total {
+    margin: 15px 0px;
     display: flex;
     justify-content: space-around;
 }
