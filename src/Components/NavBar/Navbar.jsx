@@ -4,7 +4,6 @@ import './navbar.css';
 import { FaCaretDown, FaCartPlus } from 'react-icons/fa';
 import { ImMenu3, ImMenu4 } from 'react-icons/im';
 import { MdAdminPanelSettings } from 'react-icons/md';
-import User from '../LoginUser/User';
 
 const Navbar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,10 +11,6 @@ const Navbar = (props) => {
     const navbarLinks = document.querySelector('.navbar-links');
     navbarLinks.classList.toggle('active');
     setIsOpen(!isOpen);
-  };
-  const toggleUser = () => {
-    const sidebar = document.querySelector('.userSidebar');
-    sidebar.classList.toggle('show');
   };
   return (
     <nav className="navbar">
@@ -83,19 +78,21 @@ const Navbar = (props) => {
                 <span>{props.size}</span>
                 </div>
               </Link>
-              <div className="settings" onClick={toggleUser}>
+              <Link to='/user'>
+              <div className="settings">
                   <span style={{textDecoration:'none',color:'#fff'}}>
                     <MdAdminPanelSettings />
                   </span>
               </div>
+              </Link>
           </div>
         </div>
       </div>
-          <div className='userSidebar'>
+          {/* <div className='userSidebar'>
             <div className='userDetails'>
                 <User/>
             </div>
-        </div>
+        </div> */}
     </nav>
   );
 };

@@ -20,6 +20,8 @@ import PageNotFound from "./Components/PageNotFound";
 import LoginPage from "./Components/LoginPage";
 import RegisterPage from "./Components/RegisterPage";
 import swal from "sweetalert";
+import User from "./Components/LoginUser/User";
+import Logout from "./Components/Logout";
 
 const LocalCart = JSON.parse(localStorage.getItem("cart") || "[]");
 
@@ -98,9 +100,11 @@ function App() {
               <Cart handleChange={handleChange} cart={cart} setCart={setCart} />
             }
           />
+          <Route path="/user" element={<User />} />
           <Route path="*" element={<PageNotFound />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/logout" element={<Logout />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Slide } from "react-awesome-reveal";
 
 function Home() {
+
    const sets = {
     dots: false,
     infinite: true,
@@ -14,6 +15,7 @@ function Home() {
     slidesToScroll: 2,
     autoplay: true,
   };
+
   return (
     <>
     <div className='HomepageBg'>

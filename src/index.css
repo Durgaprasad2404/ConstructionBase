@@ -379,21 +379,6 @@ b {
   border-radius: 20px;
 }
 
-.userSidebar {
-  background-color: #000;
-  display: none;
-  justify-content: flex-end;
-}
-
-.userDetails {
-  color: #000;
-  position: absolute;
-  z-index: 111111111;
-  background-color: rgba(180, 188, 188, 0.975);
-  width: 30%;
-  height: 100dvh;
-}
-
 /*Login-page style*/
 
 .loginBG {

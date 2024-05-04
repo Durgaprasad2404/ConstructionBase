@@ -12,7 +12,7 @@ function ShowOwners() {
       {RentalData.map((i)=>{
         if (i.category===category){
             return(
-                <div className='owners'>
+                <div className='owners' key={i.id}>
                   <div className='vhimgCon'>
                     <div>
                       <img src={i.imgUrl} alt="#" className='vhImgfull'/>

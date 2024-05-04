@@ -20,7 +20,6 @@ const Cart=(props)=> {
      useEffect(()=>{
         handlePrice();
     })
-    
 
   return (
     <div>
@@ -46,7 +45,7 @@ const Cart=(props)=> {
       })}
       <div className='total'>
             <span>Total Price of your Cart</span>
-            <span>Rs :- {price}</span>
+            <span>Rs:- {price}</span>
         </div>
         {/* <button>Check Out</button> */}
         <Footer/>
