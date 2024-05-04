@@ -10,12 +10,12 @@ export const vehicles = [
   {
     id: 9,
     name: "Concrete mixer",
-    imgUrl: "../Assets/rentalImg/Concrete mixer.jpeg",
+    imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
   },
   {
     id: 10,
     name: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusher plant.jpg",
+    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
   },
 ];
 export const workers = [
