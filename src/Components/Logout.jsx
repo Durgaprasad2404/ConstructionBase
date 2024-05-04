@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function Logout() {
     const history = useNavigate();
     useEffect(()=>{
-          fetch('/logout',{
+          fetch('https://constructionbackend-4ql2.onrender.com/logout',{
       method:"GET",
       headers:{
         Accept:"application/json",
