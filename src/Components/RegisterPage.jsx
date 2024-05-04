@@ -30,7 +30,7 @@ function RegisterPage() {
     e.preventDefault();
     const { Username, email, password } = formData;
 
-    const res = await fetch("/register",{
+    const res = await fetch("https://constructionbackend-4ql2.onrender.com/register",{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
