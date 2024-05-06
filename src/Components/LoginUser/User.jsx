@@ -43,7 +43,8 @@ const CalluserPage= async ()=>{
         <FaUser />
       </div>
       <div className='userbio'>
-        <h3 className='username'>Hey, {UserData.Username}</h3>
+        <h3 className='username'>Hey &#128075;, <span className='userName'>{UserData.Username}</span></h3>
+        <p className='greetingMsg'>Good To See You Here &#128525;</p>
         <Link to='/logout' className='userStatus'>
           {UserState}
         </Link>
