@@ -9,7 +9,7 @@ function User() {
   const [UserState,setuserState] = useState('Login')
 const CalluserPage= async ()=>{
   try{
-    const res = await fetch("/user",{
+    const res = await fetch("https://constructionbackend-4ql2.onrender.com/user",{
       method:"GET",
       headers:{
         Accept:"application/json",
