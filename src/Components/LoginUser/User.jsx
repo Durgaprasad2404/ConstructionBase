@@ -11,11 +11,9 @@ const CalluserPage= async ()=>{
   try{
     const res = await fetch('https://constructionbackend-4ql2.onrender.com/user',{
       method:"GET",
-      mode:"cors",
       headers:{
         Accept:"application/json",
         "Content-Type":"application/json",
-        'Access-Control-Allow-Origin' : '*'
       },
       credentials:"include"
     })
