@@ -37,7 +37,7 @@ function App() {
       return;
     }
     setCart([...cart, item]);
-    swal("Good job!", "Item Added to cart!", "success");
+    swal("Item Added to cart!", "success");
   };
 
   const handleChange = (item, d) => {
