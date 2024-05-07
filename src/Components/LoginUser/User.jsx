@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FaUser } from 'react-icons/fa'
 import './user.css'
 import {Link, useNavigate } from 'react-router-dom'
+import URL_FOR_API from '../../API/UrlOfApi';
 
 function User() {
   const history=useNavigate()
@@ -9,7 +10,7 @@ function User() {
   const [UserState,setuserState] = useState('Login')
 const CalluserPage= async ()=>{
   try{
-    const res = await fetch("https://constructionbackend-4ql2.onrender.com/user",{
+    const res = await fetch(URL_FOR_API+"/api/user",{
       method:"GET",
       headers:{
         Accept:"application/json",
@@ -18,6 +19,7 @@ const CalluserPage= async ()=>{
       credentials:"include"
     })
     const data = await res.json()
+    console.log(data)
     setuserData(data)
     setuserState("Logout")
     if(!res.status===200){

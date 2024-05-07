@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
+import URL_FOR_API from '../API/UrlOfApi';
 
 function Logout() {
     const history = useNavigate();
     useEffect(()=>{
-          fetch("https://constructionbackend-4ql2.onrender.com/logout",{
+          fetch(URL_FOR_API+"/api/logout",{
       method:"GET",
       headers:{
         Accept:"application/json",

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
+import URL_FOR_API from '../API/UrlOfApi';
 
 function LoginPage() {
   const history = useNavigate();
@@ -9,14 +10,13 @@ function LoginPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
-
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("https://constructionbackend-4ql2.onrender.com/login",{
+    const res = await fetch(URL_FOR_API+"/api/login",{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
@@ -96,7 +96,7 @@ function LoginPage() {
             </div>
           </div>
           <div className="wrap">
-            <button type="submit">Login</button>
+            <button type="submit" onClick={handleSubmit}>Login</button>
           </div>
         </form>
         <p>

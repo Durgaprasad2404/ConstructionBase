@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa'; // Import eye icons
 import { Link, useNavigate } from 'react-router-dom';
-
+import URL_FOR_API from '../API/UrlOfApi';
 
 function RegisterPage() {
     const history = useNavigate();
@@ -30,7 +30,7 @@ function RegisterPage() {
     e.preventDefault();
     const { Username, email, password } = formData;
 
-    const res = await fetch("https://constructionbackend-4ql2.onrender.com/register",{
+    const res = await fetch(URL_FOR_API+"/api/register",{
       method:'POST',
       headers:{
         'Content-Type':'application/json'
