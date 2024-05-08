@@ -5,47 +5,55 @@ import URL_FOR_API from '../API/UrlOfApi';
 
 function LoginPage() {
   const history = useNavigate();
-  const [email,setEmail] = useState('')
-  const [password,setPassword] = useState('')
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
+
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch(URL_FOR_API+"/api/login",{
-      method:'POST',
-      headers:{
-        'Content-Type':'application/json'
-      },
-      body: JSON.stringify({email, password})
-    })
-    const data = await res.json()
 
-    if (res.status === 400 || !data){
-      window.alert("Invaild credentials")
-    }else{
-      window.alert('Login Success')
-      setSuccessMsg('Login successful!');
-      history('/user')
-    }
     // Basic validation
     if (!email || !password) {
       setErrorMsg('Please fill in all fields.');
       return;
     }
+
     // Clear error message if validation passed
     setErrorMsg('');
 
-    // Hide success message after 2 seconds
-    setTimeout(() => {
-      setSuccessMsg('');
-    }, 2000);
+    try {
+      const res = await fetch(URL_FOR_API + "/api/login", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email, password })
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || 'Login failed');
+      }
+
+      window.alert('Login Success');
+      setSuccessMsg('Login successful!');
+      history('/user');
+
+      // Clear form fields after successful login
+      setEmail('');
+      setPassword('');
+    } catch (error) {
+      console.error('Login failed:', error);
+      setErrorMsg(error.message || 'Login failed');
+    }
   };
-  
 
   return (
     <div className="loginBG">
@@ -64,7 +72,7 @@ function LoginPage() {
               placeholder="Enter your Email"
               required
               value={email}
-              onChange={(e)=>{setEmail(e.target.value)}}
+              onChange={(e) => { setEmail(e.target.value) }}
               autoComplete="true"
             />
           </div>
@@ -79,7 +87,7 @@ function LoginPage() {
                 placeholder="Enter your Password"
                 required
                 value={password}
-                onChange={(e)=>{setPassword(e.target.value)}}
+                onChange={(e) => { setPassword(e.target.value) }}
                 autoComplete="true"
               />
               <i
@@ -97,7 +105,7 @@ function LoginPage() {
             </div>
           </div>
           <div className="wrap">
-            <button type="submit" onClick={handleSubmit}>Login</button>
+            <button type="submit">Login</button>
           </div>
         </form>
         <p>

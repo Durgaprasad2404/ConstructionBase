@@ -1,50 +1,32 @@
 import React, { useState } from 'react';
-import { FaEye, FaEyeSlash } from 'react-icons/fa'; // Import eye icons
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import URL_FOR_API from '../API/UrlOfApi';
 
 function RegisterPage() {
-    const history = useNavigate();
+  const history = useNavigate();
   const [formData, setFormData] = useState({
     Username: '',
     email: '',
     password: '',
   });
-  const [showPassword, setShowPassword] = useState(false); // State to manage password visibility
+  const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [successMsg, setSuccessMsg] = useState('');
 
-  // Function to handle form input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  // Function to handle password visibility toggling
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
   };
 
-  // Function to handle form submission
-  const handleSubmit = async(e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { Username, email, password } = formData;
 
-    const res = await fetch(URL_FOR_API+"/api/register",{
-      method:'POST',
-      headers:{
-        'Content-Type':'application/json'
-      },
-      body: JSON.stringify({Username, email, password})
-    })
-
-    const data=await res.json()
-    if(data.status===422 || !data){
-      window.alert('Invalid Registration')
-    }else{
-      window.alert('Registration successed')
-      history('/login')
-    }
     // Basic validation
     if (!Username || !email || !password) {
       setErrorMsg('Please fill in all fields.');
@@ -54,17 +36,37 @@ function RegisterPage() {
     // Clear error message if validation passed
     setErrorMsg('');
 
-    // Process registration...
-    // console.log('Form submitted with data:', formData);
-console.log(formData)
-    // Display success message
-    setSuccessMsg('Registration successful!'); // Set your desired success message
+    try {
+      const res = await fetch(URL_FOR_API + "/api/register", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ Username, email, password })
+      });
 
-    // Hide success message after 2 seconds
-    setTimeout(() => {
-      setSuccessMsg('');
-    }, 2000);
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || 'Registration failed');
+      }
+
+      window.alert('Registration successed');
+      setSuccessMsg('Registration successful!');
+      history('/login');
+
+      // Clear form fields after successful registration
+      setFormData({
+        Username: '',
+        email: '',
+        password: ''
+      });
+    } catch (error) {
+      console.error('Registration failed:', error);
+      setErrorMsg(error.message || 'Registration failed');
+    }
   };
+
   return (
     <div className="register-form">
       <h2>Register</h2>
@@ -99,7 +101,7 @@ console.log(formData)
           <label htmlFor="password">Password:</label>
           <div style={{ position: 'relative' }}>
             <input
-              type={showPassword ? 'text' : 'password'} // Toggle password visibility
+              type={showPassword ? 'text' : 'password'}
               id="password"
               name="password"
               value={formData.password}
@@ -117,7 +119,7 @@ console.log(formData)
               }}
               onClick={togglePasswordVisibility}
             >
-              {showPassword ? <FaEye /> : <FaEyeSlash />} {/* Toggle eye icon based on password visibility */}
+              {showPassword ? <FaEye /> : <FaEyeSlash />}
             </i>
           </div>
         </div>
@@ -132,4 +134,5 @@ console.log(formData)
     </div>
   );
 }
+
 export default RegisterPage;
