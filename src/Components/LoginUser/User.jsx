@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { FaUser } from 'react-icons/fa'
 import './user.css'
-import { useNavigate } from 'react-router-dom'
+import {Link, useNavigate } from 'react-router-dom'
 import URL_FOR_API from '../../API/UrlOfApi';
 
 function User() {
   const history=useNavigate()
   const [UserData,setuserData] = useState({})
+  const [UserState,setuserState] = useState('Login')
 const CalluserPage= async ()=>{
   try{
     const res = await fetch(URL_FOR_API+"/api/user",{
@@ -20,6 +21,7 @@ const CalluserPage= async ()=>{
     const data = await res.json()
     console.log(data)
     setuserData(data)
+    setuserState("Logout")
     if(!res.status===200){
       const error = new Error(res.error)
       throw error;
@@ -45,9 +47,9 @@ const CalluserPage= async ()=>{
       <div className='userbio'>
         <h3 className='username'>Hey &#128075;, <span className='userName'>{UserData.Username}</span></h3>
         <p className='greetingMsg'>Good To See You Here &#128525;</p>
-        {/* <Link to='/logout' className='userStatus'>
+        <Link to='/logout' className='userStatus'>
           {UserState}
-        </Link> */}
+        </Link>
       </div>
       </div>
     </form>
