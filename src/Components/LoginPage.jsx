@@ -30,7 +30,7 @@ function LoginPage() {
     }else{
       window.alert('Login Success')
       setSuccessMsg('Login successful!');
-      history('/user')
+      history('/')
     }
     // Basic validation
     if (!email || !password) {
