@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import URL_FOR_API from '../API/UrlOfApi';
+import Cookies from 'js-cookie'
 
 function LoginPage() {
   const history = useNavigate();
@@ -37,7 +38,8 @@ function LoginPage() {
       });
 
       const data = await res.json();
-
+      Cookies.set("jwtoken",data.token)
+      console.log(data)
       if (!res.ok) {
         throw new Error(data.message || 'Login failed');
       }
