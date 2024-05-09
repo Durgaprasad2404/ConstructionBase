@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { FaUser } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import URL_FOR_API from '../../API/UrlOfApi';
+import Cookies from 'js-cookie'
 
 function User() {
   const history = useNavigate();
@@ -10,10 +11,12 @@ function User() {
   const [loading, setLoading] = useState(true);
 
   const fetchUserData = async () => {
+    const jwtToken = Cookies.get("jwtoken")
     try {
       const res = await fetch(URL_FOR_API + "/api/user", {
         method: "GET",
         headers: {
+          Authorization: `Bearer ${jwtToken}`,
           Accept: "application/json",
           "Content-Type": "application/json",
         },
