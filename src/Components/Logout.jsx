@@ -6,12 +6,12 @@ import swal from "sweetalert";
 function Logout() {
   const history = useNavigate();
   const logoutUser = async () =>{
-    
+
     //jwt removed
     Cookies.remove("jwtoken")
 
     //showing popup
-    swal("Hopefully, you will come back soon", "success");
+    swal("Hopefully, you will come back soon");
 
     // Logout successful, redirect to home page
     history("/")
