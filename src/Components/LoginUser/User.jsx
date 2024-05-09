@@ -3,6 +3,7 @@ import { FaUser } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import URL_FOR_API from '../../API/UrlOfApi';
 import Cookies from 'js-cookie'
+import './user.css'
 
 function User() {
   const history = useNavigate();

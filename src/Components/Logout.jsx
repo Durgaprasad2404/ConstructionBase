@@ -1,12 +1,20 @@
 import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie'
+import swal from "sweetalert";
 
 function Logout() {
   const history = useNavigate();
   const logoutUser = async () =>{
+    
+    //jwt removed
     Cookies.remove("jwtoken")
-    history('/')
+
+    //showing popup
+    swal("Hopefully, you will come back soon", "success");
+
+    // Logout successful, redirect to home page
+    history("/")
   }
 
   useEffect(() => {
@@ -26,21 +34,21 @@ function Logout() {
     //       throw new Error('Logout failed');
     //     }
 
-    //     // Logout successful, redirect to home page
+    //     
     //     history('/');
     //   } catch (err) {
     //     console.error(err);
     //     // Handle error, maybe display a message to the user
     //   }
     // };
-
+    
     logoutUser();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <div>
-      LOGOUT
+      LOGOUT 
     </div>
   );
 }
