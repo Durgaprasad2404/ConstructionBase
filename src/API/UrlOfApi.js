@@ -1,3 +1,3 @@
-const URL_FOR_API = "http://localhost:3005";
+const URL_FOR_API = "https://constructionbackend-4ql2.onrender.com";
 
 export default URL_FOR_API;
