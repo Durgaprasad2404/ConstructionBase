@@ -128,7 +128,7 @@ function Services() {
             <div className="painting-works">
               <Link to={`/services/roofing`}>
                 <img
-                  src="./Assets/workers/painters.jpg"
+                  src="./Assets/workers/Roof-Installation.jpg"
                   alt="#painting"
                   className="painting-img"
                 />
@@ -138,7 +138,7 @@ function Services() {
             <div className="painting-works">
               <Link to={`/services/roofing`}>
                 <img
-                  src="./Assets/workers/PaintingSupervisors.jpg"
+                  src="./Assets/workers/Roof-Replacement.jpg"
                   alt="#painting"
                   className="painting-img"
                 />
@@ -148,7 +148,7 @@ function Services() {
             <div className="painting-works">
               <Link to={`/services/roofing`}>
                 <img
-                  src="./Assets/workers/wallprepare.jpg"
+                  src="./Assets/workers/Roof-Repair.jpg"
                   alt="#painting"
                   className="painting-img"
                 />
@@ -158,7 +158,7 @@ function Services() {
             <div className="painting-works">
               <Link to={`/services/roofing`}>
                 <img
-                  src="./Assets/workers/wallpapers.jpg"
+                  src="./Assets/workers/Roof-Coating-Sealing.jpg"
                   alt="#painting"
                   className="painting-img"
                 />
@@ -168,7 +168,7 @@ function Services() {
             <div className="painting-works">
               <Link to={`/services/roofing`}>
                 <img
-                  src="./Assets/workers/dPainters.jpg"
+                  src="./Assets/workers/Roof-Ventilation.jpg"
                   alt="#painting"
                   className="painting-img"
                 />
