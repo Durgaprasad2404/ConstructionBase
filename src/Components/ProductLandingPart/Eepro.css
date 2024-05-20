@@ -1,0 +1,73 @@
+.building-construction-EE-materials-bgcontainer {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.building-construction-EE-products-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.building-construction-EE-product-container {
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #dcdcdc;
+}
+
+.building-construction-EE-product-para {
+    font-size: x-small;
+    width: 200px;
+}
+
+.building-construction-EE-img {
+    height: 100px;
+    width: 100px;
+}
+
+.building-construction-EE-materials {
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+
+}
+
+.building-construction-EE-heading {
+    border: none;
+    padding: 15px 0;
+    border-top: 1px solid rgb(65, 65, 65);
+}
+
+.building-construction-EE-para {
+    color: #f9f9f9;
+}
+
+.building-construction-EE-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+@media screen and (max-width:576px) {
+    .building-construction-EE-materials-bgcontainer {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,28 @@
+.best-deals-bgcontainer {
+    padding: 0 25px;
+    margin-top: 25px;
+}
+
+.best-deal-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #ddd;
+}
+
+.best-deal-offer {
+    background-color: red;
+    padding: 3px 15px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    font-size: medium;
+}
+
+.off-Con {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

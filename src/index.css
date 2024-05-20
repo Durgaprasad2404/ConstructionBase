@@ -72,7 +72,7 @@ h1 {
 .HomepageBg {
   background-image: url('../public/Assets/bgs/homeBG.png');
   background-size: cover;
-  height: 90dvh;
+  height: 75dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,7 +87,7 @@ h1 {
 .homeHeading {
   padding: 0px 15px;
   color: #dea90b;
-  font-size: 45px;
+  font-size: 38px;
   font-weight: 600;
 }
 
@@ -166,7 +166,7 @@ h1 {
 /* home-page(offers) */
 
 .offerBg {
-  background: rgb(220, 220, 227);
+  background: rgb(225, 225, 235);
 }
 
 .offerBG {
@@ -358,25 +358,199 @@ b {
   font-size: x-small;
 }
 
-/* workers-page styles */
+/* product-page styles */
+.most-like-products-bgcontainer {
+  background-color: #cccccc4c;
+  margin: 0 10px;
+  border-radius: 15px;
+  padding: 10px;
+}
 
-.workers {
-  padding-top: 25px;
+.most-like-products-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.most-like-product {
+  border-radius: 15px;
+  text-align: center;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.most-like-product-cont {
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+}
+
+.most-like-product-para {
+  font-size: x-small;
+}
+
+.most-like-product-img {
+  border-radius: 15px;
+}
+
+.product-offer {
+  margin-top: 25px;
+  background-color: #ebeaea;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* services-page styles */
+.service-bgcontainer {
+  padding: 10px 15px;
+}
+
+.services-main-container {
+  display: flex;
+}
+
+.lookingFor-heading {
+  margin: 8px;
+  font-weight: 400;
+}
+
+.imguuu {
+  margin: 20px;
+  max-width: 100%;
+}
+
+.all-services-container {
+  border: 1px solid gainsboro;
+  border-radius: 15px;
+  margin: auto;
+}
+
+q {
+  color: red;
+  font-size: 40px;
+}
+
+h6 {
+  color: #000;
+  text-align: center;
+}
+
+.all-services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 800px;
+  margin: 20px;
+  grid-gap: 20px;
+}
+
+.service-solo {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.all-services:hover>:not(:hover) {
+  opacity: 0.6;
+  transform: scale(1.1);
+}
+
+.servicers-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.Most-demand-servicesContainer {
+  margin: 15px 0px;
+  padding: 15px;
+}
+
+.Most-demand-heading {
+  text-decoration: underline;
+}
+
+.Most-demand-services {
+  display: flex;
+  gap: 25px;
+  overflow-x: scroll;
+}
+
+.demand-services {
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.Most-demand-services:hover>:not(:hover) {
+  opacity: 0.6;
+}
+
+.book-button {
+  margin: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 2px solid red;
+}
+
+.book-heading {
+  margin: 15px 0;
+}
+
+.painting-worksContainer {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.workersCon {
+.painting-works {
+  text-align: left;
+  padding: 15px;
+}
+
+.painting-img {
+  height: 150px;
+  width: 200px;
+
+  &:hover {
+    transform: scale(0.9);
+  }
+}
+
+.paintingWork-heading {
+  font-weight: 400;
+  border: none;
+  max-width: 200px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.back-btn {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  border: 2px solid gray;
-  padding: 10px 25px;
-  border-radius: 20px;
+  margin: 10px 0;
 }
 
 /*Login-page style*/
@@ -470,7 +644,67 @@ label {
   background-color: #0056b3;
 }
 
+/* products page */
+.product-ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 91;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: none;
+
+  &:hover {
+    color: #f9f9f9;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(179, 8, 8);
+  }
+}
+
+/* scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 19px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(169, 169, 169);
+  height: 20px;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
 
 /* mediaQuories */
 
@@ -492,6 +726,10 @@ label {
 
   .Shoppingfeatures1 {
     width: 100%;
+  }
+
+  .most-like-product-img {
+    overflow: hidden;
   }
 }
 
@@ -520,6 +758,32 @@ label {
   }
 
   footer {
+    flex-direction: column;
+  }
+
+  .all-services {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+  }
+
+  .imguuu {
+    display: none;
+  }
+
+  .most-like-product-img {
+    display: none;
+  }
+
+  .most-like-product {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .building-construction-materials {
+    height: 300px;
+  }
+
+  .building-construction-materials-container {
     flex-direction: column;
   }
 }

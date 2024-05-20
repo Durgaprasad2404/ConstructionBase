@@ -225,7 +225,7 @@ export const productData = [
     itemname: "Red Clay Bricks",
     category: "Bricks",
     description: "High-quality red clay bricks for construction",
-    imgUrl: "../Assets/building/b1.jpeg",
+    imgUrl: "../Assets/building/b1.png",
     price: 20,
     oldprice: 249,
     offer: "10",

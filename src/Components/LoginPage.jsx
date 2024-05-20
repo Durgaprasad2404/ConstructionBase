@@ -38,7 +38,7 @@ function LoginPage() {
       });
 
       const data = await res.json();
-      Cookies.set("jwtoken",data.token)
+      Cookies.set("jwtoken",data.token,{expires : new Date(Date.now() + 25892000000)})
       // console.log(data)
       if (!res.ok) {
         throw new Error(data.message || 'Login failed');

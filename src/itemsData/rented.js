@@ -18,10 +18,3 @@ export const vehicles = [
     imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
   },
 ];
-export const workers = [
-  { id: 1, name: "Laborers", imgUrl: "../Assets/workers/laborers.jpg" },
-  { id: 2, name: "Carpenters", imgUrl: "../Assets/workers/carpenter.jpeg" },
-  { id: 3, name: "Electricians", imgUrl: "../Assets/workers/electrician.jpeg" },
-  { id: 4, name: "Plumbers", imgUrl: "../Assets/workers/plumber.png" },
-  { id: 5, name: "Masons", imgUrl: "../Assets/workers/masons.jpeg" },
-];
