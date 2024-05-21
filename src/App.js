@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/NavBar/Navbar";
 import "./App.css";
@@ -21,10 +21,19 @@ import Products from "./Components/Product";
 import SingleProduct from "./Components/productsDisplay/singleproduct";
 
 function App() {
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollTop();
+  });
   return (
     <div>
       <BrowserRouter>
-        <Navbar size={0} />
+        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/rentalSale" element={<RentedVehicles />} />

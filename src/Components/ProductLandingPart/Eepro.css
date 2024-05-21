@@ -1,8 +1,11 @@
+.EE-path-bgcontainer {
+    margin: 25px 0;
+}
+
 .building-construction-EE-materials-bgcontainer {
     margin-bottom: 25px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -51,8 +54,10 @@
 
 .building-construction-EE-heading {
     border: none;
-    padding: 15px 0;
-    border-top: 1px solid rgb(65, 65, 65);
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
 }
 
 .building-construction-EE-para {

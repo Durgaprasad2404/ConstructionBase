@@ -6,6 +6,8 @@ import BestDeal from "./ProductLandingPart/BestDeal";
 import Productnavbar from "./ProductLandingPart/Productnavbar";
 import ElectricalElectronic from "./ProductLandingPart/ElectricalElectronic";
 import Footer from "./Footer";
+import TopPick from "./ProductLandingPart/TopPick";
+import EquipmentLand from "./ProductLandingPart/EquipmentLand";
 
 function Products() {
   const sets = {
@@ -19,8 +21,12 @@ function Products() {
   return (
     <>
       <Productnavbar />
-      <div>
-        <h1>Products</h1>
+      <div className="product-bgcontainer">
+        <h1 className="product-main-heading">Products</h1>
+        <p>
+          Discover our range of premium products designed to elevate your
+          everyday living
+        </p>
         <div className="most-like-products-bgcontainer">
           <h2>Most Liked Products</h2>
           <div className="most-like-products-container">
@@ -44,20 +50,20 @@ function Products() {
                 </div>
               </div>
               <div className="most-like-product-cont">
-                <Link to={`/product/21`}>
+                <Link to={`/product/33`}>
                   <img
-                    src="./Assets/building/b1.png"
+                    src="./Assets/building/b13.png"
                     alt="#img"
                     className="img"
                   />
                 </Link>
                 <div>
-                  <h4>Red Clay Bricks</h4>
+                  <h4>TMT Bars</h4>
                   <p className="most-like-product-para">
-                    High-quality red clay bricks for construction
+                    Thermo Mechanically Treated (TMT) bars for superior strength
                   </p>
-                  &#8377; 12 <br />
-                  <span className="oldprice"> &#8377; 20</span>
+                  &#8377; 120 <br />
+                  <span className="oldprice"> &#8377; 200</span>
                   <span className="offer">10% OFF</span>
                 </div>
               </div>
@@ -69,43 +75,52 @@ function Products() {
         </div>
         {/* please navigate folder name ProductLandingPart */}
         <BestDeal />
-        <BuildingConstruction />
         <ElectricalElectronic />
-        <div className="product-offer">
-          <Slider {...sets}>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/bricksOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/cementOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img src="../Assets/offers/sand.jpg" alt="#" className="offer" />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/ironOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/cementOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-          </Slider>
+        <div className="offerBg">
+          <h1 className="offerHeading">Brand New Offers</h1>
+          <div className="offerBG">
+            <Slider {...sets}>
+              <div className="offerCon">
+                <img
+                  src="../Assets/offers/bricksOffer.jpg"
+                  alt="#"
+                  className="offer"
+                />
+              </div>
+              <div className="offerCon">
+                <img
+                  src="../Assets/offers/cementOffer.jpg"
+                  alt="#"
+                  className="offer"
+                />
+              </div>
+              <div className="offerCon">
+                <img
+                  src="../Assets/offers/sand.jpg"
+                  alt="#"
+                  className="offer"
+                />
+              </div>
+              <div className="offerCon">
+                <img
+                  src="../Assets/offers/ironOffer.jpg"
+                  alt="#"
+                  className="offer"
+                />
+              </div>
+              <div className="offerCon">
+                <img
+                  src="../Assets/offers/cementOffer.jpg"
+                  alt="#"
+                  className="offer"
+                />
+              </div>
+            </Slider>
+          </div>
         </div>
+        <BuildingConstruction />
+        <TopPick />
+        <EquipmentLand />
       </div>
       <Footer />
     </>

@@ -15,7 +15,6 @@ const Navbar = (props) => {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/">
-          {" "}
           <img src="../Assets/E-logo.png" alt="#" className="logo" />
         </Link>
         <ul className="navbar-links">
@@ -59,7 +58,6 @@ const Navbar = (props) => {
                   <MdAdminPanelSettings />
                 </span>
               </div>
-              <i style={{ color: "#fff" }}>signin/signup</i>
             </Link>
           </div>
         </div>

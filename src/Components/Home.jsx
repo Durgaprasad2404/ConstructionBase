@@ -1,19 +1,9 @@
 import React from "react";
-import Slider from "react-slick";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
 
 function Home() {
-  const sets = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-  };
-
   return (
     <>
       <div className="HomepageBg">
@@ -22,7 +12,7 @@ function Home() {
             <Slide direction="down">
               <h1 className="homeHeading">
                 Destination for
-                <br /> Construction Equipment&Materials
+                <br /> Construction Equipment & Materials
               </h1>
             </Slide>
             <Slide direction="up">
@@ -33,9 +23,54 @@ function Home() {
               </p>
             </Slide>
           </div>
-          {/* <div>
-          <img src="../Assets/bgs/Group 1.png" alt="#" className='homeImg' />
-        </div> */}
+        </div>
+      </div>
+      <div className="linebt"></div>
+      <div className="rental-home-bgcontainer">
+        <h2 className="rental-home-Heading">Get Vehicles for Rent & Sale</h2>
+        <div className="rental-home-container">
+          <div className="rental-home-container1">
+            <h3 className="rent-heading">For Rent</h3>
+            <div className="rent-home-image-container">
+              <img
+                src="./Assets/bgs/rent.png"
+                alt="#rent"
+                className="rent-home-image"
+              />
+            </div>
+            <p>
+              Access top-quality construction vehicles without ownership
+              commitments through our rental service. With a diverse fleet,
+              flexible rental plans, and expert support, we ensure your project
+              gets the right equipment, precisely when needed. Trust our
+              well-maintained vehicles and dedicated team to keep your
+              operations running smoothly.
+            </p>
+            <Link to="/rentalSale">
+              <button className="rent-home-btn">Click here</button>
+            </Link>
+          </div>
+          <div className="rental-home-container2">
+            <h3 className="rent-heading">For Sale</h3>
+            <div className="rent-home-image-container">
+              <img
+                src="./Assets/bgs/rent.png"
+                alt="#rent"
+                className="rent-home-image"
+              />
+            </div>
+            <p>
+              Invest in long-term construction fleet solutions with our diverse
+              inventory of new and used vehicles for sale. Benefit from
+              quality-assured equipment, customizable options, and flexible
+              financing plans tailored to your needs. Plus, our commitment to
+              after-sales support guarantees your satisfaction throughout the
+              lifespan of your equipment.
+            </p>
+            <Link to="/rentalSale">
+              <button className="rent-home-btn">Click here</button>
+            </Link>
+          </div>
         </div>
       </div>
       <div className="linebt"></div>
@@ -58,7 +93,7 @@ function Home() {
                 and environmental impact. Proper equipment selection boosts
                 productivity and reduces costs. Utilizing the right tools
                 ensures timely project completion and shapes infrastructure
-                development.{" "}
+                development.
               </p>
               <Link to="/Equipment">
                 <button className="shopBtn">Shop Now</button>
@@ -85,7 +120,7 @@ function Home() {
                 technologies optimizes resource usage, driving innovation for
                 smarter, more connected spaces.
               </p>
-              <Link to="/EEpath">
+              <Link to="/electronicsElectrical">
                 <button className="shopBtn">Shop Now</button>
               </Link>
             </div>
@@ -110,49 +145,11 @@ function Home() {
                 sustainability. Careful selection shapes functional excellence
                 and sustainability goals in the built environment.
               </p>
-              <Link to="/Bcpath">
+              <Link to="/building">
                 <button className="shopBtn">Shop Now</button>
               </Link>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="offerBg">
-        <h1 className="offerHeading">Brand New Offers</h1>
-        <div className="offerBG">
-          <Slider {...sets}>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/bricksOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/cementOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img src="../Assets/offers/sand.jpg" alt="#" className="offer" />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/ironOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-            <div className="offerCon">
-              <img
-                src="../Assets/offers/cementOffer.jpg"
-                alt="#"
-                className="offer"
-              />
-            </div>
-          </Slider>
         </div>
       </div>
       <div className="promot">

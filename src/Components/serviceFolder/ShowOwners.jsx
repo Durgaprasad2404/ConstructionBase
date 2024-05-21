@@ -14,7 +14,7 @@ function Showworkers() {
       {WorkersData.map((i) => {
         if (i.category === category) {
           return (
-            <div className="owners">
+            <div className="owners" key={i.id}>
               <h2 style={{ width: "150px" }}>
                 <FaUser /> {i.ownerName}
               </h2>

@@ -1,15 +1,15 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function DisplayVehicles(props) {
   return (
-    <div className='rentalVehiclesCon'>
+    <div className="rentalVehiclesCon">
       <Link to={`/rental/${props.category}`}>
-        <img src={props.imgUrl} alt='#' className='img'/>
+        <img src={props.imgUrl} alt="#" className="rent-img" />
       </Link>
-      <h2>{props.category}</h2>
+      <h5>{props.category}</h5>
     </div>
-  )
+  );
 }
 
-export default DisplayVehicles
+export default DisplayVehicles;

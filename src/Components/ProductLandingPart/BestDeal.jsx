@@ -74,7 +74,7 @@ function BestDeal() {
   return (
     <>
       <div className="best-deals-bgcontainer">
-        <h2>Best Deal's</h2>
+        <h2 className="best-deals-heading">Best Deal's</h2>
         <div className="slider-container">
           <Slider {...settings}>
             <div>
@@ -95,7 +95,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/26`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -111,7 +111,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/29`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -127,7 +127,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/48`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -143,7 +143,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/75`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -159,7 +159,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/11`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -175,7 +175,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/1`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -191,7 +191,7 @@ function BestDeal() {
             </div>
             <div>
               <div className="best-deal-product">
-                <Link to={`/product/21`}>
+                <Link to={`/product/14`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"

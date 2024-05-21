@@ -1,0 +1,31 @@
+.top-picks-bgcontainer {
+    margin: 25px 15px;
+    padding: 0 25px;
+    background-color: rgb(183, 183, 183);
+}
+
+.top-picks-Heading {
+    border: none;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ddd;
+    background-image: linear-gradient(to left, white, rgb(25, 25, 206));
+}
+
+.top-picks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 10px;
+}
+
+.top-picks-heading {
+    width: fit-content;
+}
+
+.top-picks-img {
+    height: 200px;
+    width: 200px;
+}

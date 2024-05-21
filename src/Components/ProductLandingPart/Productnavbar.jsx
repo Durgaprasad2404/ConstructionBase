@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCaretDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./productnav.css";
 
 function Productnavbar() {
   return (
@@ -9,7 +10,12 @@ function Productnavbar() {
         <ul className="product-ul">
           <li className="dropdown">
             <Link to="/equipment">
-              Equipment <FaCaretDown />
+              <div className="dp">
+                <span className="pro-nav-item">Equipment</span>
+                <i>
+                  <FaCaretDown />
+                </i>
+              </div>
             </Link>
             <div className="dropdown-content">
               <a href="#Electrical">Electrical</a>
@@ -21,8 +27,12 @@ function Productnavbar() {
           </li>
           <li className="dropdown">
             <Link to="/electronicsElectrical">
-              Electronics & Electrical
-              <FaCaretDown />
+              <div className="dp">
+                <span className="pro-nav-item">Electronics & Electrical</span>
+                <i>
+                  <FaCaretDown />
+                </i>
+              </div>
             </Link>
             <div className="dropdown-content">
               <a href="#Cables">Cables & wires</a>
@@ -34,8 +44,12 @@ function Productnavbar() {
           </li>
           <li className="dropdown">
             <Link to="/building">
-              Building & Construction
-              <FaCaretDown />
+              <div className="dp">
+                <span className="pro-nav-item">Building & Construction</span>
+                <i>
+                  <FaCaretDown />
+                </i>
+              </div>
             </Link>
             <div className="dropdown-content">
               <a href="#Bricks">Bricks</a>

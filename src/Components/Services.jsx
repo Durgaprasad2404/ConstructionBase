@@ -15,7 +15,16 @@ function Services() {
   return (
     <>
       <div className="service-bgcontainer">
-        <h1>Service</h1>
+        <h1 className="service-main-heading">Service </h1>
+        <p>
+          Construction services involve a range of specialized trades essential
+          for building projects. Skilled laborers manage site preparation and
+          material handling. Electricians install and maintain electrical
+          systems, ensuring safety and functionality. Plumbers handle water,
+          sewage, and drainage systems, ensuring reliable plumbing and
+          sanitation. Together, these professionals ensure the successful
+          completion of construction projects
+        </p>
         <div className="services-main-container">
           <div className="all-services-container">
             <h4 className="lookingFor-heading">What are you Looking for ?</h4>
@@ -65,6 +74,12 @@ function Services() {
         <hr />
         <div>
           <h1>Painting service</h1>
+          <p>
+            Enhance your home with our professional painting services, where
+            quality meets affordability. Our experienced team uses top-grade
+            materials to ensure a flawless finish that revitalizes any space.
+            Trust us to bring your vision to life with precision and care.
+          </p>
           <div className="painting-worksContainer">
             <div className="painting-works">
               <Link to={`/services/Painters`}>
@@ -123,7 +138,14 @@ function Services() {
         {/* <button className="book-button">Book now</button> */}
         <hr />
         <div>
-          <h1>Roofing service</h1>
+          <h1>Roofing service </h1>
+          <p>
+            Secure your home with our expert roofing services, offering durable
+            solutions tailored to your needs. Our skilled team provides reliable
+            installations, repairs, and maintenance using the highest quality
+            materials. Trust us to protect your property with precision and
+            professionalism
+          </p>
           <div className="painting-worksContainer">
             <div className="painting-works">
               <Link to={`/services/roofing`}>

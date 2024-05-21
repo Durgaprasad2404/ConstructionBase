@@ -7,11 +7,7 @@ function BuildingConstruction() {
       <div className="building-construction-materials-bgcontainer">
         <h2 className="building-construction-materials-heading">
           Building Construction Materials
-          <Link to="/building">
-            <span className="span-see-all">see all</span>
-          </Link>
         </h2>
-
         <div className="building-construction-materials-container">
           <div
             style={{
