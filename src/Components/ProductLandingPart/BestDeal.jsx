@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "./bestdeal.css";
+import { bestDeals } from "../../itemsData/productsData";
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
@@ -77,134 +78,22 @@ function BestDeal() {
         <h2 className="best-deals-heading">Best Deal's</h2>
         <div className="slider-container">
           <Slider {...settings}>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/21`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
+            {bestDeals.map((i) => {
+              return (
+                <div key={i.id}>
+                  <div className="best-deal-product">
+                    <Link to={`/product/${i.id}`}>
+                      <img src={i.imgUrl} alt="#img" className="img" />
+                    </Link>
+                    <h4>{i.itemname}</h4>
+                    <div className="off-Con">
+                      <p className="best-deal-offer">{i.offer}% OFF</p>
+                      <i>Limited Offer</i>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/26`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/29`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/48`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/75`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/11`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/1`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="best-deal-product">
-                <Link to={`/product/14`}>
-                  <img
-                    src="./Assets/building/b1.png"
-                    alt="#img"
-                    className="img"
-                  />
-                </Link>
-                <h4>Red Clay Bricks</h4>
-                <div className="off-Con">
-                  <p className="best-deal-offer">15% OFF</p>
-                  <i>Limited Offer</i>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </Slider>
         </div>
       </div>

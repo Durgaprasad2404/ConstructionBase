@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./buildingConstruction.css";
+import { LandingpageProducts } from "../../itemsData/productsData";
 function BuildingConstruction() {
   return (
     <>
@@ -27,132 +28,37 @@ function BuildingConstruction() {
             </Link>
           </div>
           <div className="building-construction-materials-products">
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-materials-product">
-              <div>
-                <img
-                  src="./Assets/building/b1.png"
-                  alt="#"
-                  className="building-construction-materials-img"
-                />
-              </div>
-              <div>
-                <h4>Red Clay Bricks</h4>
-                <p className="building-construction-materials-product-para">
-                  Red clay bricks offer unmatched strength, durability, and
-                  timeless aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
+            {LandingpageProducts.map((i) => {
+              if (i.Group === "buildingItem") {
+                return (
+                  <div
+                    className="building-construction-materials-product"
+                    key={i.id}
+                  >
+                    <Link to={`/product/${i.id}`}>
+                      <img
+                        src={i.imgUrl}
+                        alt="#"
+                        className="building-construction-materials-img"
+                      />
+                    </Link>
+                    <div>
+                      <h4>{i.itemname}</h4>
+                      <p className="building-construction-materials-product-para">
+                        {i.description}
+                      </p>
+                      <span>
+                        &#8377; {i.price} <br />
+                      </span>
+                      <span className="oldprice"> &#8377; {i.oldprice}</span>
+                      <span className="offer">{i.offer}% OFF</span>
+                    </div>
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
           </div>
         </div>
       </div>

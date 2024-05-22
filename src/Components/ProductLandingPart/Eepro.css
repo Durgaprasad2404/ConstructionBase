@@ -19,7 +19,7 @@
 }
 
 .building-construction-EE-product-container {
-    height: fit-content;
+    margin: 10px 0;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -30,8 +30,9 @@
 }
 
 .building-construction-EE-product-para {
-    font-size: x-small;
+    font-size: small;
     width: 200px;
+    max-height: 150px;
 }
 
 .building-construction-EE-img {

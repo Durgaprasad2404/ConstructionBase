@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./product.css";
 import { productData } from "../../itemsData/productsData";
@@ -7,7 +7,15 @@ import Footer from "../Footer";
 function SingleProduct(props) {
   const { id } = useParams();
   const item = productData.find((i) => i.id === id);
-
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop();
+  });
   return (
     <>
       <div className="singleItem">

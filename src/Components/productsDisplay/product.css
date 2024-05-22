@@ -1,12 +1,19 @@
 .item-con {
     background-color: #c3bebe5e;
     padding: 20px 25px;
-    text-align: center;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
     padding: 20px 0px;
+}
+
+.itemname-heading {
+    margin: 15px 0;
 }
 
 .oldprice {

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./equipmentLand.css";
+import { LandingpageProducts } from "../../itemsData/productsData";
 function EquipmentLand() {
   return (
     <>
@@ -23,133 +24,36 @@ function EquipmentLand() {
               <button className="EquipmentLand-btn">View All</button>
             </Link>
           </div>
+
           <div className="EquipmentLand-products">
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="EquipmentLand-product">
-              <div>
-                <img
-                  src="./Assets/EquipmentImages/7.png"
-                  alt="#"
-                  className="EquipmentLand-img"
-                />
-              </div>
-              <div>
-                <h4>Drill</h4>
-                <p className="EquipmentLand-product-para">
-                  Drill offer unmatched strength, durability, and timeless
-                  aesthetic appeal for all your building needs
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
+            {LandingpageProducts.map((i) => {
+              if (i.Group === "EquipmentItem") {
+                return (
+                  <div className="EquipmentLand-product" key={i.id}>
+                    <Link to={`/product/${i.id}`}>
+                      <img
+                        src={i.imgUrl}
+                        alt="#"
+                        className="EquipmentLand-img"
+                      />
+                    </Link>
+                    <div>
+                      <h4>{i.itemname}</h4>
+                      <p className="EquipmentLand-product-para">
+                        {i.description}
+                      </p>
+                      <span>
+                        &#8377; {i.price} <br />
+                      </span>
+                      <span className="oldprice"> &#8377; {i.oldprice}</span>
+                      <span className="offer">{i.offer}% OFF</span>
+                    </div>
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
           </div>
         </div>
       </div>

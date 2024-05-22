@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Eepro.css";
+import { LandingpageProducts } from "../../itemsData/productsData";
 
 function ElectricalElectronic() {
   return (
@@ -26,146 +27,37 @@ function ElectricalElectronic() {
             </Link>
           </div>
           <div className="building-construction-EE-products-container">
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
-            <div className="building-construction-EE-product-container">
-              <div>
-                <img
-                  src="./Assets/electrical/e22.png"
-                  alt="#"
-                  className="building-construction-EE-img"
-                />
-              </div>
-              <div>
-                <h4>Cat 6 Ethernet Cable</h4>
-                <p className="building-construction-EE-product-para">
-                  High-speed Ethernet cable for networking applications
-                </p>
-                <span>
-                  &#8377; 12 <br />
-                </span>
-                <span className="oldprice"> &#8377; 20</span>
-                <span className="offer">10% OFF</span>
-              </div>
-            </div>
+            {LandingpageProducts.map((i) => {
+              if (i.Group === "EEItem") {
+                return (
+                  <div
+                    className="building-construction-EE-product-container"
+                    key={i.id}
+                  >
+                    <Link to={`/product/${i.id}`}>
+                      <img
+                        src={i.imgUrl}
+                        alt="#"
+                        className="building-construction-EE-img"
+                      />
+                    </Link>
+                    <div>
+                      <h4>{i.itemname}</h4>
+                      <p className="building-construction-EE-product-para">
+                        {i.description}
+                      </p>
+                      <span>
+                        &#8377; {i.price} <br />
+                      </span>
+                      <span className="oldprice"> &#8377; {i.oldprice}</span>
+                      <span className="offer">{i.offer}% OFF</span>
+                    </div>
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
           </div>
         </div>
       </div>
