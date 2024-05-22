@@ -806,7 +806,9 @@ label {
   .homePara {
     font-size: small;
   }
-
+.rental-home-container{
+  flex-direction:column;
+}
   .shoplanding {
     flex-direction: column;
     gap: 1.5rem;
