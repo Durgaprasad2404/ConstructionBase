@@ -11,9 +11,11 @@ function NextArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         background: "red",
-        padding: "15px",
+        padding: "25px",
         borderRadius: "50px",
       }}
       onClick={onClick}
@@ -85,7 +87,7 @@ function BestDeal() {
                     <Link to={`/product/${i.id}`}>
                       <img src={i.imgUrl} alt="#img" className="img" />
                     </Link>
-                    <h4>{i.itemname}</h4>
+                    <h5>{i.itemname}</h5>
                     <div className="off-Con">
                       <p className="best-deal-offer">{i.offer}% OFF</p>
                       <i>Limited Offer</i>

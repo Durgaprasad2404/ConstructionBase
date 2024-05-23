@@ -28,7 +28,7 @@ function Products() {
           everyday living
         </p>
         <div className="most-like-products-bgcontainer">
-          <h2>Most Liked Products</h2>
+          <h4>Most Liked Products</h4>
           <div className="most-like-products-container">
             <div className="most-like-product">
               <div className="most-like-product-cont">
@@ -40,7 +40,7 @@ function Products() {
                   />
                 </Link>
                 <div>
-                  <h4>Red Clay Bricks</h4>
+                  <h5>Red Clay Bricks</h5>
                   <p className="most-like-product-para">
                     High-quality red clay bricks for construction
                   </p>
@@ -58,7 +58,7 @@ function Products() {
                   />
                 </Link>
                 <div>
-                  <h4>TMT Bars</h4>
+                  <h5>TMT Bars</h5>
                   <p className="most-like-product-para">
                     Thermo Mechanically Treated (TMT) bars for superior strength
                   </p>

@@ -76,7 +76,6 @@ function Footer() {
           </div>
         </div>
       </footer>
-      <hr />
       <div className="copyright">2024 @copyright</div>
     </>
   );

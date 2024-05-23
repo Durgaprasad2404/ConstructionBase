@@ -571,10 +571,16 @@ b {
   padding: 10px;
   margin: 0 5px;
   background-color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
 }
 
 .most-like-product-para {
-  font-size: x-small;
+  font-size: small;
 }
 
 .most-like-product-img {
@@ -621,13 +627,9 @@ b {
 
 q {
   color: red;
-  font-size: 40px;
+  font-size: 30px;
 }
 
-h6 {
-  color: #000;
-  text-align: center;
-}
 
 .all-services {
   display: grid;
@@ -665,7 +667,9 @@ h6 {
 }
 
 .Most-demand-heading {
-  text-decoration: underline;
+  padding: 10px;
+  color: #ddd;
+  background-image: linear-gradient(to left, white, rgb(25, 25, 206));
 }
 
 .Most-demand-services {
@@ -709,38 +713,16 @@ h6 {
   margin: 15px 0;
 }
 
-.painting-worksContainer {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.painting-works {
-  text-align: left;
-  padding: 15px;
-}
-
-.painting-img {
-  height: 150px;
-  width: 200px;
-
-  &:hover {
-    transform: scale(0.9);
-  }
-}
-
-.paintingWork-heading {
-  font-weight: 400;
-  border: none;
-  max-width: 200px;
-
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
 .back-btn {
+  border: none;
   text-align: center;
   margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  &:hover {
+    box-shadow: 2px 2px 2px 2px gray;
+  }
 }
 
 /*Login-page style*/

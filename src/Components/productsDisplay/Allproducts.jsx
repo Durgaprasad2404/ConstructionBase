@@ -14,7 +14,7 @@ function Allproducts(props) {
   });
   return (
     <div className="item-con">
-      <h4 className="itemname-heading">{props.itemname}</h4>
+      <h5 className="itemname-heading">{props.itemname}</h5>
       <Link to={`/product/${props.id}`}>
         <img src={props.imgUrl} alt="#img" className="img" />
       </Link>

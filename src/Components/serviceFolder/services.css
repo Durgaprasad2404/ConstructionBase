@@ -1,0 +1,108 @@
+.service-works-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-works {
+    text-align: left;
+    padding: 15px;
+}
+
+.services-work-img {
+    height: 150px;
+    width: 200px;
+    margin: 10px 0;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+.services-work-heading {
+    font-weight: 600;
+    border: none;
+    max-width: 200px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.show-all-servicers {
+    padding-top: 25px;
+    display: flex;
+}
+
+.ser-heading {
+    padding: 10px;
+    height: fit-content;
+    border: 1px solid white;
+}
+
+.show-servicers {
+    border: 1px solid rgb(162, 148, 148);
+    border-radius: 8px;
+    height: 70vh;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.servicers {
+    box-shadow: 2px 2px 2px 2px gray;
+    width: 400px;
+    padding: 10px 20px;
+    margin: 25px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.service-detailed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.service-call {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+
+    &:hover {
+        box-shadow: 2px 2px 2px gray;
+    }
+}
+
+.service-chat {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(5, 248, 5);
+    border: none;
+
+    &:hover {
+        box-shadow: 2px 2px 2px gray;
+    }
+}
+
+.cost {
+    color: red;
+    font-weight: 600;
+}
+
+.cost-per-day {
+    color: black;
+    font-size: small;
+    font-weight: 400;
+}

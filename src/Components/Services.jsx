@@ -1,9 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { workers, mostDemanded } from "../itemsData/workers";
 // import DisplayWorkers from './workersFolder/DisplayWorkers'
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { MdVerticalAlignTop } from "react-icons/md";
+import Serviceslanding from "./serviceFolder/Serviceslanding";
 
 function Services() {
   const scrollToTop = () => {
@@ -12,16 +13,16 @@ function Services() {
       behavior: "smooth",
     });
   };
-  useEffect(() => {
-    scrollToTop();
-  });
+  // useEffect(() => {
+  //   scrollToTop();
+  // });
   return (
     <>
       <div className="service-bgcontainer">
         <h1 className="service-main-heading">Service </h1>
         <div className="services-main-container">
           <div className="all-services-container">
-            <h4 className="lookingFor-heading">What are you Looking for ?</h4>
+            <h6 className="lookingFor-heading">What are you Looking for ?</h6>
             <div className="all-services">
               {workers.map((i) => {
                 return (
@@ -44,7 +45,7 @@ function Services() {
           </div>
         </div>
         <div className="Most-demand-servicesContainer">
-          <h1 className="Most-demand-heading">Most demand services</h1>
+          <h2 className="Most-demand-heading">Most demand services</h2>
           <div className="Most-demand-services">
             {mostDemanded.map((i) => {
               return (
@@ -59,143 +60,56 @@ function Services() {
                       <button className="book-button">Book now</button>
                     </Link>
                   </div>
-                  <h4 className="book-heading">{i.name}</h4>
+                  <h6 className="book-heading">{i.name}</h6>
                 </div>
               );
             })}
           </div>
         </div>
-        <hr />
         <div>
-          <h1>Painting service</h1>
+          <h2 className="Most-demand-heading">Painting service</h2>
           <p>
             Enhance your home with our professional painting services, where
             quality meets affordability. Our experienced team uses top-grade
             materials to ensure a flawless finish that revitalizes any space.
             Trust us to bring your vision to life with precision and care.
           </p>
-          <div className="painting-worksContainer">
-            <div className="painting-works">
-              <Link to={`/services/Painters`}>
-                <img
-                  src="./Assets/workers/painters.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Painters</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/Painters`}>
-                <img
-                  src="./Assets/workers/PaintingSupervisors.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">
-                Painting Supervisors/Foremen
-              </h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/Painters`}>
-                <img
-                  src="./Assets/workers/wallprepare.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Wall Preparation Workers</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/Painters`}>
-                <img
-                  src="./Assets/workers/wallpapers.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Wallpaper Hangers</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/Painters`}>
-                <img
-                  src="./Assets/workers/dPainters.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Decorative Painters</h4>
-            </div>
-          </div>
+          <Serviceslanding service="Painters" />
         </div>
         {/* <button className="book-button">Book now</button> */}
         <hr />
         <div>
-          <h1>Roofing service </h1>
+          <h2 className="Most-demand-heading">Roofing service </h2>
           <p>
-            Secure your home with our expert roofing services, offering durable
-            solutions tailored to your needs. Our skilled team provides reliable
-            installations, repairs, and maintenance using the highest quality
-            materials. Trust us to protect your property with precision and
-            professionalism
+            Roofing services encompass a wide range of sub-services to address
+            different aspects of roof installation, maintenance, repair, and
+            inspection.
           </p>
-          <div className="painting-worksContainer">
-            <div className="painting-works">
-              <Link to={`/services/roofing`}>
-                <img
-                  src="./Assets/workers/Roof-Installation.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Roof Installation</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/roofing`}>
-                <img
-                  src="./Assets/workers/Roof-Replacement.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Roof Replacement</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/roofing`}>
-                <img
-                  src="./Assets/workers/Roof-Repair.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Roof Repair</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/roofing`}>
-                <img
-                  src="./Assets/workers/Roof-Coating-Sealing.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Roof Coating and Sealing</h4>
-            </div>
-            <div className="painting-works">
-              <Link to={`/services/roofing`}>
-                <img
-                  src="./Assets/workers/Roof-Ventilation.jpg"
-                  alt="#painting"
-                  className="painting-img"
-                />
-              </Link>
-              <h4 className="paintingWork-heading">Roof Ventilation</h4>
-            </div>
-          </div>
+          <Serviceslanding service="Roofing" />
+        </div>
+        <div>
+          <h2 className="Most-demand-heading">HVAC service </h2>
+          <p>
+            HVAC (Heating, Ventilation, and Air Conditioning) systems involve
+            various components and tasks to ensure proper functioning,
+            efficiency, and comfort in residential, commercial, and industrial
+            environments.
+          </p>
+          <Serviceslanding service="HVAC" />
+        </div>
+        <div>
+          <h2 className="Most-demand-heading">CCTV service </h2>
+          <p>
+            HVAC (Heating, Ventilation, and Air Conditioning) systems involve
+            various components and tasks to ensure proper functioning,
+            efficiency, and comfort in residential, commercial, and industrial
+            environments.
+          </p>
+          <Serviceslanding service="CCTV" />
         </div>
       </div>
-      <div className="back-btn">
-        <button onClick={scrollToTop}>
+      <div className="text-center">
+        <button onClick={scrollToTop} className="back-btn">
           Back to top
           <i>
             <MdVerticalAlignTop />

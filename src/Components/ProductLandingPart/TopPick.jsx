@@ -11,9 +11,11 @@ function SampleNextArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         background: "gray",
-        padding: "15px 5px",
+        padding: "25px 12px",
       }}
       onClick={onClick}
     />
@@ -27,9 +29,11 @@ function SamplePrevArrow(props) {
       className={className}
       style={{
         ...style,
-        display: "block",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
         background: "gray",
-        padding: "15px 5px",
+        padding: "25px 12px",
       }}
       onClick={onClick}
     />

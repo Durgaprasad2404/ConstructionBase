@@ -2,38 +2,48 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { WorkersData } from "../../itemsData/workers";
 import { MdAddIcCall } from "react-icons/md";
-import { FaUser } from "react-icons/fa";
+import { PiWhatsappLogoFill } from "react-icons/pi";
 
 function Showworkers() {
   const { category } = useParams();
   return (
-    <div>
-      <h1>
-        Person Available For <q>{category} Service</q>
-      </h1>
-      {WorkersData.map((i) => {
-        if (i.category === category) {
-          return (
-            <div className="owners" key={i.id}>
-              <h4 style={{ width: "150px" }}>
-                <FaUser /> {i.ownerName}
-              </h4>
-              <div style={{ width: "150px" }}>
-                <p>
-                  <MdAddIcCall /> {i.contactNumber}
-                </p>
-              </div>
-              <p style={{ width: "150px" }}>
-                &#8377; {i.amount}/-{" "}
-                <span style={{ fontSize: "xx-small" }}>Per Day</span>
-              </p>
-            </div>
-          );
-        } else {
-          return null;
-        }
-      })}
-    </div>
+    <>
+      <div className="show-all-servicers">
+        <h4 className="ser-heading">
+          Person Available For
+          <br /> <q>{category} </q>Service
+        </h4>
+        <div className="show-servicers">
+          {WorkersData.map((i) => {
+            if (i.category === category) {
+              return (
+                <div className="servicers" key={i.id}>
+                  <div className="servicers-name">
+                    <h4>{i.ownerName}</h4>
+                  </div>
+                  <div className="service-detailed">
+                    <div className="service-contact">
+                      <button className="service-call">
+                        <MdAddIcCall /> {i.contactNumber}
+                      </button>
+                      <button className="service-chat">
+                        <PiWhatsappLogoFill /> Chat
+                      </button>
+                    </div>
+                    <p className="cost">
+                      &#8377; {i.amount}/-
+                      <span className="cost-per-day">Per Day</span>
+                    </p>
+                  </div>
+                </div>
+              );
+            } else {
+              return null;
+            }
+          })}
+        </div>
+      </div>
+    </>
   );
 }
 
