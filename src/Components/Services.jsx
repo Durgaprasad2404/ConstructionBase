@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { workers, mostDemanded } from "../itemsData/workers";
 // import DisplayWorkers from './workersFolder/DisplayWorkers'
 import Footer from "./Footer";
@@ -12,19 +12,13 @@ function Services() {
       behavior: "smooth",
     });
   };
+  useEffect(() => {
+    scrollToTop();
+  });
   return (
     <>
       <div className="service-bgcontainer">
         <h1 className="service-main-heading">Service </h1>
-        <p>
-          Construction services involve a range of specialized trades essential
-          for building projects. Skilled laborers manage site preparation and
-          material handling. Electricians install and maintain electrical
-          systems, ensuring safety and functionality. Plumbers handle water,
-          sewage, and drainage systems, ensuring reliable plumbing and
-          sanitation. Together, these professionals ensure the successful
-          completion of construction projects
-        </p>
         <div className="services-main-container">
           <div className="all-services-container">
             <h4 className="lookingFor-heading">What are you Looking for ?</h4>

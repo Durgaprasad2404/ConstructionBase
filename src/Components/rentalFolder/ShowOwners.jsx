@@ -28,7 +28,7 @@ function ShowOwners() {
                 </div>
               </div>
               <div>
-                <h3>{i.ownerName} pvt ltd</h3>
+                <h5>{i.ownerName} pvt ltd</h5>
                 <div>
                   <i>
                     <MdLocationPin />

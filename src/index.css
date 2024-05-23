@@ -26,6 +26,13 @@ code {
   border-radius: 15px;
 }
 
+.heading-line {
+  height: 2px;
+  width: 100px;
+  background-color: #0056b3;
+  border-radius: 10px;
+  margin-left: 35px;
+}
 
 .pageNotFound {
   text-align: center;
@@ -33,6 +40,20 @@ code {
 
 .error-img {
   height: 350px;
+}
+
+.Caros {
+  margin: 15px 0;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.carImg {
+  height: 70vh;
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: fill;
+  padding: 15px 0px;
 }
 
 .backGround {
@@ -117,12 +138,13 @@ code {
   background-color: rgba(155, 157, 160, 0.174);
   padding: 10px 25px;
   display: flex;
+  margin-top: 17px;
 }
 
 .rental-home-Heading {
   font-weight: 700;
   font-size: 35px;
-  padding: 10px;
+  padding-top: 10px;
   border: none;
 }
 
@@ -248,12 +270,96 @@ code {
   margin: 0 14px;
 }
 
+
+/* home-page(services) */
+.home-page-service-mainContainer {
+  margin: 10px;
+  transition: all 0.5s;
+
+  &:hover {
+    box-shadow: 3px 3px 3px 3px gray;
+  }
+}
+
+.home-page-service-heading {
+  font-weight: 800;
+  padding-top: 15px;
+}
+
+
+.home-page-service-bgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.home-page-services-para {
+  width: 50%;
+}
+
+.home-page-services {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.home-page-service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid gray;
+  padding: 5px;
+  max-height: 150px;
+  max-width: 150px;
+  border-radius: 7px;
+
+  &:hover {
+    box-shadow: 3px 3px 3px 3px rgb(96, 97, 97);
+  }
+}
+
+.home-page-services-img {
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+
+}
+
+.home-page-service-btnContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-height: 150px;
+  max-width: 150px;
+
+
+}
+
+.home-page-service-btn {
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 3px 3px 3px 3px rgb(96, 97, 97);
+  }
+}
+
 /* home-page(promot) */
 
 .promot {
-  border-bottom: 0.5px solid #000;
+  border-top: 0.5px solid #000;
   text-align: center;
-  padding: 45px 30px;
+  padding: 25px 30px;
+  margin-top: 25px;
 }
 
 .nalgonda {
@@ -262,18 +368,6 @@ code {
   text-decoration: underline;
   font-style: oblique;
   font-variant: small-caps;
-}
-
-/* home-page(shopFeatures) */
-
-.Shoppingfeatures {
-  padding: 40px 10px;
-  display: flex;
-}
-
-.Shoppingfeatures1 {
-  text-align: center;
-  width: 50%;
 }
 
 /* end of home-page styles */
@@ -774,11 +868,22 @@ label {
     display: none;
   }
 
-  .carImg {
+  .home-page-service-bgContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .home-page-services-para {
     width: 100%;
-    aspect-ratio: 3/2;
-    object-fit: fill;
-    padding: 15px 0px;
+  }
+
+  .home-page-services {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
   }
 
   .rentalVehicles {
@@ -799,16 +904,39 @@ label {
 }
 
 @media screen and (max-width:576px) {
+  .home-page-service-bgContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+
+  .home-page-services-para {
+    width: 100%;
+  }
+
+  .home-page-services {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .homeHeading {
     font-size: medium;
+  }
+
+  .carImg {
+    width: 300px;
+    height: 200px;
   }
 
   .homePara {
     font-size: small;
   }
-.rental-home-container{
-  flex-direction:column;
-}
+
+  .rental-home-container {
+    flex-direction: column;
+  }
+
   .shoplanding {
     flex-direction: column;
     gap: 1.5rem;

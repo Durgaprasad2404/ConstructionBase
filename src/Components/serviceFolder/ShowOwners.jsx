@@ -15,9 +15,9 @@ function Showworkers() {
         if (i.category === category) {
           return (
             <div className="owners" key={i.id}>
-              <h2 style={{ width: "150px" }}>
+              <h4 style={{ width: "150px" }}>
                 <FaUser /> {i.ownerName}
-              </h2>
+              </h4>
               <div style={{ width: "150px" }}>
                 <p>
                   <MdAddIcCall /> {i.contactNumber}

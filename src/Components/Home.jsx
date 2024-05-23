@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home() {
   return (
@@ -28,15 +30,41 @@ function Home() {
       <div className="linebt"></div>
       <div className="rental-home-bgcontainer">
         <h2 className="rental-home-Heading">Get Vehicles for Rent & Sale</h2>
+        <div className="heading-line"></div>
         <div className="rental-home-container">
           <div className="rental-home-container1">
             <h3 className="rent-heading">For Rent</h3>
             <div className="rent-home-image-container">
-              <img
-                src="./Assets/bgs/rent.png"
-                alt="#rent"
-                className="rent-home-image"
-              />
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent.png"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent2.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent3.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent4.png"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <p>
               Access top-quality construction vehicles without ownership
@@ -53,11 +81,29 @@ function Home() {
           <div className="rental-home-container2">
             <h3 className="rent-heading">For Sale</h3>
             <div className="rent-home-image-container">
-              <img
-                src="./Assets/bgs/rent.png"
-                alt="#rent"
-                className="rent-home-image"
-              />
+              <Carousel>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent3.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent2.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/rent.png"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <p>
               Invest in long-term construction fleet solutions with our diverse
@@ -72,6 +118,19 @@ function Home() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="Caros">
+        <Carousel>
+          <Carousel.Item>
+            <img src="./Assets/bgs/Caro1.jpg" alt="#Caro" className="carImg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="./Assets/bgs/Caro2.jpg" alt="#Caro" className="carImg" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img src="./Assets/bgs/Caro3.jpg" alt="#Caro" className="carImg" />
+          </Carousel.Item>
+        </Carousel>
       </div>
       <div className="linebt"></div>
       <div className="shopCategory">
@@ -147,6 +206,86 @@ function Home() {
               </p>
               <Link to="/building">
                 <button className="shopBtn">Shop Now</button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-page-service-mainContainer">
+        <h2 className="home-page-service-heading">Services To be Provided</h2>
+        <div className="heading-line"></div>
+        <div className="home-page-service-bgContainer">
+          <div className="home-page-services-para">
+            <p>
+              Construction services involve a range of specialized trades
+              essential for building projects. Skilled laborers manage site
+              preparation and material handling. Electricians install and
+              maintain electrical systems, ensuring safety and functionality.
+              Plumbers handle water, sewage, and drainage systems, ensuring
+              reliable plumbing and sanitation. Together, these professionals
+              ensure the successful completion of construction projects
+            </p>
+          </div>
+          <div className="home-page-services">
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/2.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>Carpenters</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/3.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>Plumbers</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/4.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>Electricians</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/6.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>HVAC</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/5.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>Masons</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/7.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>Painters</h6>
+            </div>
+            <div className="home-page-service">
+              <img
+                src="./Assets/workers/icons/12.png"
+                alt="#"
+                className="home-page-services-img"
+              />
+              <h6>CC TV Opt</h6>
+            </div>
+            <div className="home-page-service-btnContainer">
+              <Link to="/services">
+                <button className="home-page-service-btn">See All</button>
               </Link>
             </div>
           </div>
