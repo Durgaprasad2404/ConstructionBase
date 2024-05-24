@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { workers, mostDemanded } from "../itemsData/workers";
 // import DisplayWorkers from './workersFolder/DisplayWorkers'
 import Footer from "./Footer";
@@ -13,9 +13,9 @@ function Services() {
       behavior: "smooth",
     });
   };
-  // useEffect(() => {
-  //   scrollToTop();
-  // });
+  useEffect(() => {
+    scrollToTop();
+  });
   return (
     <>
       <div className="service-bgcontainer">
@@ -100,10 +100,13 @@ function Services() {
         <div>
           <h2 className="Most-demand-heading">CCTV service </h2>
           <p>
-            HVAC (Heating, Ventilation, and Air Conditioning) systems involve
-            various components and tasks to ensure proper functioning,
-            efficiency, and comfort in residential, commercial, and industrial
-            environments.
+            Our top-notch CCTV service offers reliable, high-definition
+            surveillance solutions tailored to your security needs. We provide
+            expert installation, 24/7 monitoring, and seamless integration with
+            mobile devices for real-time access. Enhance your safety with our
+            state-of-the-art technology and professional support. Secure your
+            premises with the best CCTV service, ensuring peace of mind and
+            comprehensive protection.
           </p>
           <Serviceslanding service="CCTV" />
         </div>

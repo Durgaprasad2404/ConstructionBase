@@ -36,21 +36,25 @@ function ShowOwners() {
                   <span>Location</span>
                 </div>
                 <div className="ownerContact">
-                  <div>
+                  <a href="tel:+910000000000">
                     <button className="OwnerContactBtn">
                       <MdAddIcCall /> Connect
                     </button>
-                  </div>
-                  <div>
+                  </a>
+                  <a
+                    href="https://wa.me/+910000000000/?text=Hello,I'm Looking For Rental Vehicle"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <button className="OwnerChatBtn">
                       <i style={{ color: "green" }}>
                         <RiWhatsappFill />
-                      </i>{" "}
+                      </i>
                       Chat
                     </button>
-                  </div>
+                  </a>
                   <p>
-                    &#8377; {i.amount}/-{" "}
+                    &#8377; {i.amount}/-
                     <span className="hourspan">per hour</span>
                   </p>
                 </div>

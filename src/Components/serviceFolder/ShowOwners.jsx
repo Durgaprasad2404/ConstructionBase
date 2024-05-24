@@ -26,9 +26,15 @@ function Showworkers() {
                       <button className="service-call">
                         <MdAddIcCall /> {i.contactNumber}
                       </button>
-                      <button className="service-chat">
-                        <PiWhatsappLogoFill /> Chat
-                      </button>
+                      <a
+                        href="https://wa.me/+910000000000?text=Hello,i'm Looking For Your Service"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <button className="service-chat">
+                          <PiWhatsappLogoFill /> Chat
+                        </button>
+                      </a>
                     </div>
                     <p className="cost">
                       &#8377; {i.amount}/-

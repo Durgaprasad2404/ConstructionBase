@@ -113,7 +113,7 @@ function Home() {
               after-sales support guarantees your satisfaction throughout the
               lifespan of your equipment.
             </p>
-            <Link to="/rentalSale">
+            <Link to="/Sales">
               <button className="rent-home-btn">Click here</button>
             </Link>
           </div>
@@ -227,62 +227,76 @@ function Home() {
             </p>
           </div>
           <div className="home-page-services">
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/2.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>Carpenters</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/3.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>Plumbers</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/4.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>Electricians</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/6.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>HVAC</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/5.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>Masons</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/7.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>Painters</h6>
-            </div>
-            <div className="home-page-service">
-              <img
-                src="./Assets/workers/icons/12.png"
-                alt="#"
-                className="home-page-services-img"
-              />
-              <h6>CC TV Opt</h6>
-            </div>
+            <Link to={`/services/Carpenters`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/2.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>Carpenters</h6>
+              </div>
+            </Link>
+            <Link to={`/services/Plumbers`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/3.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>Plumbers</h6>
+              </div>
+            </Link>
+            <Link to={`/services/Electricians`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/4.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>Electricians</h6>
+              </div>
+            </Link>
+            <Link to={`/services/HVAC`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/6.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>HVAC</h6>
+              </div>
+            </Link>
+            <Link to={`/services/Masons`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/5.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>Masons</h6>
+              </div>
+            </Link>
+            <Link to={`/services/Painters`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/7.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>Painters</h6>
+              </div>
+            </Link>
+            <Link to={`/services/CC TV Opt`}>
+              <div className="home-page-service">
+                <img
+                  src="./Assets/workers/icons/12.png"
+                  alt="#"
+                  className="home-page-services-img"
+                />
+                <h6>CC TV Opt</h6>
+              </div>
+            </Link>
             <div className="home-page-service-btnContainer">
               <Link to="/services">
                 <button className="home-page-service-btn">See All</button>

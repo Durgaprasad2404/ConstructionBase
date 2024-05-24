@@ -19,6 +19,7 @@ import User from "./Components/LoginUser/User";
 import Logout from "./Components/Logout";
 import Products from "./Components/Product";
 import SingleProduct from "./Components/productsDisplay/singleproduct";
+import SaleVehicles from "./Components/SaleVehicles";
 
 function App() {
   const scrollTop = () => {
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/rentalSale" element={<RentedVehicles />} />
+          <Route exact path="/Sales" element={<SaleVehicles />} />
           <Route exact path="/rental/:category" element={<ShowOwners />} />
 
           <Route exact path="/services" element={<Services />} />
