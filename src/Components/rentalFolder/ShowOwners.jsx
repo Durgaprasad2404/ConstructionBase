@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { RentalData } from "../../itemsData/Rentaldata";
 import { MdAddIcCall, MdLocationPin } from "react-icons/md";
@@ -6,6 +6,15 @@ import { RiWhatsappFill } from "react-icons/ri";
 
 function ShowOwners() {
   const { category } = useParams();
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollTop();
+  });
   return (
     <div className="backGround">
       <h1>
@@ -42,7 +51,7 @@ function ShowOwners() {
                     </button>
                   </a>
                   <a
-                    href="https://wa.me/+910000000000/?text=Hello,I'm Looking For Rental Vehicle"
+                    href="https://wa.me/+910000000000?text=Hello,I'm Looking For Rental Vehicle"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

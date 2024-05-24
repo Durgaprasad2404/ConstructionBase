@@ -20,6 +20,7 @@ import Logout from "./Components/Logout";
 import Products from "./Components/Product";
 import SingleProduct from "./Components/productsDisplay/singleproduct";
 import SaleVehicles from "./Components/SaleVehicles";
+import Seller from "./Components/Sellers/Seller";
 
 function App() {
   const scrollTop = () => {
@@ -39,6 +40,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/rentalSale" element={<RentedVehicles />} />
           <Route exact path="/Sales" element={<SaleVehicles />} />
+          <Route exact path="/sales/:vehicle" element={<Seller />} />
           <Route exact path="/rental/:category" element={<ShowOwners />} />
 
           <Route exact path="/services" element={<Services />} />

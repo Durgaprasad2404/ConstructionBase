@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { WorkersData } from "../../itemsData/workers";
 import { MdAddIcCall } from "react-icons/md";
@@ -6,6 +6,15 @@ import { PiWhatsappLogoFill } from "react-icons/pi";
 
 function Showworkers() {
   const { category } = useParams();
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollTop();
+  });
   return (
     <>
       <div className="show-all-servicers">

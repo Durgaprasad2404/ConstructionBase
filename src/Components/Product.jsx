@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import BuildingConstruction from "./ProductLandingPart/BuildingConstruction";
@@ -10,6 +10,15 @@ import TopPick from "./ProductLandingPart/TopPick";
 import EquipmentLand from "./ProductLandingPart/EquipmentLand";
 
 function Products() {
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollTop();
+  });
   const sets = {
     dots: false,
     infinite: true,

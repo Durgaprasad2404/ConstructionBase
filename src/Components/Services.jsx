@@ -3,7 +3,6 @@ import { workers, mostDemanded } from "../itemsData/workers";
 // import DisplayWorkers from './workersFolder/DisplayWorkers'
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-import { MdVerticalAlignTop } from "react-icons/md";
 import Serviceslanding from "./serviceFolder/Serviceslanding";
 
 function Services() {
@@ -110,14 +109,6 @@ function Services() {
           </p>
           <Serviceslanding service="CCTV" />
         </div>
-      </div>
-      <div className="text-center">
-        <button onClick={scrollToTop} className="back-btn">
-          Back to top
-          <i>
-            <MdVerticalAlignTop />
-          </i>
-        </button>
       </div>
       <Footer />
     </>

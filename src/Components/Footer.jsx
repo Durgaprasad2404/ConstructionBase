@@ -6,11 +6,26 @@ import {
   FaWhatsappSquare,
   FaYoutubeSquare,
 } from "react-icons/fa";
+import { MdVerticalAlignTop } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
+      <div className="text-center">
+        <button onClick={scrollToTop} className="back-btn">
+          Back to top
+          <i>
+            <MdVerticalAlignTop />
+          </i>
+        </button>
+      </div>
       <hr />
       <footer>
         <div className="footCon1">
