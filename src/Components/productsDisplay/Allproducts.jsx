@@ -24,7 +24,9 @@ function Allproducts(props) {
         <span className="offer">{props.offer}% OFF</span>
       </p>
       <div>
-        <button className="view-btn">View Number</button>
+        <Link to={`/product/${props.id}`}>
+          <button className="view-btn">View Number</button>
+        </Link>
         <button className="best-btn">Get Best Price</button>
       </div>
     </div>

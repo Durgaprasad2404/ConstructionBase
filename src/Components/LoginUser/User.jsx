@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import { FaUser } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router-dom';
-import URL_FOR_API from '../../API/UrlOfApi';
-import Cookies from 'js-cookie'
-import './user.css'
+import React, { useEffect, useState } from "react";
+import { FaUser } from "react-icons/fa";
+import { Link, useNavigate } from "react-router-dom";
+import URL_FOR_API from "../../API/UrlOfApi";
+import Cookies from "js-cookie";
+import "./user.css";
+import Loader from "../Loader/Loader";
 
 function User() {
   const history = useNavigate();
   const [userData, setUserData] = useState({});
-  const [userState, setUserState] = useState('Login');
+  const [userState, setUserState] = useState("Login");
   const [loading, setLoading] = useState(true);
 
   const fetchUserData = async () => {
-    const jwtToken = Cookies.get("jwtoken")
+    const jwtToken = Cookies.get("jwtoken");
     try {
       const res = await fetch(URL_FOR_API + "/api/user", {
         method: "GET",
@@ -21,11 +22,11 @@ function User() {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-        credentials: "include"
+        credentials: "include",
       });
-      
+
       if (!res.ok) {
-        throw new Error('Failed to fetch user data');
+        throw new Error("Failed to fetch user data");
       }
 
       const data = await res.json();
@@ -34,7 +35,7 @@ function User() {
       setLoading(false);
     } catch (err) {
       console.error(err);
-      history('/login');
+      history("/login");
     }
   };
 
@@ -44,18 +45,21 @@ function User() {
   }, []);
 
   return (
-    <div className='userDetails'>
+    <div className="userDetails">
       {loading ? (
-        <p>Loading...</p>
+        <Loader />
       ) : (
-        <div className='userContainer'>
-          <div className='userDp'>
+        <div className="userContainer">
+          <div className="userDp">
             <FaUser />
           </div>
-          <div className='userbio'>
-            <h3 className='username'>Hey &#128075;, <span className='userName'>{userData.Username}</span></h3>
-            <p className='greetingMsg'>Good To See You Here &#128525;</p>
-            <Link to='/logout' className='userStatus'>
+          <div className="userbio">
+            <h3 className="username">
+              Hey &#128075;,{" "}
+              <span className="userName">{userData.Username}</span>
+            </h3>
+            <p className="greetingMsg">Good To See You Here &#128525;</p>
+            <Link to="/logout" className="userStatus">
               {userState}
             </Link>
           </div>

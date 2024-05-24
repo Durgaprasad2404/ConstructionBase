@@ -1,16 +1,18 @@
-import React, { useState } from 'react';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router-dom';
-import URL_FOR_API from '../API/UrlOfApi';
-import Cookies from 'js-cookie'
+import React, { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Link, useNavigate } from "react-router-dom";
+import URL_FOR_API from "../API/UrlOfApi";
+import Cookies from "js-cookie";
+import Loader from "./Loader/Loader";
 
 function LoginPage() {
   const history = useNavigate();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
-  const [successMsg, setSuccessMsg] = useState('');
+  const [errorMsg, setErrorMsg] = useState("");
+  const [successMsg, setSuccessMsg] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -21,49 +23,54 @@ function LoginPage() {
 
     // Basic validation
     if (!email || !password) {
-      setErrorMsg('Please fill in all fields.');
+      setErrorMsg("Please fill in all fields.");
       return;
     }
 
     // Clear error message if validation passed
-    setErrorMsg('');
+    setErrorMsg("");
 
     try {
+      setIsLoading(true); // Show loader
       const res = await fetch(URL_FOR_API + "/api/login", {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json'
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ email, password })
+        body: JSON.stringify({ email, password }),
       });
 
       const data = await res.json();
-      Cookies.set("jwtoken",data.token,{expires : new Date(Date.now() + 25892000000)})
-      // console.log(data)
+      Cookies.set("jwtoken", data.token, {
+        expires: new Date(Date.now() + 25892000000),
+      });
       if (!res.ok) {
-        throw new Error(data.message || 'Login failed');
+        throw new Error(data.message || "Login failed");
       }
 
-      window.alert('Login Success');
-      setSuccessMsg('Login successful!');
-      history('/user');
+      window.alert("Login Success");
+      setSuccessMsg("Login successful!");
+      history("/user");
 
       // Clear form fields after successful login
-      setEmail('');
-      setPassword('');
+      setEmail("");
+      setPassword("");
     } catch (error) {
-      console.error('Login failed:', error);
-      setErrorMsg(error.message || 'Login failed');
+      console.error("Login failed:", error);
+      setErrorMsg(error.message || "Login failed");
+    } finally {
+      setIsLoading(false); // Hide loader
     }
   };
 
   return (
     <div className="loginBG">
+      {isLoading && <Loader />}
       <div className="main">
-        <h3>Enter your login credentials</h3>
+        <h4>Enter your login credentials</h4>
         <form onSubmit={handleSubmit} method="POST">
-          {errorMsg && <div style={{ color: 'red' }}>{errorMsg}</div>}
-          {successMsg && <div style={{ color: 'green' }}>{successMsg}</div>}
+          {errorMsg && <div style={{ color: "red" }}>{errorMsg}</div>}
+          {successMsg && <div style={{ color: "green" }}>{successMsg}</div>}
           <div className="form-group">
             <label htmlFor="email">Email:</label>
             <input
@@ -74,31 +81,35 @@ function LoginPage() {
               placeholder="Enter your Email"
               required
               value={email}
-              onChange={(e) => { setEmail(e.target.value) }}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
               autoComplete="true"
             />
           </div>
           <div className="form-group">
             <label htmlFor="password">Password:</label>
-            <div style={{ position: 'relative' }}>
+            <div style={{ position: "relative" }}>
               <input
-                type={showPassword ? 'text' : 'password'}
+                type={showPassword ? "text" : "password"}
                 className="login-input"
                 id="password"
                 name="password"
                 placeholder="Enter your Password"
                 required
                 value={password}
-                onChange={(e) => { setPassword(e.target.value) }}
+                onChange={(e) => {
+                  setPassword(e.target.value);
+                }}
                 autoComplete="true"
               />
               <i
                 style={{
-                  position: 'absolute',
-                  right: '10px',
-                  top: '50%',
-                  transform: 'translateY(-50%)',
-                  cursor: 'pointer',
+                  position: "absolute",
+                  right: "10px",
+                  top: "50%",
+                  transform: "translateY(-50%)",
+                  cursor: "pointer",
                 }}
                 onClick={togglePasswordVisibility}
               >
@@ -107,12 +118,14 @@ function LoginPage() {
             </div>
           </div>
           <div className="wrap">
-            <button type="submit">Login</button>
+            <button type="submit" className="login-btn">
+              Login
+            </button>
           </div>
         </form>
         <p>
-          Not registered?{' '}
-          <Link to="/register" style={{ textDecoration: 'none' }}>
+          Not registered?{" "}
+          <Link to="/register" style={{ textDecoration: "none" }}>
             Create an account
           </Link>
         </p>

@@ -770,6 +770,14 @@ label {
   align-items: center;
 }
 
+.login-btn {
+  border: none;
+  color: white;
+  background-color: #007bff;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+
 /* register page styles */
 
 .register-form {
