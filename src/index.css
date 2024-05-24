@@ -150,6 +150,7 @@ nav {
   font-weight: 700;
   font-size: 35px;
   padding-top: 10px;
+  padding-left: 10px;
   border: none;
 }
 
@@ -962,6 +963,7 @@ label {
   }
 
   footer {
+    padding: 10px;
     flex-direction: column;
   }
 
