@@ -12,13 +12,13 @@ const Navbar = (props) => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="navbar">
+    <nav className="navbar sticky-top">
       <div className="navbar-container">
         <Link to="/">
           <img src="../Assets/E-logo.png" alt="#" className="logo" />
         </Link>
         <ul className="navbar-links">
-          <li>
+          <li className="nav-item">
             <Link to="/">Home</Link>
           </li>
           <li className="nav-item">

@@ -19,8 +19,8 @@ function Showworkers() {
     <>
       <div className="show-all-servicers">
         <h4 className="ser-heading">
-          Person Available For
-          <br /> <q>{category} </q>Service
+          Person Available For <span className="quotes">"{category}"</span>{" "}
+          Service
         </h4>
         <div className="show-servicers">
           {WorkersData.map((i) => {

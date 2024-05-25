@@ -897,6 +897,10 @@ label {
   .most-like-product-img {
     overflow: hidden;
   }
+
+  .imguuu {
+    display: none;
+  }
 }
 
 @media screen and (max-width:576px) {

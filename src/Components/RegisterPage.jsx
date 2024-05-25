@@ -1,18 +1,20 @@
-import React, { useState } from 'react';
-import { FaEye, FaEyeSlash } from 'react-icons/fa';
-import { Link, useNavigate } from 'react-router-dom';
-import URL_FOR_API from '../API/UrlOfApi';
+import React, { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Link, useNavigate } from "react-router-dom";
+import URL_FOR_API from "../API/UrlOfApi";
+import Loader from "./Loader/Loader";
 
 function RegisterPage() {
   const history = useNavigate();
   const [formData, setFormData] = useState({
-    Username: '',
-    email: '',
-    password: '',
+    Username: "",
+    email: "",
+    password: "",
   });
   const [showPassword, setShowPassword] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
-  const [successMsg, setSuccessMsg] = useState('');
+  const [errorMsg, setErrorMsg] = useState("");
+  const [successMsg, setSuccessMsg] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -29,50 +31,54 @@ function RegisterPage() {
 
     // Basic validation
     if (!Username || !email || !password) {
-      setErrorMsg('Please fill in all fields.');
+      setErrorMsg("Please fill in all fields.");
       return;
     }
 
     // Clear error message if validation passed
-    setErrorMsg('');
+    setErrorMsg("");
 
     try {
+      setIsLoading(true);
       const res = await fetch(URL_FOR_API + "/api/register", {
-        method: 'POST',
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json'
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify({ Username, email, password })
+        body: JSON.stringify({ Username, email, password }),
       });
 
       const data = await res.json();
 
       if (!res.ok) {
-        throw new Error(data.message || 'Registration failed');
+        throw new Error(data.message || "Registration failed");
       }
 
-      window.alert('Registration successed');
-      setSuccessMsg('Registration successful!');
-      history('/login');
+      window.alert("Registration successed");
+      setSuccessMsg("Registration successful!");
+      history("/login");
 
       // Clear form fields after successful registration
       setFormData({
-        Username: '',
-        email: '',
-        password: ''
+        Username: "",
+        email: "",
+        password: "",
       });
     } catch (error) {
-      console.error('Registration failed:', error);
-      setErrorMsg(error.message || 'Registration failed');
+      console.error("Registration failed:", error);
+      setErrorMsg(error.message || "Registration failed");
+    } finally {
+      setIsLoading(false); // Hide loader
     }
   };
 
   return (
     <div className="register-form">
+      {isLoading && <Loader />}
       <h2>Register</h2>
-      <form onSubmit={handleSubmit} method='POST'>
-        {errorMsg && <div style={{ color: 'red' }}>{errorMsg}</div>}
-        {successMsg && <div style={{ color: 'green' }}>{successMsg}</div>}
+      <form onSubmit={handleSubmit} method="POST">
+        {errorMsg && <div style={{ color: "red" }}>{errorMsg}</div>}
+        {successMsg && <div style={{ color: "green" }}>{successMsg}</div>}
         <div>
           <label htmlFor="username">Username:</label>
           <input
@@ -99,9 +105,9 @@ function RegisterPage() {
         </div>
         <div>
           <label htmlFor="password">Password:</label>
-          <div style={{ position: 'relative' }}>
+          <div style={{ position: "relative" }}>
             <input
-              type={showPassword ? 'text' : 'password'}
+              type={showPassword ? "text" : "password"}
               id="password"
               name="password"
               value={formData.password}
@@ -111,11 +117,11 @@ function RegisterPage() {
             />
             <i
               style={{
-                position: 'absolute',
-                right: '10px',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                cursor: 'pointer',
+                position: "absolute",
+                right: "10px",
+                top: "50%",
+                transform: "translateY(-50%)",
+                cursor: "pointer",
               }}
               onClick={togglePasswordVisibility}
             >
@@ -125,8 +131,8 @@ function RegisterPage() {
         </div>
         <button type="submit">Register</button>
         <p>
-          If registered?{' '}
-          <Link to="/login" style={{ textDecoration: 'none' }}>
+          If registered?{" "}
+          <Link to="/login" style={{ textDecoration: "none" }}>
             Login
           </Link>
         </p>

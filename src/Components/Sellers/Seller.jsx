@@ -35,7 +35,7 @@ function Seller() {
         {sellers.map((i) => {
           if (i.vehicle === vehicle) {
             return (
-              <div className="seller-container mt-5">
+              <div className="seller-container mt-5" key={i.id}>
                 <div>
                   <div className="vehicle-caro">
                     <Carousel>
