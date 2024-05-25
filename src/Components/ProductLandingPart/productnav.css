@@ -1,6 +1,10 @@
-.product-ul {
+header {
     position: sticky;
-    top: 0;
+    top: 88px;
+    z-index: 91;
+}
+
+.product-ul {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -20,7 +24,6 @@
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 91;
 }
 
 .dropdown-content a {
@@ -45,13 +48,32 @@
     align-items: center;
 }
 
+.menu-button {
+    text-align: end;
+    display: none;
+}
+
+
 @media screen and (max-width:576px) {
+    .menu-button {
+        display: block;
+    }
+
+    .product-ul.open {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
     .product-ul {
-        gap: 8px;
+        gap: 10px;
+        display: none;
     }
 
     .pro-nav-item {
         font-size: x-small;
+        text-overflow: ellipsis;
     }
+
 
 }

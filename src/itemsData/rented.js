@@ -37,7 +37,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567890",
+    contactNumber: "1234567890",
   },
   {
     id: "2",
@@ -54,7 +54,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567891",
+    contactNumber: "1234567891",
   },
   {
     id: "3",
@@ -71,7 +71,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567892",
+    contactNumber: "1234567892",
   },
   {
     id: "4",
@@ -87,7 +87,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567893",
+    contactNumber: "1234567893",
   },
   {
     id: "5",
@@ -104,7 +104,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567894",
+    contactNumber: "1234567894",
   },
   {
     id: "6",
@@ -121,7 +121,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567895",
+    contactNumber: "1234567895",
   },
   {
     id: "7",
@@ -138,7 +138,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567896",
+    contactNumber: "1234567896",
   },
   {
     id: "8",
@@ -155,7 +155,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567897",
+    contactNumber: "1234567897",
   },
   {
     id: "9",
@@ -172,7 +172,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567898",
+    contactNumber: "1234567898",
   },
   {
     id: "10",
@@ -189,7 +189,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567899",
+    contactNumber: "1234567899",
   },
   {
     id: "11",
@@ -206,7 +206,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567890",
+    contactNumber: "1234567890",
   },
   {
     id: "12",
@@ -223,7 +223,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567891",
+    contactNumber: "1234567891",
   },
   {
     id: "13",
@@ -240,7 +240,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567892",
+    contactNumber: "1234567892",
   },
   {
     id: "14",
@@ -256,7 +256,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567893",
+    contactNumber: "1234567893",
   },
   {
     id: "15",
@@ -273,7 +273,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567894",
+    contactNumber: "1234567894",
   },
   {
     id: "16",
@@ -290,7 +290,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567895",
+    contactNumber: "1234567895",
   },
   {
     id: "17",
@@ -307,7 +307,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567896",
+    contactNumber: "1234567896",
   },
   {
     id: "18",
@@ -324,7 +324,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567897",
+    contactNumber: "1234567897",
   },
   {
     id: "19",
@@ -341,7 +341,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567898",
+    contactNumber: "1234567898",
   },
   {
     id: "20",
@@ -358,7 +358,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567899",
+    contactNumber: "1234567899",
   },
   {
     id: "21",
@@ -375,7 +375,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567800",
+    contactNumber: "1234567800",
   },
   {
     id: "22",
@@ -392,7 +392,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567801",
+    contactNumber: "1234567801",
   },
   {
     id: "221",
@@ -409,7 +409,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567810",
+    contactNumber: "1234567810",
   },
   {
     id: "23",
@@ -426,7 +426,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567820",
+    contactNumber: "1234567820",
   },
   {
     id: "24",
@@ -442,7 +442,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567830",
+    contactNumber: "1234567830",
   },
   {
     id: "25",
@@ -458,7 +458,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567840",
+    contactNumber: "1234567840",
   },
   {
     id: "26",
@@ -474,7 +474,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567850",
+    contactNumber: "1234567850",
   },
   {
     id: "27",
@@ -490,7 +490,7 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567860",
+    contactNumber: "1234567860",
   },
   {
     id: "28",
@@ -507,6 +507,6 @@ export const sellers = [
       "../Assets/rentalImg/Sell/t3.jpg",
       "../Assets/rentalImg/Sell/t4.jpg",
     ],
-    contactNumber: "+1234567870",
+    contactNumber: "1234567870",
   },
 ];

@@ -463,6 +463,7 @@ export const RentalData = [
     contactNumber: "7777777777",
     amount: "1700",
   },
+
   {
     id: "59",
     category: "Crusher plant",

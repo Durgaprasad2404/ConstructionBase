@@ -1,13 +1,23 @@
-import React from "react";
-import { FaCaretDown } from "react-icons/fa";
+import React, { useState } from "react";
+import { FaCaretDown, FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./productnav.css";
 
 function Productnavbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <nav>
-        <ul className="product-ul">
+      <header>
+        <div className="menu-button" onClick={toggleMenu}>
+          Category
+          <FaBars />
+        </div>
+        <ul className={`product-ul ${isOpen ? "open" : ""}`}>
           <li className="dropdown">
             <Link to="/equipment">
               <div className="dp">
@@ -20,7 +30,7 @@ function Productnavbar() {
             <div className="dropdown-content">
               <a href="#Electrical">Electrical</a>
               <a href="#Handtools">Handtools</a>
-              <a href="#Heavy">Heavy Mechinery </a>
+              <a href="#Heavy">Heavy Machinery</a>
               <a href="#Ladders">Ladders</a>
               <a href="#Safety">Safety gears</a>
             </div>
@@ -61,7 +71,7 @@ function Productnavbar() {
             </div>
           </li>
         </ul>
-      </nav>
+      </header>
     </>
   );
 }

@@ -32,9 +32,11 @@ function Showworkers() {
                   </div>
                   <div className="service-detailed">
                     <div className="service-contact">
-                      <button className="service-call">
-                        <MdAddIcCall /> {i.contactNumber}
-                      </button>
+                      <a href={`tel:+91${i.contactNumber}`}>
+                        <button className="service-call">
+                          <MdAddIcCall /> Talk
+                        </button>
+                      </a>
                       <a
                         href="https://wa.me/+910000000000?text=Hello,i'm Looking For Your Service"
                         target="_blank"

@@ -11,7 +11,7 @@ import ShowOwners from "./Components/rentalFolder/ShowOwners";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Services from "./Components/Services";
-import Showworkers from "./Components/serviceFolder/ShowOwners";
+import Showworkers from "./Components/serviceFolder/ShowServicers";
 import PageNotFound from "./Components/PageNotFound";
 import LoginPage from "./Components/LoginPage";
 import RegisterPage from "./Components/RegisterPage";

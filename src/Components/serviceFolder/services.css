@@ -41,7 +41,7 @@
 .ser-heading {
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 88px;
     padding: 10px;
     height: fit-content;
     border: 1px solid white;
@@ -69,8 +69,6 @@
 .service-detailed {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 15px;
 }
 
@@ -117,8 +115,11 @@
 @media screen and (max-width:768px) {
     .servicers {
         width: 300px;
-        padding: 5px 15px;
+        padding: 10px 15px;
         margin: 18px 10px;
+    }
+
+    .service-contact {
         flex-direction: column;
     }
 }
@@ -134,10 +135,9 @@
     }
 
     .servicers {
-        width: 200px;
+        width: 300px;
         padding: 5px 15px;
         margin: 18px 10px;
-        flex-direction: column;
     }
 
     .service-contact {

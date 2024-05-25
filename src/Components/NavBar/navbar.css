@@ -88,7 +88,6 @@ li {
 
     .navbar-links.active {
         display: flex;
-        z-index: 999;
     }
 
     .navbar-toggle {
