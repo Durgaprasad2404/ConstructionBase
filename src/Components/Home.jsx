@@ -287,7 +287,7 @@ function Home() {
                 <h6>Painters</h6>
               </div>
             </Link>
-            <Link to={`/services/CC TV Opt`}>
+            <Link to={`/services/CCTV`}>
               <div className="home-page-service">
                 <img
                   src="./Assets/workers/icons/12.png"
