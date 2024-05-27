@@ -10,7 +10,7 @@ function Equipment() {
       <Productnavbar />
       <div className="backGround">
         <h1>Equipment For Construction</h1>
-        <div style={{ margin: "20px 25px" }} id="Electrical">
+        <div style={{ margin: "10px" }} id="Electrical">
           <h2 className="shopSideHeading">Electrical</h2>
           <div className="allItems">
             {productData.map((i) => {

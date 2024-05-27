@@ -63,7 +63,7 @@ nav {
 }
 
 .backGround {
-  padding: 10px 35px;
+  padding: 10px;
 }
 
 .shopSideHeading {
@@ -112,7 +112,7 @@ nav {
 .homeHeading {
   padding: 0px 15px;
   color: #dea90b;
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -297,7 +297,6 @@ nav {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
   padding: 15px;
 }
@@ -521,14 +520,14 @@ b {
 }
 
 .OwnerContactBtn {
-  background-color: rgb(43, 190, 43);
+  background-color: rgb(220, 223, 220);
   border: 1px solid #000;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
 .OwnerChatBtn {
-  background-color: rgb(220, 223, 220);
+  background-color: rgb(43, 190, 43);
   border: 1px solid #000;
   border-radius: 10px;
   padding: 5px 10px;
@@ -905,6 +904,10 @@ label {
 }
 
 @media screen and (max-width:576px) {
+  .backGround {
+    padding: 5px;
+  }
+
   .home-page-service-bgContainer {
     flex-direction: column;
     justify-content: center;
@@ -922,7 +925,7 @@ label {
   }
 
   .homeHeading {
-    font-size: medium;
+    font-size: x-large;
   }
 
   .carImg {
@@ -931,11 +934,24 @@ label {
   }
 
   .homePara {
+    white-space: nowrap;
+    max-width: 350px;
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font-size: small;
   }
 
   .rental-home-container {
     flex-direction: column;
+  }
+
+  .rentalVehicles {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .rent-page-heading {
+    padding: 4px;
   }
 
   .shoplanding {
@@ -947,25 +963,20 @@ label {
     width: 100%;
   }
 
-  .rentalVehicles {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
 
   .owners {
+    text-align: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 15px;
   }
 
   .vhCon {
     margin-top: 15px;
   }
 
-  .ownerContact {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
   footer {
     padding: 10px;
@@ -979,6 +990,11 @@ label {
 
   .imguuu {
     display: none;
+  }
+
+  .product-main-heading {
+    padding: 5px;
+    margin: 5px;
   }
 
   .most-like-product-img {

@@ -76,4 +76,9 @@
     .building-construction-EE-materials-bgcontainer {
         flex-direction: column;
     }
+
+    .building-construction-EE-heading {
+        font-size: 20px;
+        color: black;
+    }
 }

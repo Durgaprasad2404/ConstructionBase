@@ -32,7 +32,7 @@ function Products() {
       <Productnavbar />
       <div className="product-bgcontainer">
         <h1 className="product-main-heading">Products</h1>
-        <p>
+        <p className="ps-2">
           Discover our range of premium products designed to elevate your
           everyday living
         </p>

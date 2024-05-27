@@ -84,4 +84,8 @@
     .EquipmentLand-container {
         flex-direction: column;
     }
+
+    .EquipmentLand-heading {
+        font-size: 20px;
+    }
 }

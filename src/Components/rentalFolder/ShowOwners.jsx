@@ -44,7 +44,7 @@ function ShowOwners() {
                   </i>
                   <span>Location</span>
                 </div>
-                <div className="ownerContact">
+                <div className="ownerContact my-3">
                   <a href="tel:+910000000000">
                     <button className="OwnerContactBtn">
                       <MdAddIcCall /> Connect
@@ -56,17 +56,17 @@ function ShowOwners() {
                     rel="noopener noreferrer"
                   >
                     <button className="OwnerChatBtn">
-                      <i style={{ color: "green" }}>
+                      <i style={{ color: "white" }}>
                         <RiWhatsappFill />
                       </i>
                       Chat
                     </button>
                   </a>
-                  <p>
-                    &#8377; {i.amount}/-
-                    <span className="hourspan">per hour</span>
-                  </p>
                 </div>
+                <p>
+                  &#8377; {i.amount}/-
+                  <span className="hourspan">per hour</span>
+                </p>
               </div>
             </div>
           );

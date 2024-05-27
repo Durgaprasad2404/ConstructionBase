@@ -9,7 +9,7 @@ function RentedVehicles() {
     <>
       <div className="backGround">
         <h1 className="rent-page-heading">Rental Vehicles</h1>
-        <p>
+        <p className="ps-2">
           Trust our well-maintained vehicles and dedicated team to keep your
           operations running smoothly.
         </p>

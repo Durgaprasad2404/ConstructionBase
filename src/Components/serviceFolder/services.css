@@ -1,5 +1,6 @@
 .service-works-container {
     display: flex;
+
     flex-wrap: wrap;
 }
 
@@ -127,6 +128,18 @@
 @media screen and (max-width:576px) {
     q {
         font-size: 25px;
+    }
+
+    .services-works {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-works-container {
+        justify-content: center;
     }
 
     .show-all-servicers {
