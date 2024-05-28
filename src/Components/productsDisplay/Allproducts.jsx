@@ -23,7 +23,7 @@ function Allproducts(props) {
         <span className="oldprice"> &#8377; {props.oldprice}</span>
         <span className="offer">{props.offer}% OFF</span>
       </p>
-      <div>
+      <div className="text-center">
         <Link to={`/product/${props.id}`}>
           <button className="view-btn">View Number</button>
         </Link>

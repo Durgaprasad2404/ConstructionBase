@@ -9,12 +9,11 @@ function ElectronicsElectrical() {
     <>
       <Productnavbar />
       <div className="backGround">
-        <h1>Electronics & Electrical</h1>
+        <h1 className="shopSideHeading">Electronics & Electrical</h1>
         <div style={{ margin: "10px" }} id="Cables">
-          <h2 className="shopSideHeading">Cables & wires</h2>
           <div className="allItems">
             {productData.map((i) => {
-              if (i.category === "Wires") {
+              if (i.Group === "EEItem") {
                 return (
                   <Allproducts
                     id={i.id}
@@ -32,7 +31,7 @@ function ElectronicsElectrical() {
             })}
           </div>
         </div>
-        <div style={{ margin: "20px 25px" }} id="Circuites">
+        {/* <div style={{ margin: "20px 25px" }} id="Circuites">
           <h2 className="shopSideHeading">Circuites</h2>
           <div className="allItems">
             {productData.map((i) => {
@@ -119,7 +118,7 @@ function ElectronicsElectrical() {
               }
             })}
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

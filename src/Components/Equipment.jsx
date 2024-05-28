@@ -9,12 +9,11 @@ function Equipment() {
     <>
       <Productnavbar />
       <div className="backGround">
-        <h1>Equipment For Construction</h1>
+        <h1 className="shopSideHeading">Equipment For Construction</h1>
         <div style={{ margin: "10px" }} id="Electrical">
-          <h2 className="shopSideHeading">Electrical</h2>
           <div className="allItems">
             {productData.map((i) => {
-              if (i.category === "Electrical") {
+              if (i.Group === "EquipmentItem") {
                 return (
                   <Allproducts
                     key={i.id}
@@ -32,7 +31,7 @@ function Equipment() {
             })}
           </div>
         </div>
-        <div style={{ margin: "20px 25px" }} id="Handtools">
+        {/* <div style={{ margin: "20px 25px" }} id="Handtools">
           <h2 className="shopSideHeading">Hard Tools</h2>
           <div className="allItems">
             {productData.map((i) => {
@@ -119,7 +118,7 @@ function Equipment() {
               }
             })}
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </>

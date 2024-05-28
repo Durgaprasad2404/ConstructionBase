@@ -75,9 +75,9 @@ nav {
 
 .allItems {
   padding-top: 25px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  flex-wrap: wrap;
 }
 
 .img {
@@ -864,6 +864,10 @@ label {
     display: none;
   }
 
+  .allItems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .home-page-service-bgContainer {
     flex-direction: column;
     justify-content: center;
@@ -906,6 +910,10 @@ label {
 @media screen and (max-width:576px) {
   .backGround {
     padding: 5px;
+  }
+
+  .allItems {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .home-page-service-bgContainer {
