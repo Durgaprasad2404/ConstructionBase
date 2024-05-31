@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./product.css";
-import { productData } from "../../itemsData/productsData";
+import { pro } from "../../itemsData/productsData";
 import Footer from "../Footer";
 
 function SingleProduct(props) {
   const { id } = useParams();
-  const item = productData.find((i) => i.id === id);
+  const item = pro.find((i) => i.ID === id);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -20,15 +20,15 @@ function SingleProduct(props) {
     <>
       <div className="singleItem">
         <div>
-          <img src={item.imgUrl} alt="#" className="singleimg" />
-          <p>{item.description}</p>
+          <img src={item["IMG URL"]} alt="#" className="singleimg" />
+          <p>{item.DESCRIPTION}</p>
         </div>
         <div className="singleitem-details">
           <div>
-            <h1>{item.itemname}</h1>
+            <h1>{item.ITEMNAME}</h1>
             <p>
-              &#8377; {item.price}{" "}
-              <span className="offer">{item.offer}% OFF</span>
+              &#8377; {item.PRICE}{" "}
+              <span className="offer">{item.OFFER}% OFF</span>
             </p>
             <p>
               This essential construction tool is a heavy-duty apparatus

@@ -2,13 +2,24 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./productnav.css";
+import { pro } from "../../itemsData/productsData";
 
 function Productnavbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredProducts = pro.filter((product) =>
+    product.ITEMNAME.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  console.log(filteredProducts);
 
   return (
     <>
@@ -35,6 +46,14 @@ function Productnavbar() {
             <Link to="/building" style={{ textDecoration: "none" }}>
               <span className="pro-nav-item">Building & Construction</span>
             </Link>
+          </li>
+          <li>
+            <input
+              type="text"
+              placeholder="Search for a product"
+              value={searchTerm}
+              onChange={handleChange}
+            />
           </li>
         </ul>
       </header>

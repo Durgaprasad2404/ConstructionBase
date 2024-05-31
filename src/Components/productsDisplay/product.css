@@ -42,7 +42,8 @@
 }
 
 .singleimg {
-    width: 100%;
+    width: 350px;
+    margin: 10px;
 }
 
 .singleitem-details {

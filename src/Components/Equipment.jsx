@@ -1,5 +1,5 @@
 import React from "react";
-import { productData } from "../itemsData/productsData";
+import { pro } from "../itemsData/productsData";
 import Footer from "./Footer";
 import Allproducts from "./productsDisplay/Allproducts";
 import Productnavbar from "./ProductLandingPart/Productnavbar";
@@ -12,17 +12,17 @@ function Equipment() {
         <h1 className="shopSideHeading">Equipment For Construction</h1>
         <div style={{ margin: "10px" }} id="Electrical">
           <div className="allItems">
-            {productData.map((i) => {
-              if (i.Group === "EquipmentItem") {
+            {pro.map((i) => {
+              if (i.GROUP === "EquipmentItems") {
                 return (
                   <Allproducts
-                    key={i.id}
-                    id={i.id}
-                    itemname={i.itemname}
-                    imgUrl={i.imgUrl}
-                    price={i.price}
-                    oldprice={i.oldprice}
-                    offer={i.offer}
+                    key={i.ID}
+                    id={i.ID}
+                    itemname={i.ITEMNAME}
+                    imgUrl={i["IMG URL"]}
+                    price={i.PRICE}
+                    oldprice={i.OLDPRICE}
+                    offer={i.OFFER}
                   />
                 );
               } else {
