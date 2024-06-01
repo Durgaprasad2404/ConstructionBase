@@ -59,7 +59,6 @@ function App() {
           <Route exact path="/building" element={<Building />} />
 
           <Route exact path="/product/:id" element={<SingleProduct />} />
-
           <Route path="/products" element={<Products />} />
           <Route path="/user" element={<User />} />
           <Route path="*" element={<PageNotFound />} />

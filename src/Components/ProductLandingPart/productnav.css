@@ -8,6 +8,7 @@ header {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     background-color: #f9f9f9;
     padding: 10px;
@@ -39,7 +40,17 @@ header {
     }
 }
 
-@media screen and (max-width:576px) {
+.product-search-input {
+    border: 1px solid #333;
+    border-radius: 7px;
+    padding: 0 5px;
+
+    &:hover {
+        box-shadow: 1px 1px 1px 1px blue;
+    }
+}
+
+@media screen and (max-width:640px) {
     .menu-button {
         display: block;
     }
@@ -57,6 +68,10 @@ header {
     }
 
     .pro-nav-item {
+        font-size: x-small;
+    }
+
+    .product-search-input {
         font-size: x-small;
     }
 

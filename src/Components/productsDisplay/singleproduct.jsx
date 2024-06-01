@@ -7,6 +7,8 @@ import Footer from "../Footer";
 function SingleProduct(props) {
   const { id } = useParams();
   const item = pro.find((i) => i.ID === id);
+  const fil = pro.filter((product) => product.CATEGORY.includes(item.CATEGORY));
+  console.log(fil);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -21,7 +23,7 @@ function SingleProduct(props) {
       <div className="singleItem">
         <div>
           <img src={item["IMG URL"]} alt="#" className="singleimg" />
-          <p>{item.DESCRIPTION}</p>
+          <p className="ps-2">{item.DESCRIPTION}</p>
         </div>
         <div className="singleitem-details">
           <div>
@@ -36,7 +38,7 @@ function SingleProduct(props) {
               and efficiency.
             </p>
           </div>
-          <div>
+          <div className="btns-container">
             <button type="button" className="cartBtn">
               View Contact
             </button>
@@ -45,6 +47,16 @@ function SingleProduct(props) {
             </button>
           </div>
         </div>
+      </div>
+      <h4 className="py-3">Similar Products</h4>
+      <div className="similar-products-container">
+        {fil.map((item) => {
+          return (
+            <div key={item.ID}>
+              <img src={item["IMG URL"]} alt="#" className="img" />
+            </div>
+          );
+        })}
       </div>
       <Footer />
     </>

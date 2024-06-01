@@ -2973,7 +2973,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://5.imimg.com/data5/SELLER/Default/2022/10/WT/QH/VX/51537243/hollow-blocks-500x500.jpg",
     PRICE: "30",
     OLDPRICE: "35",
     OFFER: "14",

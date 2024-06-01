@@ -18,9 +18,8 @@ function Footer() {
   };
   return (
     <>
-      <div className="text-center">
+      <div className="text-center sticky-bottom">
         <button onClick={scrollToTop} className="back-btn">
-          Back to top
           <i>
             <MdVerticalAlignTop />
           </i>

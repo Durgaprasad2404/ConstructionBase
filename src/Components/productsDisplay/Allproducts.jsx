@@ -1,17 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "./product.css";
 
 function Allproducts(props) {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
-  useEffect(() => {
-    scrollToTop();
-  });
   return (
     <div className="item-con">
       <h5 className="itemname-heading">{props.itemname}</h5>
