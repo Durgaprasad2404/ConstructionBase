@@ -25,6 +25,21 @@ function RegisterPage() {
     setShowPassword(!showPassword);
   };
 
+  const isStrongPassword = (password) => {
+    const minLength = 8;
+    const hasUpperCase = /[A-Z]/.test(password);
+    const hasLowerCase = /[a-z]/.test(password);
+    const hasNumber = /\d/.test(password);
+    const hasSpecialChar = /[!@#$%^&*(),.?":{}|<>]/.test(password);
+    return (
+      password.length >= minLength &&
+      hasUpperCase &&
+      hasLowerCase &&
+      hasNumber &&
+      hasSpecialChar
+    );
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const { Username, email, password } = formData;
@@ -32,6 +47,14 @@ function RegisterPage() {
     // Basic validation
     if (!Username || !email || !password) {
       setErrorMsg("Please fill in all fields.");
+      return;
+    }
+
+    // Password strength validation
+    if (!isStrongPassword(password)) {
+      setErrorMsg(
+        "Password must be at least 8 characters long and include uppercase, lowercase, number, and special character."
+      );
       return;
     }
 
@@ -54,7 +77,7 @@ function RegisterPage() {
         throw new Error(data.message || "Registration failed");
       }
 
-      window.alert("Registration successed");
+      window.alert("Registration succeeded");
       setSuccessMsg("Registration successful!");
       history("/login");
 
