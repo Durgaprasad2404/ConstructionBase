@@ -1964,7 +1964,8 @@ export const pro = [
     CATEGORY: "Tools",
     DESCRIPTION: "Used for removing broken bolts",
     GROUP: "EquipmentItems",
-    "IMG URL": "../Assets/ProductsPics/Bolt_Extractor.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414017/ProductsPics/Bolt_Extractor_ri3b3s.png",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -1972,11 +1973,12 @@ export const pro = [
   },
   {
     ID: "101",
-    ITEMNAME: "Concrete Bricks",
-    CATEGORY: "Building Materials",
-    DESCRIPTION: "Used for construction of walls and structures",
+    ITEMNAME: "TMT Bars",
+    CATEGORY: "Raw Material",
+    DESCRIPTION: "Used for High-strength deformed steel bars",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Concrete-Block.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717418495/blog-july-copy-1_sp8jak.jpg",
     PRICE: "6",
     OLDPRICE: "7",
     OFFER: "14",
@@ -1988,7 +1990,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Binder used in construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/cement_bag.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414022/ProductsPics/cement_bag_meabi2.jpg",
     PRICE: "400",
     OLDPRICE: "450",
     OFFER: "11",
@@ -2000,7 +2003,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Fine aggregate used in construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/river_sand.jpeg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414051/ProductsPics/river_sand_nfbnyj.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -2012,7 +2016,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Coarse aggregate used in construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/stone-3331916_1280.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414059/ProductsPics/stone-3331916_1280_dyekjy.jpg",
     PRICE: "80",
     OLDPRICE: "90",
     OFFER: "11",
@@ -2024,7 +2029,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Reinforcement for concrete structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Steel-Rebar.jpeg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414057/ProductsPics/Steel-Rebar_alg336.jpg",
     PRICE: "60",
     OLDPRICE: "70",
     OFFER: "14",
@@ -2036,7 +2042,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Engineered wood product used in construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/plywood-sheets.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414042/ProductsPics/plywood-sheets_oqrxv4.jpg",
     PRICE: "800",
     OLDPRICE: "880",
     OFFER: "9",
@@ -2045,10 +2052,11 @@ export const pro = [
   {
     ID: "107",
     ITEMNAME: "Hollow Blocks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/hollow-bricks.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414036/ProductsPics/hollow-bricks_wxysmp.png",
     PRICE: "30",
     OLDPRICE: "35",
     OFFER: "14",
@@ -2060,7 +2068,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for flooring and wall covering",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/tiles.jpeg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414061/ProductsPics/tiles_vmpuxx.jpg",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2072,7 +2081,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Pre-mixed concrete for various uses",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ready-mix-concrete.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414049/ProductsPics/ready-mix-concrete_ccdhcx.webp",
     PRICE: "5,000",
     OLDPRICE: "5,500",
     OFFER: "9",
@@ -2081,10 +2091,11 @@ export const pro = [
   {
     ID: "110",
     ITEMNAME: "Concrete Blocks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Concrete-Block.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414025/ProductsPics/Concrete-Block_eujmzi.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -2096,7 +2107,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used as binder in construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/storage-of-cement.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414060/ProductsPics/storage-of-cement_pbpgaf.webp",
     PRICE: "350",
     OLDPRICE: "400",
     OFFER: "12",
@@ -2108,7 +2120,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Mixture used for bonding bricks and stones",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Mortar-Mix.jpeg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414040/ProductsPics/Mortar-Mix_ijyyzj.jpg",
     PRICE: "450",
     OLDPRICE: "500",
     OFFER: "10",
@@ -2121,7 +2134,7 @@ export const pro = [
     DESCRIPTION: "Used for paving roads and roofs",
     GROUP: "buildingItem",
     "IMG URL":
-      "../Assets/ProductsPics/Asphalt-calculator-FEATURE-compressed.webp",
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414017/ProductsPics/Asphalt-calculator-FEATURE-compressed_zwlwtd.webp",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2133,7 +2146,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for constructing interior walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/gypsum-board.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414033/ProductsPics/gypsum-board_ka8nzg.webp",
     PRICE: "350",
     OLDPRICE: "400",
     OFFER: "12",
@@ -2145,7 +2159,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for thermal and acoustic insulation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/insualtion.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414037/ProductsPics/insualtion_eglyt5.webp",
     PRICE: "800",
     OLDPRICE: "880",
     OFFER: "9",
@@ -2157,7 +2172,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used to prevent water penetration",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/waterproofing-membranes.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414065/ProductsPics/waterproofing-membranes_cwpnu3.jpg",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -2169,7 +2185,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for exterior and interior walls",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/fibre-cement-board.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414029/ProductsPics/fibre-cement-board_qpqwvc.webp",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2181,7 +2198,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for plumbing and drainage",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/pvc-pipes-drinking-water_176124-419.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414049/ProductsPics/pvc-pipes-drinking-water_176124-419_bya0fr.png",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -2193,7 +2211,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for plumbing and HVAC systems",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/shutterstock_163177421-scaled.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414053/ProductsPics/shutterstock_163177421-scaled_filjox.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2205,7 +2224,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for roofing",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/metal-roofing-sheet.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414040/ProductsPics/metal-roofing-sheet_wmeyzc.webp",
     PRICE: "750",
     OLDPRICE: "825",
     OFFER: "9",
@@ -2217,7 +2237,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for facades and cladding",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/solid-aluminium-composite-panel.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414055/ProductsPics/solid-aluminium-composite-panel_slwt2c.png",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2229,7 +2250,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Pre-mixed concrete for various uses",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ready-mix-concrete.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414049/ProductsPics/ready-mix-concrete_ccdhcx.webp",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2238,10 +2260,11 @@ export const pro = [
   {
     ID: "123",
     ITEMNAME: "Brick Mortar",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Mixture used for bonding bricks and stones",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/howto_mortarbrick_06.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414036/ProductsPics/howto_mortarbrick_06_u52mjl.jpg",
     PRICE: "450",
     OLDPRICE: "500",
     OFFER: "10",
@@ -2253,7 +2276,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction of roads and buildings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/crushed-stone-aggregate.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414028/ProductsPics/crushed-stone-aggregate_xbrusl.jpg",
     PRICE: "60",
     OLDPRICE: "70",
     OFFER: "14",
@@ -2265,7 +2289,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for flooring and wall covering",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ceremic-tails.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414023/ProductsPics/ceremic-tails_o2ltxe.jpg",
     PRICE: "600",
     OLDPRICE: "660",
     OFFER: "10",
@@ -2277,7 +2302,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for countertops and flooring",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/white-granite.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414065/ProductsPics/white-granite_vq1rtj.webp",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2289,7 +2315,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for countertops and flooring",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/marble-slab.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414039/ProductsPics/marble-slab_y5tl8q.jpg",
     PRICE: "3,000",
     OLDPRICE: "3,300",
     OFFER: "9",
@@ -2301,7 +2328,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for finishing walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/plasterofpairs.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414041/ProductsPics/plasterofpairs_ye3bpe.jpg",
     PRICE: "400",
     OLDPRICE: "440",
     OFFER: "10",
@@ -2313,7 +2341,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for smoothing walls before painting",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/campion-wall-putty.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414021/ProductsPics/campion-wall-putty_dmfxnn.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -2325,7 +2354,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for plastering walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Advantages-pic-EuroPlaster.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414018/ProductsPics/Advantages-pic-EuroPlaster_fuedde.png",
     PRICE: "350",
     OLDPRICE: "400",
     OFFER: "12",
@@ -2334,10 +2364,11 @@ export const pro = [
   {
     ID: "131",
     ITEMNAME: "AAC Blocks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Lightweight blocks for construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/power-aac-block.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414044/ProductsPics/power-aac-block_xomnvs.webp",
     PRICE: "40",
     OLDPRICE: "45",
     OFFER: "11",
@@ -2346,10 +2377,11 @@ export const pro = [
   {
     ID: "132",
     ITEMNAME: "Clay Bricks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Bricks-for-Construction.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414020/ProductsPics/Bricks-for-Construction_dy3v2u.jpg",
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -2361,7 +2393,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for drainage and sewage",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/BORE-PIPE.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414018/ProductsPics/BORE-PIPE_ybvuxp.jpg",
     PRICE: "800",
     OLDPRICE: "880",
     OFFER: "9",
@@ -2373,7 +2406,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for drainage and sewage",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ppp.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414046/ProductsPics/ppp_ut3zb9.png",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -2385,7 +2419,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for floors and roofs",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/precast-concrete-slabs.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414046/ProductsPics/precast-concrete-slabs_yvl3gi.jpg",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2397,7 +2432,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for interior and exterior doors",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/pvc-doors-375409306-v59kd.avif",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414046/ProductsPics/pvc-doors-375409306-v59kd_pc3goa.avif",
     PRICE: "2,500",
     OLDPRICE: "2,800",
     OFFER: "11",
@@ -2410,7 +2446,7 @@ export const pro = [
     DESCRIPTION: "Used for security and fire protection",
     GROUP: "buildingItem",
     "IMG URL":
-      "../Assets/ProductsPics/steel-doors-with-wood-finish-with-glass.jpg",
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414057/ProductsPics/steel-doors-with-wood-finish-with-glass_mpa5xp.jpg",
     PRICE: "4,000",
     OLDPRICE: "4,400",
     OFFER: "9",
@@ -2422,7 +2458,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for structural support",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ibeam-.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414037/ProductsPics/ibeam-_q0oeuc.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2434,7 +2471,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for providing natural light and ventilation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/glass-images.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414032/ProductsPics/glass-images_y3344b.jpg",
     PRICE: "3,000",
     OLDPRICE: "3,300",
     OFFER: "9",
@@ -2446,7 +2484,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for providing natural light and ventilation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/UPVC Windows.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414062/ProductsPics/UPVC_Windows_bslbq5.jpg",
     PRICE: "4,000",
     OLDPRICE: "4,400",
     OFFER: "9",
@@ -2458,7 +2497,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for building frameworks",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/shapes.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414053/ProductsPics/shapes_molx5r.jpg",
     PRICE: "50,000",
     OLDPRICE: "55,000",
     OFFER: "9",
@@ -2470,7 +2510,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for finishing walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/gypsum-plaster.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414034/ProductsPics/gypsum-plaster_axnmkz.webp",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2482,7 +2523,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction of energy-efficient buildings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/thermoform-insulated-concrete-forms.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414061/ProductsPics/thermoform-insulated-concrete-forms_m6jmay.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2494,7 +2536,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for exterior and interior walls",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/fibre-cement-board.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414029/ProductsPics/fibre-cement-board_qpqwvc.webp",
     PRICE: "700",
     OLDPRICE: "770",
     OFFER: "9",
@@ -2506,7 +2549,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for roofing",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/roof-shingles.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414052/ProductsPics/roof-shingles_dkjl9n.png",
     PRICE: "600",
     OLDPRICE: "660",
     OFFER: "9",
@@ -2518,7 +2562,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for quick construction of walls",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/prefabricated-puf-panels.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414046/ProductsPics/prefabricated-puf-panels_noubrx.jpg",
     PRICE: "2,500",
     OLDPRICE: "2,800",
     OFFER: "11",
@@ -2527,10 +2572,11 @@ export const pro = [
   {
     ID: "147",
     ITEMNAME: "Lightweight Concrete",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for constructing lightweight structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/ready-mix-concrete.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414049/ProductsPics/ready-mix-concrete_ccdhcx.webp",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2543,7 +2589,7 @@ export const pro = [
     DESCRIPTION: "Used for roofing and skylights",
     GROUP: "buildingItem",
     "IMG URL":
-      "../Assets/ProductsPics/polycarbonate-roofing-and-glass-canopy.webp",
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414042/ProductsPics/polycarbonate-roofing-and-glass-canopy_dq7iqc.webp",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -2555,7 +2601,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for balconies and staircases",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/stainless-steel-railing.webp",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414055/ProductsPics/stainless-steel-railing_nyerqh.webp",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2567,7 +2614,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for fixing tiles",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/ProductsPics/Adhesive for Tiles.jpg",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414016/ProductsPics/Adhesive_for_Tiles_dm47wy.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -2579,7 +2627,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for durable and aesthetic flooring",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414028/ProductsPics/epoxy-flooring_hnijj8.jpg",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2591,7 +2640,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for waterproofing and paving",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414063/ProductsPics/viscosity-grade_wb1mmm.jpg",
     PRICE: "700",
     OLDPRICE: "770",
     OFFER: "9",
@@ -2603,7 +2653,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for enhancing properties of construction materials",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414027/ProductsPics/Construction-Chemicals_wcpqhy.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2612,10 +2663,11 @@ export const pro = [
   {
     ID: "154",
     ITEMNAME: "Fly Ash Bricks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Eco-friendly bricks used for construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414032/ProductsPics/Fly-Ash-Bricks_kf4rd6.jpg",
     PRICE: "4",
     OLDPRICE: "5",
     OFFER: "20",
@@ -2627,7 +2679,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for reinforcing concrete",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414050/ProductsPics/reinforcement-mesh_xxf2mh.jpg",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2639,7 +2692,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for flooring and wall cladding",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414059/ProductsPics/Stone-Slabs_ui3dvo.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2651,7 +2705,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction of lightweight structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414017/ProductsPics/AAC-Panels_xz1z2v.png",
     PRICE: "2,500",
     OLDPRICE: "2,800",
     OFFER: "11",
@@ -2663,7 +2718,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for filling gaps and voids",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414021/ProductsPics/Cementitious-Grout_tjitzd.webp",
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -2675,7 +2731,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for reducing sound transmission",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414055/ProductsPics/Soundproofing-Material_j41cth.jpg",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -2687,7 +2744,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for protecting structures from fire",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414031/ProductsPics/Fireproofing-Material_cjug5o.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2699,7 +2757,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for flooring and construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414035/ProductsPics/hardwood-planks_tol7wf.jpg",
     PRICE: "800",
     OLDPRICE: "880",
     OFFER: "9",
@@ -2711,7 +2770,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction of structural elements",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414049/ProductsPics/reinforced-concrete-hero-opt_knbzkb.jpg",
     PRICE: "4,500",
     OLDPRICE: "4,950",
     OFFER: "9",
@@ -2723,7 +2783,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for durable and easy-to-maintain flooring",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414047/ProductsPics/PVC-Flooring_r6glla.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -2735,7 +2796,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for modifying properties of concrete",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414024/ProductsPics/CONCRETE-ADMIXTURE-1_r8f7i5.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2747,7 +2809,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for waterproofing roofs",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414052/ProductsPics/Roofing-Felt_gumgla.jpg",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2759,7 +2822,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for waterproof construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414064/ProductsPics/Waterproof-Cement_nhwwca.png",
     PRICE: "400",
     OLDPRICE: "440",
     OFFER: "10",
@@ -2771,7 +2835,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for leveling floors",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414016/ProductsPics/ardex-k-15-application_myhdcm.jpg",
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -2783,7 +2848,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for quick construction of walls",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414041/ProductsPics/panels2_pp9wrs.webp",
     PRICE: "2,500",
     OLDPRICE: "2,800",
     OFFER: "11",
@@ -2795,7 +2861,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for creating flat and smooth surfaces",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414031/ProductsPics/floor-resufacer_uftlbo.avif",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2803,11 +2870,12 @@ export const pro = [
   },
   {
     ID: "170",
-    ITEMNAME: "Concrete Reinforcement",
-    CATEGORY: "Building Materials",
-    DESCRIPTION: "Used for reinforcing concrete structures",
+    ITEMNAME: "Paint Brushes",
+    CATEGORY: "Finishing",
+    DESCRIPTION: "Used for High-quality paint brushes",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717418439/Plastic-Handle-Paint-Brush-Use-in-Construction-Tools-with-Factory-Price_d6blai.webp",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2819,7 +2887,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for improving bond strength of cement",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417068/3_okk2vv.png",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2831,7 +2900,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction and repair of buildings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417099/Unhaired-Lime-Mortar-e1704276560876_sdclzu.png",
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -2843,7 +2913,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for quick installation of stairs",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417130/stairs-landings_wbtdy8.jpg",
     PRICE: "5,000",
     OLDPRICE: "5,500",
     OFFER: "9",
@@ -2855,7 +2926,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for scaffolding and construction",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417216/ilfaja1cfo4i67pskom0.jpg",
     PRICE: "150",
     OLDPRICE: "165",
     OFFER: "9",
@@ -2867,7 +2939,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Eco-friendly concrete made from recycled materials",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417248/What-Are-the-Benefits-of-Recycled-Concrete_equbqq.jpg",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2879,7 +2952,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for thermal and acoustic insulation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417275/glass-wool-with-aluminium-foil_dclvdb.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -2888,10 +2962,11 @@ export const pro = [
   {
     ID: "177",
     ITEMNAME: "Lightweight Bricks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of lightweight structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417399/light-weight-bricks_gpwxgx.jpg",
     PRICE: "20",
     OLDPRICE: "25",
     OFFER: "20",
@@ -2900,10 +2975,11 @@ export const pro = [
   {
     ID: "178",
     ITEMNAME: "Cement Blocks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417431/9-4-3-2_wx2a0w.jpg",
     PRICE: "30",
     OLDPRICE: "35",
     OFFER: "14",
@@ -2915,7 +2991,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for construction in wet conditions",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417468/instant_hydraulic_Cement_pail-e1624980773690_atrfgo.jpg",
     PRICE: "600",
     OLDPRICE: "660",
     OFFER: "9",
@@ -2927,7 +3004,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for flooring and as an adhesive",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417443/618Jkgd4XWL._AC_UF1000_1000_QL80__dsvwzw.jpg",
     PRICE: "700",
     OLDPRICE: "770",
     OFFER: "9",
@@ -2939,7 +3017,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for reinforcing concrete",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417404/square-mesh-deformed-galvanized_rozrql.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -2951,7 +3030,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for soil stabilization and erosion control",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417378/gypsum-plasterboard-false-ceiling-system_nqmmkx.jpg",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -2959,11 +3039,11 @@ export const pro = [
   },
   {
     ID: "183",
-    ITEMNAME: "Gypsum Plasterboard",
-    CATEGORY: "Building Materials",
+    ITEMNAME: "Safety Helmets",
+    CATEGORY: "Safety Gear",
     DESCRIPTION: "Used for constructing interior walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL": null,
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -2975,7 +3055,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for modifying properties of concrete",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414024/ProductsPics/CONCRETE-ADMIXTURE-1_r8f7i5.jpg",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -2987,7 +3068,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for constructing lightweight structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417258/Light-Weight-Steel-Framing-1440x1080_ztgnnk.jpg",
     PRICE: "3,000",
     OLDPRICE: "3,300",
     OFFER: "9",
@@ -2999,7 +3081,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for decking",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417110/thermal-insulation-boards-500x500_d4y7is.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -3011,7 +3094,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for thermal insulation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417110/thermal-insulation-boards-500x500_d4y7is.jpg",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -3023,7 +3107,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for thermal insulation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417082/small-bubble-foil-details-1_rsphx6.jpg",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -3035,7 +3120,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for strengthening concrete structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417054/1707456076129_ocxxav.jpg",
     PRICE: "3,500",
     OLDPRICE: "3,900",
     OFFER: "10",
@@ -3047,7 +3133,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for reducing heat transfer",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417030/radiant-barrier-500x500_yl1que.jpg",
     PRICE: "800",
     OLDPRICE: "880",
     OFFER: "9",
@@ -3059,7 +3146,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for exterior wall insulation",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717412977/gcl0wx3nwb0ewvhsgzzf.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -3071,7 +3159,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for constructing interior walls and ceilings",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416957/FHM-FH07FEB_475_51_001-Hiding-Butt-Joints-JVedit_zzeody.jpg",
     PRICE: "250",
     OLDPRICE: "275",
     OFFER: "9",
@@ -3083,7 +3172,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for exterior wall cladding",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416911/fiber-cement-siding_0_0_jao3wk.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -3095,7 +3185,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for waterproofing and protecting surfaces",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416878/2020-06-Elastomeric-Coatings-Myths-01-900x640_dnwltb.jpg",
     PRICE: "1,200",
     OLDPRICE: "1,320",
     OFFER: "9",
@@ -3107,7 +3198,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for constructing walls",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416845/wooden-plastic-composite-wall-panel_kdfky0.jpg",
     PRICE: "1,500",
     OLDPRICE: "1,650",
     OFFER: "9",
@@ -3119,7 +3211,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for constructing lightweight structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416808/structural-foam-2_wiiv6c.gif",
     PRICE: "2,000",
     OLDPRICE: "2,200",
     OFFER: "9",
@@ -3131,7 +3224,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for sealing concrete surfaces",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416757/Clear_lzp9ix.png",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -3140,10 +3234,11 @@ export const pro = [
   {
     ID: "198",
     ITEMNAME: "Precast Concrete Blocks",
-    CATEGORY: "Building Materials",
+    CATEGORY: "Bricks",
     DESCRIPTION: "Used for construction of walls and structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416670/precast-concrete-block_hgn6cm.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3155,7 +3250,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for waterproofing concrete structures",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416782/sika-top-seal-107-waterproof-coating-system-500x500-500x500_xe362m.jpg",
     PRICE: "1,000",
     OLDPRICE: "1,100",
     OFFER: "9",
@@ -3167,7 +3263,8 @@ export const pro = [
     CATEGORY: "Building Materials",
     DESCRIPTION: "Used for decorative wall cladding",
     GROUP: "buildingItem",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416596/natual-stone-veneer_xcjd3k.jpg",
     PRICE: "2,500",
     OLDPRICE: "2,800",
     OFFER: "11",
@@ -3179,7 +3276,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Used for cutting electrical wires and cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/ProductsPics/wire_cutter.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414065/ProductsPics/wire_cutter_znvdfs.png",
     PRICE: "600",
     OLDPRICE: "660",
     OFFER: "9",
@@ -3191,7 +3289,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for electrical wiring",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/ProductsPics/Steel_Wire.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717414058/ProductsPics/Steel_Wire_z2mltc.png",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3203,7 +3302,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for protecting electrical circuits from overload",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/ProductsPics/Circuit_Breaker.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415252/ecmweb_8549_line_circuit_breakers_oprrit.jpg",
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -3215,7 +3315,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for insulating electrical wires and connections",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415281/pvc-tape_ildic9.webp",
     PRICE: "20",
     OLDPRICE: "22",
     OFFER: "9",
@@ -3227,7 +3328,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Used for stripping insulation from electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415310/160mm-wire-stripping-pliers-hapl5600-hapl5600ac_l0hxqi.jpg",
     PRICE: "400",
     OLDPRICE: "440",
     OFFER: "10",
@@ -3239,7 +3341,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for testing electrical circuits",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415345/6972a0ca-70ac-4ef1-b967-b2ac57bbf926.jpg_a0pve3.webp",
     PRICE: "300",
     OLDPRICE: "330",
     OFFER: "9",
@@ -3251,7 +3354,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for securing and organizing electrical cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415371/black-nylon-cable-tie-manufacturer-500x500_tgdo8w.jpg",
     PRICE: "10",
     OLDPRICE: "11",
     OFFER: "9",
@@ -3263,7 +3367,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for housing electrical connections",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415393/Distribution-Board_xnduo9.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3275,7 +3380,8 @@ export const pro = [
     CATEGORY: "Safety Equipment",
     DESCRIPTION: "Insulated gloves for working with electricity",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415422/images_gjhe7r.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -3287,7 +3393,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Protective piping for electrical wires and cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415447/gi-conduit_hfy1i2.png",
     PRICE: "20",
     OLDPRICE: "22",
     OFFER: "9",
@@ -3299,7 +3406,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for connecting electrical wires and cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415469/81cvEdNIfVL._AC_UF1000_1000_QL80__ln8eem.jpg",
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -3311,7 +3419,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for supporting electrical cables and wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415492/canaline_o3ei5n.png",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3323,7 +3432,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for housing electrical components and connections",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415514/61qQnohzwyL._AC_UF1000_1000_QL80__a0ook7.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3335,7 +3445,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for connecting electrical devices to power sources",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415539/3-pin-16a-electrical-plug_qevjxv.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -3347,7 +3458,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Outlet for connecting electrical devices to power sources",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415602/single-electrical-socket_mnxnkg.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -3359,7 +3471,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for providing strain relief and sealing for cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415635/brass-cable-glands_thburh.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3371,7 +3484,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for connecting electrical wires without soldering",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415656/31NCRKnVbpL._AC_UF1000_1000_QL80__jqcnnq.jpg",
     PRICE: "20",
     OLDPRICE: "22",
     OFFER: "9",
@@ -3383,7 +3497,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for mounting electrical switches, outlets, etc.",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415696/wall-box-250x250_qk0kat.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3395,7 +3510,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for securing electrical cables to surfaces",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415724/round-cable-clip-500x500_slr3yx.jpg",
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -3407,7 +3523,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for protecting cables from damage",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415751/514660.tag.0_whggnt.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3419,7 +3536,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for insulating and protecting electrical connections",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415771/519pnjk6dYL._AC_UF894_1000_QL80__ca01at.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -3431,7 +3549,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for controlling electrical devices based on time",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415791/24-Hours-Timer-Switch-Mechanical-Timer-Switch-220-240V-Programmable-For-Street-Lights_36823776-a118-439d-8113-866504a789b4.e99c32380a43ddd930e7ae44c8d7adf7_o3snm8.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -3443,7 +3562,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Kit for organizing and managing electrical cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416384/81cJhkeKJ7L_sppf8x.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3455,7 +3575,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for testing electrical circuits and components",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415812/yello-500x500_irjans.jpg",
     PRICE: "400",
     OLDPRICE: "440",
     OFFER: "10",
@@ -3467,7 +3588,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Used for crimping electrical connectors and terminals",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415836/indent-crimping-tools-500x500_pm2cvi.jpg",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -3480,7 +3602,8 @@ export const pro = [
     DESCRIPTION:
       "Used for connecting electrical conductors to power distribution lines",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415859/insulation-piercing-connector-500x500_wootu3.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3493,7 +3616,8 @@ export const pro = [
     DESCRIPTION:
       "Used for preventing cables from being pulled out of electrical devices",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415882/IMG_6335_waw0tk.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3505,7 +3629,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for controlling the flow of electricity in a circuit",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415904/electrical-switch_brgrd4.jpg",
     PRICE: "40",
     OLDPRICE: "44",
     OFFER: "9",
@@ -3517,7 +3642,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Socket for connecting electrical devices to a power source",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416439/617dZGrnstL_o7wrfm.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -3529,7 +3655,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for conducting electricity",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416017/new-product_ulowex.jpg",
     PRICE: "10",
     OLDPRICE: "11",
     OFFER: "9",
@@ -3541,7 +3668,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Tubing for protecting and routing electrical wiring",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717413250/diamond-electrical-piping_yilm3x.jpg",
     PRICE: "20",
     OLDPRICE: "22",
     OFFER: "9",
@@ -3553,7 +3681,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for housing electrical connections and wiring",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717415994/pdb-junction-box-500x500_pt97hx.png",
     PRICE: "80",
     OLDPRICE: "88",
     OFFER: "9",
@@ -3565,7 +3694,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for distributing electrical power to circuits",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416493/electrical-panel-board_qzarmo.jpg",
     PRICE: "200",
     OLDPRICE: "220",
     OFFER: "9",
@@ -3577,7 +3707,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Fittings for electrical conduit",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717413561/electrical-junction-box-500x500_xmwfiv.jpg",
     PRICE: "10",
     OLDPRICE: "11",
     OFFER: "9",
@@ -3589,7 +3720,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for protecting cables as they pass through openings",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717413391/rubber-cable-grommet_bik7em.jpg",
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -3601,7 +3733,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool for dispensing and cutting electrical tape",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416099/automatic-tape-dispenser-m-1000_lpezrx.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3613,7 +3746,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for housing electrical components and connections",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717416541/electric-enclousers_eawrbq.jpg",
     PRICE: "150",
     OLDPRICE: "165",
     OFFER: "9",
@@ -3625,7 +3759,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for connecting two or more electrical wires together",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416319/wire-nut-connector-500x500_ix0q4k.jpg",
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -3637,7 +3772,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for measuring electrical consumption",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416429/product-jpeg-500x500_ihv5ic.png",
     PRICE: "500",
     OLDPRICE: "550",
     OFFER: "9",
@@ -3649,7 +3785,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Used for testing electrical circuits",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416609/6cc8fc0b-a001-4a21-8c5f-03a14f6eb344.c1a4eeaccbf52e4ca4eebad6839a8be1_vlgylw.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -3661,7 +3798,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for connecting electrical cables together",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416677/brass-cable-connectors-500x500_pqhliu.jpg",
     PRICE: "20",
     OLDPRICE: "22",
     OFFER: "9",
@@ -3673,7 +3811,8 @@ export const pro = [
     CATEGORY: "Electrical Equipment",
     DESCRIPTION: "Used for quickly disconnecting power in case of emergency",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416899/magnetic-safety-switches-500x500_regqek.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -3686,7 +3825,8 @@ export const pro = [
     DESCRIPTION:
       "Used for mounting switches, circuit breakers, and other electrical components",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717416972/electric-control-panel_kc01hg.jpg",
     PRICE: "150",
     OLDPRICE: "165",
     OFFER: "9",
@@ -3698,7 +3838,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for connecting multiple electrical wires together",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dtl7sd0u9/image/upload/v1717417205/office-electrical-connection-services-500x500_wpvgqa.jpg",
     PRICE: "10",
     OLDPRICE: "11",
     OFFER: "9",
@@ -3710,7 +3851,7 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Used for labeling and identifying electrical cables",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL": null,
     PRICE: "5",
     OLDPRICE: "6",
     OFFER: "17",
@@ -4245,7 +4386,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for tightening wire nuts onto electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717418169/618bVnbgLhL._AC_UF894_1000_QL80__gxtzra.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -4257,7 +4399,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Grips used for pulling electrical wires through conduit",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717418120/cable-socks-cable-pulling-grip-500x500_xzcpwj.jpg",
     PRICE: "70",
     OLDPRICE: "77",
     OFFER: "9",
@@ -4269,7 +4412,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for cutting electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717418072/electric-cable-cutter_legw9g.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
@@ -4281,7 +4425,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for stripping insulation from electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717418030/v9expvtdv8p0cdsr4bvu.jpg",
     PRICE: "40",
     OLDPRICE: "44",
     OFFER: "9",
@@ -4293,7 +4438,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for crimping connectors onto electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417993/71Ivg-yxQSL_eac22z.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -4305,7 +4451,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for twisting multiple electrical wires together",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417938/61QMZubmLxL._AC_UF1000_1000_QL80__xq1x5l.jpg",
     PRICE: "40",
     OLDPRICE: "44",
     OFFER: "9",
@@ -4317,7 +4464,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for stapling electrical wires to surfaces",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417899/71bZGqZjRNL._AC_UF350_350_QL80__e94snq.jpg",
     PRICE: "50",
     OLDPRICE: "55",
     OFFER: "9",
@@ -4329,7 +4477,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for bending electrical wires into desired shapes",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417853/i6rvdbmy8nhecyfozm6b.jpg",
     PRICE: "60",
     OLDPRICE: "66",
     OFFER: "9",
@@ -4342,7 +4491,8 @@ export const pro = [
     DESCRIPTION:
       "Lubricant used for lubricating electrical wires during installation",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417809/51Iv7IAoPOL_nsfujm.jpg",
     PRICE: "15",
     OLDPRICE: "16.5",
     OFFER: "9",
@@ -4354,7 +4504,8 @@ export const pro = [
     CATEGORY: "Electrical Materials",
     DESCRIPTION: "Kit containing various types of electrical wire connectors",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417755/rb-f7gcc-vaafyweaara4evejha354-500x500_zgsinv.jpg",
     PRICE: "80",
     OLDPRICE: "88",
     OFFER: "9",
@@ -4367,7 +4518,8 @@ export const pro = [
     DESCRIPTION:
       "Tool used for pulling electrical wires through conduit or walls",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417697/633cb13268a9a20ee62f7fcc-fish-tape-electrical-wire-puller-wire_cjpkuj.jpg",
     PRICE: "100",
     OLDPRICE: "110",
     OFFER: "9",
@@ -4379,7 +4531,8 @@ export const pro = [
     CATEGORY: "Electrical Tools",
     DESCRIPTION: "Tool used for tightening wire nuts onto electrical wires",
     GROUP: "Electrical/Electronic Items",
-    "IMG URL": "../Assets/GSR LOGO.png",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717417625/uduj1bd4tf2cfslkd6vf.jpg",
     PRICE: "30",
     OLDPRICE: "33",
     OFFER: "9",
