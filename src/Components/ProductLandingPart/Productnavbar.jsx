@@ -73,7 +73,6 @@ function Productnavbar() {
             {filterPros.map((i) => {
               return (
                 <Allproducts
-                  key={i.ID}
                   id={i.ID}
                   itemname={i.ITEMNAME}
                   imgUrl={i["IMG URL"]}

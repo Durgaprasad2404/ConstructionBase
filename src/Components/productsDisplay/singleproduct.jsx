@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./product.css";
 import { pro } from "../../itemsData/productsData";
 import Footer from "../Footer";
@@ -7,8 +7,10 @@ import Footer from "../Footer";
 function SingleProduct(props) {
   const { id } = useParams();
   const item = pro.find((i) => i.ID === id);
-  const fil = pro.filter((product) => product.CATEGORY.includes(item.CATEGORY));
-  console.log(fil);
+  const similar_products = pro.filter((product) =>
+    product.CATEGORY.includes(item.CATEGORY)
+  );
+  // console.log(fil);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -48,12 +50,15 @@ function SingleProduct(props) {
           </div>
         </div>
       </div>
-      <h4 className="py-3">Similar Products</h4>
-      <div className="similar-products-container">
-        {fil.map((item) => {
+      <h4 className="py-3 ps-2">Similar Products</h4>
+      <div className="similar-products-container ps-2">
+        {similar_products.map((item) => {
           return (
-            <div key={item.ID}>
-              <img src={item["IMG URL"]} alt="#" className="img" />
+            <div key={item.ID} className="text-center ms-3 bg-secondary p-3">
+              <Link to={`/product/${item.ID}`}>
+                <img src={item["IMG URL"]} alt="#" className="img" />
+              </Link>
+              <h5 className="text-white">{item.ITEMNAME}</h5>
             </div>
           );
         })}

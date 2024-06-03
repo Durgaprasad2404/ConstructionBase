@@ -78,7 +78,7 @@ function BestDeal() {
     <>
       <div className="best-deals-bgcontainer">
         <h2 className="best-deals-heading">Best Deal's</h2>
-        <div className="slider-container">
+        <div className="slider-container px-3">
           <Slider {...settings}>
             {bestDeals.map((i) => {
               return (

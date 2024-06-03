@@ -556,7 +556,7 @@ b {
 }
 
 .product-main-heading {
-  color: #ddd;
+  color: #fff;
   background-color: #0056b3;
   padding: 10px 5px;
   margin: 15px 5px;
@@ -835,8 +835,8 @@ label {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 8px;
 }
 
 /* Track */

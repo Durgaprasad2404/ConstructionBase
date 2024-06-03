@@ -41,7 +41,7 @@ function Products() {
           <div className="most-like-products-container">
             <div className="most-like-product">
               <div className="most-like-product-cont">
-                <Link to={`/product/21`}>
+                <Link to={`/product/kcpd21`}>
                   <img
                     src="./Assets/building/b1.png"
                     alt="#img"
@@ -59,7 +59,7 @@ function Products() {
                 </div>
               </div>
               <div className="most-like-product-cont">
-                <Link to={`/product/33`}>
+                <Link to={`/product/kcpd33`}>
                   <img
                     src="./Assets/building/b13.png"
                     alt="#img"
