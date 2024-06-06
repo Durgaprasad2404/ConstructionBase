@@ -33,6 +33,15 @@ function Services() {
                   </Link>
                 );
               })}
+
+              <button>
+                <Link
+                  to="/allservices"
+                  style={{ textDecoration: "none", color: "#000" }}
+                >
+                  More
+                </Link>
+              </button>
             </div>
           </div>
           <div>

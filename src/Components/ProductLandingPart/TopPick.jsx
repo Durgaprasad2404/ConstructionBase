@@ -83,12 +83,16 @@ function TopPick() {
           <Slider {...settings}>
             {TopPicks.map((i) => {
               return (
-                <div key={i.id}>
+                <div key={i.ID}>
                   <div className="top-picks">
-                    <Link to={`/product/${i.id}`}>
-                      <img src={i.imgUrl} alt="#" className="top-picks-img" />
+                    <Link to={`/product/${i.ID}`}>
+                      <img
+                        src={i["IMG URL"]}
+                        alt="#"
+                        className="top-picks-img"
+                      />
                     </Link>
-                    <h4 className="top-picks-heading">{i.itemname}</h4>
+                    <h5 className="top-picks-heading">{i.ITEMNAME}</h5>
                   </div>
                 </div>
               );

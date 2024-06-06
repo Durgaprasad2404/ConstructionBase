@@ -54,11 +54,14 @@ function SingleProduct(props) {
       <div className="similar-products-container ps-2">
         {similar_products.map((item) => {
           return (
-            <div key={item.ID} className="text-center ms-3 bg-secondary p-3">
+            <div
+              key={item.ID}
+              className="text-center ms-3 similar-product-container p-3 my-2"
+            >
               <Link to={`/product/${item.ID}`}>
                 <img src={item["IMG URL"]} alt="#" className="img" />
               </Link>
-              <h5 className="text-white">{item.ITEMNAME}</h5>
+              <h5>{item.ITEMNAME}</h5>
             </div>
           );
         })}

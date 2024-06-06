@@ -140,7 +140,7 @@ function Home() {
           <div className="shoplanding">
             <div>
               <img
-                src="../Assets/EquipmentImages/equipLanding.jpg"
+                src="../Assets/EquipmentLand.png"
                 alt="#"
                 className="shopImg"
               />
@@ -165,7 +165,7 @@ function Home() {
           <div className="shoplanding">
             <div>
               <img
-                src="../Assets/electrical/EElanding.jpeg"
+                src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/EElanding_lfbhgz.jpg"
                 alt="#"
                 className="shopImg"
               />
@@ -190,7 +190,7 @@ function Home() {
           <div className="shoplanding">
             <div>
               <img
-                src="../Assets/building/Blanding.png"
+                src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/Blanding_nrqzxg.png"
                 alt="#"
                 className="shopImg"
               />

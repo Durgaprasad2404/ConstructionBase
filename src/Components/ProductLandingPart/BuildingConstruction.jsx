@@ -29,29 +29,29 @@ function BuildingConstruction() {
           </div>
           <div className="building-construction-materials-products">
             {LandingpageProducts.map((i) => {
-              if (i.Group === "buildingItem") {
+              if (i.GROUP === "buildingItem") {
                 return (
                   <div
                     className="building-construction-materials-product"
-                    key={i.id}
+                    key={i.ID}
                   >
-                    <Link to={`/product/${i.id}`}>
+                    <Link to={`/product/${i.ID}`}>
                       <img
-                        src={i.imgUrl}
+                        src={i["IMG URL"]}
                         alt="#"
                         className="building-construction-materials-img"
                       />
                     </Link>
                     <div>
-                      <h6>{i.itemname}</h6>
+                      <h6>{i.ITEMNAME}</h6>
                       <p className="building-construction-materials-product-para">
-                        {i.description}
+                        {i.DESCRIPTION}
                       </p>
                       <span>
-                        &#8377; {i.price} <br />
+                        &#8377; {i.PRICE} <br />
                       </span>
-                      <span className="oldprice"> &#8377; {i.oldprice}</span>
-                      <span className="offer">{i.offer}% OFF</span>
+                      <span className="oldprice"> &#8377; {i.OLDPRICE}</span>
+                      <span className="offer">{i.OFFER}% OFF</span>
                     </div>
                   </div>
                 );

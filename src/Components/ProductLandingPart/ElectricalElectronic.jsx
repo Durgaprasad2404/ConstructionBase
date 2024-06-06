@@ -28,29 +28,29 @@ function ElectricalElectronic() {
           </div>
           <div className="building-construction-EE-products-container">
             {LandingpageProducts.map((i) => {
-              if (i.Group === "EEItem") {
+              if (i.GROUP === "Electrical/Electronic Items") {
                 return (
                   <div
                     className="building-construction-EE-product-container"
-                    key={i.id}
+                    key={i.ID}
                   >
-                    <Link to={`/product/${i.id}`}>
+                    <Link to={`/product/${i.ID}`}>
                       <img
-                        src={i.imgUrl}
+                        src={i["IMG URL"]}
                         alt="#"
                         className="building-construction-EE-img"
                       />
                     </Link>
                     <div>
-                      <h4>{i.itemname}</h4>
-                      <p className="building-construction-EE-product-para">
-                        {i.description}
+                      <h6>{i.ITEMNAME}</h6>
+                      <p className="building-construction-EE-product-para ">
+                        {i.DESCRIPTION}
                       </p>
                       <span>
-                        &#8377; {i.price} <br />
+                        &#8377; {i.PRICE} <br />
                       </span>
-                      <span className="oldprice"> &#8377; {i.oldprice}</span>
-                      <span className="offer">{i.offer}% OFF</span>
+                      <span className="oldprice"> &#8377; {i.OLDPRICE}</span>
+                      <span className="offer">{i.OFFER}% OFF</span>
                     </div>
                   </div>
                 );

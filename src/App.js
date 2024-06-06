@@ -21,6 +21,7 @@ import Products from "./Components/Product";
 import SingleProduct from "./Components/productsDisplay/singleproduct";
 import SaleVehicles from "./Components/SaleVehicles";
 import Seller from "./Components/Sellers/Seller";
+import Listedservices from "./Components/serviceFolder/Listedservices";
 
 function App() {
   const scrollTop = () => {
@@ -44,6 +45,7 @@ function App() {
           <Route exact path="/rental/:category" element={<ShowOwners />} />
 
           <Route exact path="/services" element={<Services />} />
+          <Route exact path="/allservices" element={<Listedservices />} />
           <Route exact path="/services/:category" element={<Showworkers />} />
           {/* EquipmentRoute */}
 

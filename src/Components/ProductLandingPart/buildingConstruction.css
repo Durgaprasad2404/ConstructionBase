@@ -73,8 +73,10 @@
 }
 
 .building-construction-materials-img {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
 }
 
 @media screen and (max-width:576px) {

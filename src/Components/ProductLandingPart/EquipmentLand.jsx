@@ -27,26 +27,26 @@ function EquipmentLand() {
 
           <div className="EquipmentLand-products">
             {LandingpageProducts.map((i) => {
-              if (i.Group === "EquipmentItem") {
+              if (i.GROUP === "EquipmentItems") {
                 return (
-                  <div className="EquipmentLand-product" key={i.id}>
-                    <Link to={`/product/${i.id}`}>
+                  <div className="EquipmentLand-product" key={i.ID}>
+                    <Link to={`/product/${i.ID}`}>
                       <img
-                        src={i.imgUrl}
+                        src={i["IMG URL"]}
                         alt="#"
                         className="EquipmentLand-img"
                       />
                     </Link>
                     <div>
-                      <h4>{i.itemname}</h4>
+                      <h6>{i.ITEMNAME}</h6>
                       <p className="EquipmentLand-product-para">
-                        {i.description}
+                        {i.DESCRIPTION}
                       </p>
                       <span>
-                        &#8377; {i.price} <br />
+                        &#8377; {i.PRICE} <br />
                       </span>
-                      <span className="oldprice"> &#8377; {i.oldprice}</span>
-                      <span className="offer">{i.offer}% OFF</span>
+                      <span className="oldprice"> &#8377; {i.OLDPRICE}</span>
+                      <span className="offer">{i.OFFER}% OFF</span>
                     </div>
                   </div>
                 );

@@ -82,14 +82,14 @@ function BestDeal() {
           <Slider {...settings}>
             {bestDeals.map((i) => {
               return (
-                <div key={i.id}>
+                <div key={i.ID}>
                   <div className="best-deal-product">
-                    <Link to={`/product/${i.id}`}>
-                      <img src={i.imgUrl} alt="#img" className="img" />
+                    <Link to={`/product/${i.ID}`}>
+                      <img src={i["IMG URL"]} alt="#img" />
                     </Link>
-                    <h5>{i.itemname}</h5>
+                    <h5>{i.ITEMNAME}</h5>
                     <div className="off-Con">
-                      <p className="best-deal-offer">{i.offer}% OFF</p>
+                      <p className="best-deal-offer">{i.OFFER}% OFF</p>
                       <i>Limited Offer</i>
                     </div>
                   </div>

@@ -20,6 +20,14 @@
     background-color: #ddd;
 }
 
+.best-deal-product img {
+    margin: 10px 0;
+    height: 100px;
+    width: 150px;
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+}
+
 .best-deal-offer {
     background-color: red;
     padding: 3px 15px;

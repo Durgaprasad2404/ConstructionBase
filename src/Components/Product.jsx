@@ -41,9 +41,9 @@ function Products() {
           <div className="most-like-products-container">
             <div className="most-like-product">
               <div className="most-like-product-cont">
-                <Link to={`/product/kcpd21`}>
+                <Link to={`/product/132`}>
                   <img
-                    src="./Assets/building/b1.png"
+                    src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717500055/b1_qajugc.png"
                     alt="#img"
                     className="img"
                   />
@@ -59,9 +59,9 @@ function Products() {
                 </div>
               </div>
               <div className="most-like-product-cont">
-                <Link to={`/product/kcpd33`}>
+                <Link to={`/product/101`}>
                   <img
-                    src="./Assets/building/b13.png"
+                    src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717414057/ProductsPics/Steel-Rebar_alg336.jpg"
                     alt="#img"
                     className="img"
                   />
