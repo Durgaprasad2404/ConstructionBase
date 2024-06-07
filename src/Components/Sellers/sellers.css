@@ -14,11 +14,12 @@
 
 .strick-btn {
     position: sticky;
-    top: 0;
+    top: 100px;
     z-index: 1000;
 }
 
 .seller-container {
+    box-shadow: 1px 1px 1px 1px #333;
     display: flex;
     justify-content: center;
     gap: 25px;

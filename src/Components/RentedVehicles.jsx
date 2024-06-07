@@ -16,7 +16,11 @@ function RentedVehicles() {
         <div className="rentalVehicles">
           {vehicles.map((i, index) => {
             return (
-              <DisplayVehicles key={i.id} category={i.name} imgUrl={i.imgUrl} />
+              <DisplayVehicles
+                key={i.ID}
+                category={i.VehicleName}
+                imgUrl={i["IMG URL"]}
+              />
             );
           })}
         </div>

@@ -1,25 +1,203 @@
 export const vehicles = [
-  { id: 1, name: "Tipper", imgUrl: "../Assets/rentalImg/icons/tipper.png" },
-  { id: 2, name: "Tractor", imgUrl: "../Assets/rentalImg/icons/tractor.png" },
-  { id: 3, name: "loader", imgUrl: "../Assets/rentalImg/icons/loader.png" },
-  { id: 4, name: "Truck", imgUrl: "../Assets/rentalImg/icons/truck.png" },
-  { id: 5, name: "Crane", imgUrl: "../Assets/rentalImg/icons/crane.png" },
   {
-    id: 6,
-    name: "Excavator",
-    imgUrl: "../Assets/rentalImg/icons/excavator.png",
-  },
-  { id: 7, name: "Dozer", imgUrl: "../Assets/rentalImg/icons/dozer.png" },
-  { id: 8, name: "Scrap", imgUrl: "../Assets/rentalImg/icons/scrap.png" },
-  {
-    id: 9,
-    name: "Concrete mixer",
-    imgUrl: "../Assets/rentalImg/icons/Concretemixer.png",
+    ID: "rental__1",
+    VehicleName: "Excavators",
+    Use: "Digging, material handling, demolition, and trenching",
+    Features: "Long arm with a bucket, rotating cab",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756285/excavator_fvmczd.png",
   },
   {
-    id: 10,
-    name: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/icons/Crusherplant.png",
+    ID: "rental__2",
+    VehicleName: "Bulldozers",
+    Use: "Pushing soil, sand, rubble, and other materials",
+    Features: "Large front blade, tracked wheels",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756285/dozer_v2xwpg.png",
+  },
+  {
+    ID: "rental__3",
+    VehicleName: "Backhoe Loaders",
+    Use: "Digging, loading, and material handling",
+    Features: "Front loader bucket, rear backhoe, and four-wheel drive",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756694/backhoe_ef9kh1.png",
+  },
+  {
+    ID: "rental__tt",
+    VehicleName: "Tipper",
+    Use: "Transporting loose materials like sand, gravel, and demolition waste",
+    Features: "Open-box bed, hydraulic lift for unloading",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717760197/dumper-truck_jfv82d.png",
+  },
+  {
+    ID: "rental__4",
+    VehicleName: "Dump Trucks",
+    Use: "Transporting loose materials like sand, gravel, and demolition waste",
+    Features: "Open-box bed, hydraulic lift for unloading",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756286/tipper_peuloy.png",
+  },
+  {
+    ID: "rental__5",
+    VehicleName: "Cranes",
+    Use: "Lifting and moving heavy materials vertically and horizontally",
+    Features: "Boom, cables, and pulleys",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756285/crane_y52oaz.png",
+  },
+  {
+    ID: "rental__7",
+    VehicleName: "Motor Graders",
+    Use: "Creating flat surfaces, road construction, and leveling",
+    Features: "Long blade, adjustable height",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756818/motor-grader_akupch.png",
+  },
+  {
+    ID: "rental__8",
+    VehicleName: "Concrete Mixers",
+    Use: "Mixing and transporting concrete",
+    Features: "Rotating drum, truck-mounted",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756286/Concretemixer_ov226q.png",
+  },
+  {
+    ID: "rental__9",
+    VehicleName: "Trenchers",
+    Use: "Digging trenches for laying pipes or cables",
+    Features: "Trencher chain, conveyor system",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756934/track-trencher_zfhasr.png",
+  },
+  {
+    ID: "rental__10",
+    VehicleName: "Compactors",
+    Use: "Compressing soil, gravel, or asphalt",
+    Features: "Vibratory plate or drum, roller wheels",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756999/road_pz7hur.png",
+  },
+  {
+    ID: "rental__11",
+    VehicleName: "Forklifts",
+    Use: "Lifting andTelescopic Boom Lifts",
+    Features: "Forked lift, counterbalance weight",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756285/loader_nxfqju.png",
+  },
+  {
+    ID: "rental__12",
+    VehicleName: "Telehandlers",
+    Use: "Lifting materials to heights, material handling",
+    Features: "Telescopic boom, various attachments",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757071/telehandlers_e5iz6b.png",
+  },
+  {
+    ID: "rental__13",
+    VehicleName: "Scrapers",
+    Use: "Earthmoving, scraping soil, and transporting it",
+    Features: "Bowl, apron, and ejector",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756285/scrap_ykxpxu.png",
+  },
+  {
+    ID: "rental__14",
+    VehicleName: "Pile Drivers",
+    Use: "Driving piles into the soil for foundation support",
+    Features: "Heavy hammer, leads, and winches",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757125/pile-driver_yzvhrs.png",
+  },
+  {
+    ID: "rental__15",
+    VehicleName: "Skid Steer Loaders",
+    Use: "Digging, lifting, and material handling in tight spaces",
+    Features: "Compact frame, lift arms",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757203/skid-steer-loader_zwf1ig.png",
+  },
+  {
+    ID: "rental__16",
+    VehicleName: "Asphalt Milling Machines",
+    Use: "Removing old asphalt layers before resurfacing",
+    Features: "Rotating drum, cutting teeth",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757299/asphalt-milling-machine_owxpmi.png",
+  },
+  {
+    ID: "rental__17",
+    VehicleName: "Boom Lifts",
+    Use: "Accessing high work areas, lifting workers and materials",
+    Features: "Extendable boom, platform",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757347/boom-lift_l5gjg7.png",
+  },
+  {
+    ID: "rental__18",
+    VehicleName: "Hydraulic Breakers",
+    Use: "Breaking concrete, asphalt, and rocks",
+    Features: "Hydraulic hammer, chisel tool",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757459/hydraulic-breaker_esakeg.png",
+  },
+  {
+    ID: "rental__19",
+    VehicleName: "Road Rollers",
+    Use: "Compacting and smoothing surfaces, especially roads",
+    Features: "Large drum rollers, vibratory action",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757510/road-roller_wdr00u.png",
+  },
+  {
+    ID: "rental__20",
+    VehicleName: "Tractor-Loaders",
+    Use: "Digging, loading, and material transport",
+    Features: "Loader at the front, tractor design",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757562/loader_jklhfw.png",
+  },
+  {
+    ID: "rental__21",
+    VehicleName: "Hydraulic Excavators",
+    Use: "Heavy-duty digging and material handling",
+    Features: "Hydraulic systems, various attachments",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757625/bulldozer_cprohr.png",
+  },
+  {
+    ID: "rental__22",
+    VehicleName: "Tower Cranes",
+    Use: "Lifting and placing materials at great heights",
+    Features: "Tall structure, jib, and counterweights",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757740/lift_zfvc03.png",
+  },
+  {
+    ID: "rental__23",
+    VehicleName: "Off-Highway Trucks",
+    Use: "Transporting large quantities of material over rough terrain",
+    Features: "Large tires, heavy-duty design",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757785/truck_e3vxtk.png",
+  },
+  {
+    ID: "rental__24",
+    VehicleName: "Street Sweepers",
+    Use: "Cleaning streets and construction sites",
+    Features: "Brushes, vacuum system",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717757865/street-sweeper_ldhbm6.png",
+  },
+  {
+    ID: "rental__25",
+    VehicleName: "Tractor",
+    Use: "Transfort thing to long or short distance",
+    Features: "tractor",
+    "IMG URL":
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717756286/tractor_njtuju.png",
   },
 ];
 export const sellers = [
@@ -362,7 +540,7 @@ export const sellers = [
   },
   {
     id: "21",
-    vehicle: "loader",
+    vehicle: "Backhoe Loaders",
     owner: "Peter",
     model: "Loader Model 1",
     price: 75000,
@@ -379,7 +557,7 @@ export const sellers = [
   },
   {
     id: "22",
-    vehicle: "loader",
+    vehicle: "Backhoe Loaders",
     owner: "Peter",
     model: "Loader Model 2",
     Location: "Nalgonda",
@@ -396,7 +574,7 @@ export const sellers = [
   },
   {
     id: "221",
-    vehicle: "Truck",
+    vehicle: "Dump Trucks",
     owner: "John",
     model: "Truck Model A",
     price: 85000,
@@ -413,7 +591,7 @@ export const sellers = [
   },
   {
     id: "23",
-    vehicle: "Crane",
+    vehicle: "Cranes",
     owner: "Michael",
     model: "Crane Model B",
     price: 95000,
@@ -430,7 +608,7 @@ export const sellers = [
   },
   {
     id: "24",
-    vehicle: "Excavator",
+    vehicle: "Excavators",
     owner: "Alice",
     model: "Excavator Model C",
     price: 105000,
@@ -446,7 +624,7 @@ export const sellers = [
   },
   {
     id: "25",
-    vehicle: "Dozer",
+    vehicle: "Bulldozers",
     owner: "Emma",
     model: "Dozer Model D",
     price: 95000,
@@ -462,7 +640,7 @@ export const sellers = [
   },
   {
     id: "26",
-    vehicle: "Scrap",
+    vehicle: "Scrapers",
     owner: "Olivia",
     model: "Scrap Handler Model E",
     price: 65000,
@@ -478,7 +656,7 @@ export const sellers = [
   },
   {
     id: "27",
-    vehicle: "Concrete mixer",
+    vehicle: "Concrete Mixers",
     owner: "Liam",
     model: "Concrete Mixer Model F",
     price: 55000,
@@ -494,9 +672,9 @@ export const sellers = [
   },
   {
     id: "28",
-    vehicle: "Crusher plant",
+    vehicle: "Motor Graders",
     owner: "Noah",
-    model: "Crusher Plant Model G",
+    model: "Motor Graders Model G",
     price: 125000,
     Location: "Rangareddy",
     description:

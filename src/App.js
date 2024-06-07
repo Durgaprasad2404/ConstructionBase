@@ -43,12 +43,10 @@ function App() {
           <Route exact path="/Sales" element={<SaleVehicles />} />
           <Route exact path="/sales/:vehicle" element={<Seller />} />
           <Route exact path="/rental/:category" element={<ShowOwners />} />
-
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/allservices" element={<Listedservices />} />
           <Route exact path="/services/:category" element={<Showworkers />} />
           {/* EquipmentRoute */}
-
           <Route exact path="/EquipmentItems" element={<Equipment />} />
           {/* ElectricalRoute */}
           <Route
@@ -57,9 +55,7 @@ function App() {
             element={<ElectronicsElectrical />}
           />
           {/* BuildingEquipmentRoute */}
-
           <Route exact path="/buildingItem" element={<Building />} />
-
           <Route exact path="/product/:id" element={<SingleProduct />} />
           <Route path="/products" element={<Products />} />
           <Route path="/user" element={<User />} />

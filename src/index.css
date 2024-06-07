@@ -497,6 +497,11 @@ b {
   border: 1px solid gray;
   padding: 10px 25px;
   border-radius: 20px;
+
+  &:hover {
+    box-shadow: 1px 1px 1px 1px gray;
+    transform: translateY(5px);
+  }
 }
 
 .rent-img {

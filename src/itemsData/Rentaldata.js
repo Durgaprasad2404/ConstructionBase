@@ -161,7 +161,7 @@ export const RentalData = [
   },
   {
     id: "21",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Benjamin",
     contactNumber: "0000000002",
@@ -169,7 +169,7 @@ export const RentalData = [
   },
   {
     id: "22",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Evelyn",
     contactNumber: "1111111113",
@@ -177,7 +177,7 @@ export const RentalData = [
   },
   {
     id: "23",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Michael",
     contactNumber: "2222222224",
@@ -185,7 +185,7 @@ export const RentalData = [
   },
   {
     id: "24",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Liam",
     contactNumber: "3333333335",
@@ -193,7 +193,7 @@ export const RentalData = [
   },
   {
     id: "25",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Isabella",
     contactNumber: "4444444446",
@@ -201,7 +201,7 @@ export const RentalData = [
   },
   {
     id: "26",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Jacob",
     contactNumber: "5555555557",
@@ -209,7 +209,7 @@ export const RentalData = [
   },
   {
     id: "27",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Amelia",
     contactNumber: "6666666668",
@@ -217,7 +217,7 @@ export const RentalData = [
   },
   {
     id: "28",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Mason",
     contactNumber: "7777777779",
@@ -225,7 +225,7 @@ export const RentalData = [
   },
   {
     id: "29",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "Harper",
     contactNumber: "8888888880",
@@ -233,7 +233,7 @@ export const RentalData = [
   },
   {
     id: "30",
-    category: "loader",
+    category: "Backhoe Loaders",
     imgUrl: "../Assets/rentalImg/loader.webp",
     ownerName: "William",
     contactNumber: "9999999991",
@@ -241,7 +241,7 @@ export const RentalData = [
   },
   {
     id: "31",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Liam",
     contactNumber: "0000000003",
@@ -249,7 +249,7 @@ export const RentalData = [
   },
   {
     id: "32",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Charlotte",
     contactNumber: "1111111114",
@@ -257,7 +257,7 @@ export const RentalData = [
   },
   {
     id: "33",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Mason",
     contactNumber: "2222222225",
@@ -265,7 +265,7 @@ export const RentalData = [
   },
   {
     id: "34",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Amelia",
     contactNumber: "3333333336",
@@ -273,7 +273,7 @@ export const RentalData = [
   },
   {
     id: "35",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Jacob",
     contactNumber: "4444444447",
@@ -281,7 +281,7 @@ export const RentalData = [
   },
   {
     id: "36",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "William",
     contactNumber: "5555555558",
@@ -289,7 +289,7 @@ export const RentalData = [
   },
   {
     id: "37",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Harper",
     contactNumber: "6666666669",
@@ -297,7 +297,7 @@ export const RentalData = [
   },
   {
     id: "38",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "James",
     contactNumber: "7777777780",
@@ -305,7 +305,7 @@ export const RentalData = [
   },
   {
     id: "39",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Evelyn",
     contactNumber: "8888888881",
@@ -313,7 +313,7 @@ export const RentalData = [
   },
   {
     id: "40",
-    category: "Truck",
+    category: "Dump Trucks",
     imgUrl: "../Assets/rentalImg/truck.jpg",
     ownerName: "Oliver",
     contactNumber: "9999999992",
@@ -321,7 +321,7 @@ export const RentalData = [
   },
   {
     id: "41",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Elijah",
     contactNumber: "0000000004",
@@ -329,7 +329,7 @@ export const RentalData = [
   },
   {
     id: "42",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Olivia",
     contactNumber: "1111111115",
@@ -337,7 +337,7 @@ export const RentalData = [
   },
   {
     id: "43",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Ethan",
     contactNumber: "2222222226",
@@ -345,7 +345,7 @@ export const RentalData = [
   },
   {
     id: "44",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Amelia",
     contactNumber: "3333333337",
@@ -353,7 +353,7 @@ export const RentalData = [
   },
   {
     id: "45",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Mia",
     contactNumber: "4444444448",
@@ -361,7 +361,7 @@ export const RentalData = [
   },
   {
     id: "46",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "James",
     contactNumber: "5555555559",
@@ -369,7 +369,7 @@ export const RentalData = [
   },
   {
     id: "47",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Lucas",
     contactNumber: "6666666670",
@@ -377,7 +377,7 @@ export const RentalData = [
   },
   {
     id: "48",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Ava",
     contactNumber: "7777777781",
@@ -385,7 +385,7 @@ export const RentalData = [
   },
   {
     id: "49",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Oliver",
     contactNumber: "8888888882",
@@ -393,7 +393,7 @@ export const RentalData = [
   },
   {
     id: "50",
-    category: "Crane",
+    category: "Cranes",
     imgUrl: "../Assets/rentalImg/crane.webp",
     ownerName: "Charlotte",
     contactNumber: "9999999993",
@@ -401,64 +401,64 @@ export const RentalData = [
   },
   {
     id: "51",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Prasad",
     contactNumber: "0000000000",
     amount: "1000",
   },
   {
     id: "52",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "John",
     contactNumber: "1111111111",
     amount: "1100",
   },
   {
     id: "53",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Emma",
     contactNumber: "2222222222",
     amount: "1200",
   },
   {
     id: "54",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "David",
     contactNumber: "3333333333",
     amount: "1300",
   },
   {
     id: "55",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Sophia",
     contactNumber: "4444444444",
     amount: "1400",
   },
   {
     id: "56",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Michael",
     contactNumber: "5555555555",
     amount: "1500",
   },
   {
     id: "57",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Linda",
     contactNumber: "6666666666",
     amount: "1600",
   },
   {
     id: "58",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "James",
     contactNumber: "7777777777",
     amount: "1700",
@@ -466,23 +466,23 @@ export const RentalData = [
 
   {
     id: "59",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "Olivia",
     contactNumber: "8888888888",
     amount: "1800",
   },
   {
     id: "60",
-    category: "Crusher plant",
-    imgUrl: "../Assets/rentalImg/Crusherplant.jpg",
+    category: "Motor Graders",
+    imgUrl: "../Assets/rentalImg/Motor Graders.webp",
     ownerName: "William",
     contactNumber: "9999999999",
     amount: "1900",
   },
   {
     id: "61",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Robert",
     contactNumber: "0000000001",
@@ -490,7 +490,7 @@ export const RentalData = [
   },
   {
     id: "62",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Emily",
     contactNumber: "1111111112",
@@ -498,7 +498,7 @@ export const RentalData = [
   },
   {
     id: "63",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Daniel",
     contactNumber: "2222222223",
@@ -506,7 +506,7 @@ export const RentalData = [
   },
   {
     id: "64",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Grace",
     contactNumber: "3333333334",
@@ -514,7 +514,7 @@ export const RentalData = [
   },
   {
     id: "65",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Alexander",
     contactNumber: "4444444445",
@@ -522,7 +522,7 @@ export const RentalData = [
   },
   {
     id: "66",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Ava",
     contactNumber: "5555555556",
@@ -530,7 +530,7 @@ export const RentalData = [
   },
   {
     id: "67",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Samuel",
     contactNumber: "6666666667",
@@ -538,7 +538,7 @@ export const RentalData = [
   },
   {
     id: "68",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Mia",
     contactNumber: "7777777778",
@@ -546,7 +546,7 @@ export const RentalData = [
   },
   {
     id: "69",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Ethan",
     contactNumber: "8888888889",
@@ -554,7 +554,7 @@ export const RentalData = [
   },
   {
     id: "70",
-    category: "Concrete mixer",
+    category: "Concrete Mixers",
     imgUrl: "../Assets/rentalImg/Concretemixer.jpeg",
     ownerName: "Charlotte",
     contactNumber: "9999999990",
@@ -562,7 +562,7 @@ export const RentalData = [
   },
   {
     id: "71",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Benjamin",
     contactNumber: "0000000007",
@@ -570,7 +570,7 @@ export const RentalData = [
   },
   {
     id: "72",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Evelyn",
     contactNumber: "1111111113",
@@ -578,7 +578,7 @@ export const RentalData = [
   },
   {
     id: "73",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Michael",
     contactNumber: "2222222224",
@@ -586,7 +586,7 @@ export const RentalData = [
   },
   {
     id: "74",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Liam",
     contactNumber: "3333333335",
@@ -594,7 +594,7 @@ export const RentalData = [
   },
   {
     id: "75",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Isabella",
     contactNumber: "4444444446",
@@ -602,7 +602,7 @@ export const RentalData = [
   },
   {
     id: "76",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Jacob",
     contactNumber: "5555555557",
@@ -610,7 +610,7 @@ export const RentalData = [
   },
   {
     id: "77",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Amelia",
     contactNumber: "6666666668",
@@ -618,7 +618,7 @@ export const RentalData = [
   },
   {
     id: "78",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Mason",
     contactNumber: "7777777779",
@@ -626,7 +626,7 @@ export const RentalData = [
   },
   {
     id: "79",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "Harper",
     contactNumber: "8888888880",
@@ -634,7 +634,7 @@ export const RentalData = [
   },
   {
     id: "80",
-    category: "Excavator",
+    category: "Excavators",
     imgUrl: "../Assets/rentalImg/excavator.jpg",
     ownerName: "William",
     contactNumber: "9999999991",
@@ -642,7 +642,7 @@ export const RentalData = [
   },
   {
     id: "81",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Liam",
     contactNumber: "0000000003",
@@ -650,7 +650,7 @@ export const RentalData = [
   },
   {
     id: "82",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Charlotte",
     contactNumber: "1111111114",
@@ -658,7 +658,7 @@ export const RentalData = [
   },
   {
     id: "83",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Mason",
     contactNumber: "2222222225",
@@ -666,7 +666,7 @@ export const RentalData = [
   },
   {
     id: "84",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Amelia",
     contactNumber: "3333333336",
@@ -674,7 +674,7 @@ export const RentalData = [
   },
   {
     id: "85",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Jacob",
     contactNumber: "4444444447",
@@ -682,7 +682,7 @@ export const RentalData = [
   },
   {
     id: "86",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "William",
     contactNumber: "5555555558",
@@ -690,7 +690,7 @@ export const RentalData = [
   },
   {
     id: "87",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Harper",
     contactNumber: "6666666669",
@@ -698,7 +698,7 @@ export const RentalData = [
   },
   {
     id: "88",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "James",
     contactNumber: "7777777780",
@@ -706,7 +706,7 @@ export const RentalData = [
   },
   {
     id: "89",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Evelyn",
     contactNumber: "8888888881",
@@ -714,7 +714,7 @@ export const RentalData = [
   },
   {
     id: "90",
-    category: "Dozer",
+    category: "Bulldozers",
     imgUrl: "../Assets/rentalImg/dozer.jpeg",
     ownerName: "Oliver",
     contactNumber: "9999999992",
@@ -722,7 +722,7 @@ export const RentalData = [
   },
   {
     id: "91",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Elijah",
     contactNumber: "0000000004",
@@ -730,7 +730,7 @@ export const RentalData = [
   },
   {
     id: "92",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Olivia",
     contactNumber: "1111111115",
@@ -738,7 +738,7 @@ export const RentalData = [
   },
   {
     id: "93",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Ethan",
     contactNumber: "2222222226",
@@ -746,7 +746,7 @@ export const RentalData = [
   },
   {
     id: "94",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Amelia",
     contactNumber: "3333333337",
@@ -754,7 +754,7 @@ export const RentalData = [
   },
   {
     id: "95",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Mia",
     contactNumber: "4444444448",
@@ -762,7 +762,7 @@ export const RentalData = [
   },
   {
     id: "96",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "James",
     contactNumber: "5555555559",
@@ -770,7 +770,7 @@ export const RentalData = [
   },
   {
     id: "97",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Lucas",
     contactNumber: "6666666670",
@@ -778,7 +778,7 @@ export const RentalData = [
   },
   {
     id: "98",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Ava",
     contactNumber: "7777777781",
@@ -786,7 +786,7 @@ export const RentalData = [
   },
   {
     id: "99",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Oliver",
     contactNumber: "8888888882",
@@ -794,7 +794,7 @@ export const RentalData = [
   },
   {
     id: "100",
-    category: "Scrap",
+    category: "Scrapers",
     imgUrl: "../Assets/rentalImg/Scrap.jpeg",
     ownerName: "Charlotte",
     contactNumber: "9999999993",
