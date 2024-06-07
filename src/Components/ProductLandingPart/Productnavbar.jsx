@@ -37,20 +37,20 @@ function Productnavbar() {
         </div>
         <ul className={`product-ul ${isOpen ? "open" : ""}`}>
           <li className="dp">
-            <Link to="/equipment" style={{ textDecoration: "none" }}>
+            <Link to="/EquipmentItems" style={{ textDecoration: "none" }}>
               <span className="pro-nav-item">Equipment</span>
             </Link>
           </li>
           <li className="dp">
             <Link
-              to="/electronicsElectrical"
+              to="/Electrical_Electronic_Items"
               style={{ textDecoration: "none" }}
             >
               <span className="pro-nav-item">Electronics & Electrical</span>
             </Link>
           </li>
           <li className="dp">
-            <Link to="/building" style={{ textDecoration: "none" }}>
+            <Link to="/buildingItem" style={{ textDecoration: "none" }}>
               <span className="pro-nav-item">Building & Construction</span>
             </Link>
           </li>

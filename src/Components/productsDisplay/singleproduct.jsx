@@ -3,6 +3,9 @@ import { Link, useParams } from "react-router-dom";
 import "./product.css";
 import { pro } from "../../itemsData/productsData";
 import Footer from "../Footer";
+import Breadcrumb from "react-bootstrap/Breadcrumb";
+import { BiMailSend } from "react-icons/bi";
+import { RiContactsBook3Line } from "react-icons/ri";
 
 function SingleProduct(props) {
   const { id } = useParams();
@@ -22,6 +25,16 @@ function SingleProduct(props) {
   });
   return (
     <>
+      <div className="m-2">
+        <Breadcrumb>
+          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+          <Breadcrumb.Item href="/products">Products</Breadcrumb.Item>
+          <Breadcrumb.Item href={`/${item.GROUP}`}>
+            {item.GROUP}
+          </Breadcrumb.Item>
+          <Breadcrumb.Item active>{item.ITEMNAME}</Breadcrumb.Item>
+        </Breadcrumb>
+      </div>
       <div className="singleItem">
         <div>
           <img src={item["IMG URL"]} alt="#" className="singleimg" />
@@ -29,22 +42,31 @@ function SingleProduct(props) {
         </div>
         <div className="singleitem-details">
           <div>
-            <h1>{item.ITEMNAME}</h1>
-            <p>
-              &#8377; {item.PRICE}{" "}
+            <h3 className="singleitem-heading">{item.ITEMNAME}</h3>
+            <p className="singleitem-price">
+              &#8377; {item.PRICE}
+              <strong>/{item.unit_of_measurement}</strong>
               <span className="offer">{item.OFFER}% OFF</span>
             </p>
+            <p className="varients">All type of variants avalible</p>
             <p>
-              This essential construction tool is a heavy-duty apparatus
+              This essential construction item is a heavy-duty apparatus
               designed to blend various construction materials with precision
               and efficiency.
             </p>
+            <p className="wholesale-retail">Wholesale/Retail</p>
           </div>
           <div className="btns-container">
             <button type="button" className="cartBtn">
+              <span>
+                <RiContactsBook3Line />
+              </span>{" "}
               View Contact
             </button>
             <button type="button" className="buyBtn">
+              <span>
+                <BiMailSend />
+              </span>{" "}
               Send Quote
             </button>
           </div>

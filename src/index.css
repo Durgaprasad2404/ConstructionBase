@@ -253,10 +253,11 @@ nav {
 
 .shopBtn {
   color: #fff;
-  padding: 5px 10px;
+  padding: 5px 14px;
   border: none;
   border-radius: 2px;
   background-color: #555;
+  border-radius: 72% 28% 76% 24% / 0% 100% 0% 100%;
 
   &:hover {
     border-top: 2px solid #dea90b;
@@ -280,16 +281,21 @@ nav {
 }
 
 .offerHeading {
-  color: rgb(0, 0, 0);
-  font-size: 35px;
+  width: fit-content;
+  color: blue;
+  font-size: 30px;
   padding: 25px 10px;
   font-weight: 800;
+
+  &:hover {
+    color: red;
+    transform: translateX(10px);
+  }
 }
 
 .slick-slide>div {
   margin: 0 14px;
 }
-
 
 /* home-page(services) */
 .home-page-service-mainContainer {
@@ -316,6 +322,18 @@ nav {
 
 .home-page-services-para {
   width: 50%;
+}
+
+.home-page-services-para button {
+  border: none;
+  color: #fff;
+  background-color: gray;
+  border-radius: 72% 28% 76% 24% / 0% 100% 0% 100%;
+  box-shadow: 1px 1px 1px 2px #dea90b;
+  padding: 8px 13px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .home-page-services {
@@ -637,7 +655,8 @@ b {
 }
 
 .imguuu {
-  margin: 20px;
+  margin: 20px 5px;
+  max-height: 100%;
   max-width: 100%;
 }
 
@@ -668,6 +687,7 @@ q {
 }
 
 .service-solo {
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -677,16 +697,28 @@ q {
   border: 1px solid #ddd;
   background-color: #f9f9f9;
   cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.service-solo h6 {
+  text-align: center;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .all-services:hover>:not(:hover) {
-  opacity: 0.6;
-  transform: scale(1.1);
+  opacity: 0.5;
 }
 
 .servicers-logo {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
+  mix-blend-mode: multiply;
 }
 
 .Most-demand-servicesContainer {
@@ -726,7 +758,7 @@ q {
 }
 
 .Most-demand-services:hover>:not(:hover) {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .book-button {

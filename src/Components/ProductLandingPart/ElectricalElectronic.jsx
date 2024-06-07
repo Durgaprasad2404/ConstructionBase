@@ -28,7 +28,7 @@ function ElectricalElectronic() {
           </div>
           <div className="building-construction-EE-products-container">
             {LandingpageProducts.map((i) => {
-              if (i.GROUP === "Electrical/Electronic Items") {
+              if (i.GROUP === "Electrical_Electronic_Items") {
                 return (
                   <div
                     className="building-construction-EE-product-container"

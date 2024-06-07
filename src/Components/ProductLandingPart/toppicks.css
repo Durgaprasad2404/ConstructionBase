@@ -27,7 +27,7 @@
 }
 
 .top-picks-img {
+    mix-blend-mode: color-burn;
     height: 150px;
     width: 200px;
-    mix-blend-mode: multiply;
 }

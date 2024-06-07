@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./product.css";
+import { CgMoveRight } from "react-icons/cg";
 
 function Allproducts(props) {
   return (
@@ -16,9 +17,14 @@ function Allproducts(props) {
       </p>
       <div className="text-center">
         <Link to={`/product/${props.id}`}>
-          <button className="view-btn">View Number</button>
+          <button className="view-btn">
+            More Details{" "}
+            <span>
+              <CgMoveRight />
+            </span>
+          </button>
         </Link>
-        <button className="best-btn">Get Best Price</button>
+        {/* <button className="best-btn">Get Best Price</button> */}
       </div>
     </div>
   );

@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-import { workers, mostDemanded } from "../itemsData/workers";
-// import DisplayWorkers from './workersFolder/DisplayWorkers'
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Serviceslanding from "./serviceFolder/Serviceslanding";
+import { mostDemanded, services } from "../itemsData/services";
 
 function Services() {
   const scrollToTop = () => {
@@ -23,12 +22,22 @@ function Services() {
           <div className="all-services-container">
             <h6 className="lookingFor-heading">What are you Looking for ?</h6>
             <div className="all-services">
-              {workers.map((i) => {
+              {services.slice(0, 15).map((i) => {
                 return (
-                  <Link to={`/services/${i.name}`} key={i.id}>
+                  <Link
+                    to={`/services/${i.SERVICE}`}
+                    key={i.ID}
+                    style={{
+                      textDecoration: "none",
+                    }}
+                  >
                     <div className="service-solo">
-                      <img src={i.imgUrl} alt="#" className="servicers-logo" />
-                      <h6 className="service-heading">{i.name}</h6>
+                      <img
+                        src={i["IMG URL"]}
+                        alt="#"
+                        className="servicers-logo"
+                      />
+                      <h6 className="service-heading">{i.SERVICE}</h6>
                     </div>
                   </Link>
                 );
@@ -57,18 +66,18 @@ function Services() {
           <div className="Most-demand-services">
             {mostDemanded.map((i) => {
               return (
-                <div key={i.id}>
+                <div key={i.ID}>
                   <div
                     style={{
-                      backgroundImage: `url(${i.imgUrl})`,
+                      backgroundImage: `url(${i["IMG URL"]})`,
                     }}
                     className="demand-services"
                   >
-                    <Link to={`/services/${i.name}`}>
+                    <Link to={`/services/${i.SERVICE}`}>
                       <button className="book-button">Book now</button>
                     </Link>
                   </div>
-                  <h6 className="book-heading">{i.name}</h6>
+                  <h6 className="book-heading">{i.SERVICE}</h6>
                 </div>
               );
             })}

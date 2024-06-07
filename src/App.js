@@ -49,16 +49,16 @@ function App() {
           <Route exact path="/services/:category" element={<Showworkers />} />
           {/* EquipmentRoute */}
 
-          <Route exact path="/equipment" element={<Equipment />} />
+          <Route exact path="/EquipmentItems" element={<Equipment />} />
           {/* ElectricalRoute */}
           <Route
             exact
-            path="/electronicsElectrical"
+            path="/Electrical_Electronic_Items"
             element={<ElectronicsElectrical />}
           />
           {/* BuildingEquipmentRoute */}
 
-          <Route exact path="/building" element={<Building />} />
+          <Route exact path="/buildingItem" element={<Building />} />
 
           <Route exact path="/product/:id" element={<SingleProduct />} />
           <Route path="/products" element={<Products />} />

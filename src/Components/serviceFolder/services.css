@@ -114,11 +114,26 @@
 }
 
 .listed-services {
-    padding: 50px 15px 15px 15px;
+    padding: 30px 15px 15px 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #e6e6e754;
+}
+
+.listed-services-heading {
+    margin: 10px 18px;
+    padding: 10px;
+    color: blue;
+    width: fit-content;
+
+    &:hover {
+        color: red;
+        text-decoration: underline;
+        text-decoration-color: #333;
+        text-underline-offset: 5px;
+    }
 }
 
 .single-service {

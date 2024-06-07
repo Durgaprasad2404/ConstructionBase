@@ -13,7 +13,7 @@ function ElectronicsElectrical() {
         <div style={{ margin: "10px" }} id="Cables">
           <div className="allItems">
             {pro.map((i) => {
-              if (i.GROUP === "Electrical/Electronic Items") {
+              if (i.GROUP === "Electrical_Electronic_Items") {
                 return (
                   <Allproducts
                     id={i.ID}

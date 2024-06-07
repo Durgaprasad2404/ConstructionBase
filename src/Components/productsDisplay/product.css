@@ -33,29 +33,90 @@
     color: green;
     font-style: italic;
     font-size: x-small;
-    margin-left: 5px;
+    margin-left: 10px;
+
+    &:hover {
+        color: red;
+    }
 }
 
 .singleItem {
     padding: 30px;
     display: flex;
     gap: 30px;
-    background: rgb(209, 230, 242);
+    background: rgba(174, 180, 183, 0.276);
     margin: 10px;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
 }
 
 .singleimg {
-    width: 380px;
-    height: 300px;
+    width: 280px;
+    height: 200px;
     margin: 10px 0;
     mix-blend-mode: multiply;
+
+    &:hover {
+        border-radius: 8px;
+        transform: scale(1.1);
+    }
 }
 
 .singleitem-details {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.singleitem-heading {
+    color: blue;
+    font-weight: 600;
+    width: fit-content;
+
+    &:hover {
+
+        text-decoration: underline;
+        color: chocolate;
+        transform: translateY(5px);
+    }
+}
+
+.singleitem-price {
+    font-weight: 500;
+    font-size: 20px;
+
+    &:hover {
+        transform: translateY(5px);
+    }
+
+}
+
+.singleitem-price strong {
+    font-size: 16px;
+}
+
+.varients {
+    font-size: small;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px;
+
+    &:hover {
+        border: 1px solid antiquewhite;
+        box-shadow: 1px 1px 1px 1px rgb(62, 61, 61);
+        font-size: medium;
+    }
+}
+
+.wholesale-retail {
+    font-size: small;
+    font-weight: bold;
+    width: fit-content;
+    padding: 5px;
+
+    &:hover {
+        color: rebeccapurple;
+    }
 }
 
 .btns-container {
@@ -66,15 +127,16 @@
     width: fit-content;
     text-align: center;
     color: #fff;
-    background-color: rgb(190, 55, 55);
+    background-color: blue;
     border: none;
     font-size: medium;
     margin: 0px 10px;
     padding: 5px 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
 
     &:active {
-        background-color: #fff;
-        color: black;
+        background-color: #ff0000;
     }
 }
 
@@ -82,17 +144,19 @@
     width: fit-content;
     text-align: center;
     color: #fff;
-    border-radius: 8px;
-    background-color: rgb(36, 66, 201);
+    background-color: blue;
     border: none;
     font-size: large;
     margin: 0px 10px;
     padding: 5px 15px;
-    transition: all 2s;
+    border: 1px solid #333;
+    border-radius: 5px;
 
-    &:hover {
-        transform: scale(1.1);
+    &:active {
+        background-color: red;
     }
+
+
 }
 
 .view-btn,
@@ -122,9 +186,13 @@
     background-color: rgba(175, 177, 180, 0.651);
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 15px;
+}
+
+.similar-product-container h5:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:640px) {

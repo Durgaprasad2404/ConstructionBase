@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { Slide } from "react-awesome-reveal";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { services } from "../itemsData/services";
+import { RiShareForward2Fill } from "react-icons/ri";
 
 function Home() {
   return (
@@ -154,7 +156,7 @@ function Home() {
                 ensures timely project completion and shapes infrastructure
                 development.
               </p>
-              <Link to="/Equipment">
+              <Link to="/EquipmentItems">
                 <button className="shopBtn">Shop Now</button>
               </Link>
             </div>
@@ -179,7 +181,7 @@ function Home() {
                 technologies optimizes resource usage, driving innovation for
                 smarter, more connected spaces.
               </p>
-              <Link to="/electronicsElectrical">
+              <Link to="/Electrical_Electronic_Items">
                 <button className="shopBtn">Shop Now</button>
               </Link>
             </div>
@@ -204,7 +206,7 @@ function Home() {
                 sustainability. Careful selection shapes functional excellence
                 and sustainability goals in the built environment.
               </p>
-              <Link to="/building">
+              <Link to="/buildingItem">
                 <button className="shopBtn">Shop Now</button>
               </Link>
             </div>
@@ -225,78 +227,25 @@ function Home() {
               reliable plumbing and sanitation. Together, these professionals
               ensure the successful completion of construction projects
             </p>
+            <button>
+              services <RiShareForward2Fill />
+            </button>
           </div>
           <div className="home-page-services">
-            <Link to={`/services/Carpenters`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/2.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>Carpenters</h6>
-              </div>
-            </Link>
-            <Link to={`/services/Plumbers`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/3.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>Plumbers</h6>
-              </div>
-            </Link>
-            <Link to={`/services/Electricians`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/4.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>Electricians</h6>
-              </div>
-            </Link>
-            <Link to={`/services/HVAC`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/6.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>HVAC</h6>
-              </div>
-            </Link>
-            <Link to={`/services/Masons`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/5.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>Masons</h6>
-              </div>
-            </Link>
-            <Link to={`/services/Painters`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/7.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>Painters</h6>
-              </div>
-            </Link>
-            <Link to={`/services/CCTV`}>
-              <div className="home-page-service">
-                <img
-                  src="./Assets/workers/icons/12.png"
-                  alt="#"
-                  className="home-page-services-img"
-                />
-                <h6>CC TV Opt</h6>
-              </div>
-            </Link>
+            {services.slice(0, 7).map((i) => {
+              return (
+                <div className="home-page-service" key={i.ID}>
+                  <Link to={`/services/${i.SERVICE}`}>
+                    <img
+                      src={i["IMG URL"]}
+                      alt="#"
+                      className="home-page-services-img"
+                    />
+                  </Link>
+                  <h6>{i.SERVICE}</h6>
+                </div>
+              );
+            })}
             <div className="home-page-service-btnContainer">
               <Link to="/services">
                 <button className="home-page-service-btn">See All</button>

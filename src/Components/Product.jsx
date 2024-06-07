@@ -6,7 +6,7 @@ import BestDeal from "./ProductLandingPart/BestDeal";
 import Productnavbar from "./ProductLandingPart/Productnavbar";
 import ElectricalElectronic from "./ProductLandingPart/ElectricalElectronic";
 import Footer from "./Footer";
-import TopPick from "./ProductLandingPart/TopPick";
+// import TopPick from "./ProductLandingPart/TopPick";
 import EquipmentLand from "./ProductLandingPart/EquipmentLand";
 
 function Products() {
@@ -128,7 +128,7 @@ function Products() {
           </div>
         </div>
         <BuildingConstruction />
-        <TopPick />
+        {/* <TopPick /> */}
         <EquipmentLand />
       </div>
       <Footer />
