@@ -517,6 +517,11 @@ b {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  &:hover {
+    box-shadow: 1px 1px 3px 1px gray;
+    transform: translateY(5px);
+  }
 }
 
 .vhImg {
@@ -540,7 +545,8 @@ b {
 }
 
 .vhCon:hover> :not(:hover) {
-  opacity: 0.4;
+  opacity: 0.8;
+  transform: scale(0.9);
 }
 
 .vhimgCon {

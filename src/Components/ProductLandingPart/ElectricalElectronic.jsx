@@ -19,8 +19,10 @@ function ElectricalElectronic() {
             className="building-construction-EE-materials "
           >
             <p className="building-construction-EE-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Electrical equipment includes a wide-ranging field of devices. It
+              would be impossible to include information on all items of
+              equipment, and this chapter will therefore be limited to coverage
+              of products of some of the major industries
             </p>
             <Link to="/electronicsElectrical">
               <button className="building-construction-EE-btn">View All</button>

@@ -18,10 +18,12 @@ function BuildingConstruction() {
             className="building-construction-materials"
           >
             <p className="building-construction-materials-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Building material is material used for construction. Many
+              naturally occurring substances, such as clay, rocks, sand, wood,
+              and even twigs and leaves, have been used to construct buildings
+              and other structures, like bridges
             </p>
-            <Link to="/building">
+            <Link to="/buildingItem">
               <button className="building-construction-materials-btn">
                 View All
               </button>

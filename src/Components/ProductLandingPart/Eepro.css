@@ -27,6 +27,11 @@
     align-items: center;
     gap: 15px;
     background-color: #dcdcdc;
+
+    &:hover {
+        transform: scaleY(1.1);
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+    }
 }
 
 .building-construction-EE-product-para {
@@ -64,6 +69,14 @@
 
 .building-construction-EE-para {
     color: #f9f9f9;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &:hover {
+        display: block;
+    }
 }
 
 .building-construction-EE-btn {
@@ -71,6 +84,11 @@
     border-radius: 5px;
     border: none;
     border-bottom: 2px solid red;
+
+    &:hover {
+        border: none;
+        box-shadow: 1px 1px 3px 1px red;
+    }
 }
 
 @media screen and (max-width:576px) {

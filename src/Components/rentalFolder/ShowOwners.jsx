@@ -29,11 +29,11 @@ function ShowOwners() {
                 <div>
                   <img src={i.imgUrl} alt="#" className="vhImgfull" />
                 </div>
-                <div className="vhCon">
-                  <img src={i.imgUrl} alt="#" className="vhImg" />
-                  <img src={i.imgUrl} alt="#" className="vhImg" />
-                  <img src={i.imgUrl} alt="#" className="vhImg" />
-                  <img src={i.imgUrl} alt="#" className="vhImg" />
+                <div className="vhCon pt-2">
+                  <img src={i.imgUrl} alt="#" className="vhImg mx-1" />
+                  <img src={i.imgUrl} alt="#" className="vhImg mx-1" />
+                  <img src={i.imgUrl} alt="#" className="vhImg mx-1" />
+                  <img src={i.imgUrl} alt="#" className="vhImg mx-1" />
                 </div>
               </div>
               <div>

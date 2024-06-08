@@ -37,13 +37,24 @@
 
 .EquipmentLand-para {
     color: #f9f9f9;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    &:hover {
+        display: block;
+    }
 }
 
 .EquipmentLand-btn {
     padding: 5px 15px;
     border-radius: 5px;
     border: none;
-    border-bottom: 2px solid red;
+
+    &:hover {
+        border-bottom: 2px solid red;
+    }
 }
 
 .EquipmentLand-products {
@@ -64,6 +75,11 @@
     align-items: center;
     gap: 15px;
     background-color: #dcdcdc;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0);
+    }
 }
 
 .EquipmentLand-product-para {

@@ -17,8 +17,10 @@ function EquipmentLand() {
             className="EquipmentLand"
           >
             <p className="EquipmentLand-para">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua
+              Construction equipment for building construction and construction
+              machinery used in construction projects. Construction equipment
+              refers to heavy-duty vehicles specially designed for executing
+              construction tasks, most frequently involving earthwork operations
             </p>
             <Link to="/building">
               <button className="EquipmentLand-btn">View All</button>

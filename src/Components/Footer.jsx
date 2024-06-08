@@ -52,7 +52,7 @@ function Footer() {
               style={{ textDecoration: "none", color: "#000" }}
               to="/services"
             >
-              <li className="footlistItem">Service</li>
+              <li className="footlistItem">Services</li>
             </Link>
           </ul>
         </div>
