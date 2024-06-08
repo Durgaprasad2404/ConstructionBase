@@ -24,7 +24,7 @@ function ElectricalElectronic() {
               equipment, and this chapter will therefore be limited to coverage
               of products of some of the major industries
             </p>
-            <Link to="/electronicsElectrical">
+            <Link to="/Electrical_Electronic_Items">
               <button className="building-construction-EE-btn">View All</button>
             </Link>
           </div>

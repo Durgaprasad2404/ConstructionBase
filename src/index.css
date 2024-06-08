@@ -95,7 +95,6 @@ nav {
   width: 150px;
   height: 150px;
   border-radius: 14px;
-  transition: all 2s;
   mix-blend-mode: multiply;
   filter: contrast(1);
 

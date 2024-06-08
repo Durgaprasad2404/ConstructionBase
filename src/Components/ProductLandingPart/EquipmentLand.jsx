@@ -22,7 +22,7 @@ function EquipmentLand() {
               refers to heavy-duty vehicles specially designed for executing
               construction tasks, most frequently involving earthwork operations
             </p>
-            <Link to="/building">
+            <Link to="/EquipmentItems">
               <button className="EquipmentLand-btn">View All</button>
             </Link>
           </div>
