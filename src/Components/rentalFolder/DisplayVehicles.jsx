@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./rentstyle.css";
 
 function DisplayVehicles(props) {
   return (

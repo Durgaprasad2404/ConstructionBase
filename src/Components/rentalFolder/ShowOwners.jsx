@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { RentalData } from "../../itemsData/Rentaldata";
 import { MdAddIcCall, MdLocationPin } from "react-icons/md";
 import { RiWhatsappFill } from "react-icons/ri";
-
+import "./rentstyle.css";
 function ShowOwners() {
   const { category } = useParams();
   const scrollTop = () => {

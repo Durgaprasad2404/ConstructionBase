@@ -26,7 +26,6 @@ function RentedVehicles() {
         </div>
         <SaleVehicles />
       </div>
-
       <Footer />
     </>
   );

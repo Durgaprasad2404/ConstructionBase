@@ -12,6 +12,7 @@ function Showworkers() {
       behavior: "smooth",
     });
   };
+
   useEffect(() => {
     scrollTop();
   });

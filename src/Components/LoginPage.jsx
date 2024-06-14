@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
-import URL_FOR_API from "../API/UrlOfApi";
 import Cookies from "js-cookie";
 import Loader from "./Loader/Loader";
 
@@ -18,7 +17,7 @@ function LoginPage() {
     setShowPassword(!showPassword);
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
 
     // Basic validation
@@ -27,40 +26,23 @@ function LoginPage() {
       return;
     }
 
-    // Clear error message if validation passed
-    setErrorMsg("");
-
-    try {
-      setIsLoading(true); // Show loader
-      const res = await fetch(URL_FOR_API + "/api/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, password }),
-      });
-
-      const data = await res.json();
-      Cookies.set("jwtoken", data.token, {
-        expires: new Date(Date.now() + 25892000000),
-      });
-      if (!res.ok) {
-        throw new Error(data.message || "Login failed");
-      }
-
+    // Simulate successful login for demonstration
+    setIsLoading(true); // Show loader
+    setTimeout(() => {
+      setIsLoading(false); // Hide loader
       window.alert("Login Success");
       setSuccessMsg("Login successful!");
+      Cookies.set("jwtoken", "dummyToken", {
+        expires: new Date(Date.now() + 25892000000),
+      });
       history("/user");
 
       // Clear form fields after successful login
       setEmail("");
       setPassword("");
-    } catch (error) {
-      console.error("Login failed:", error);
-      setErrorMsg(error.message || "Login failed");
-    } finally {
-      setIsLoading(false); // Hide loader
-    }
+    }, 1000); // Simulate network delay
+
+    setErrorMsg(""); // Clear error message if validation passed
   };
 
   return (
@@ -68,7 +50,7 @@ function LoginPage() {
       {isLoading && <Loader />}
       <div className="main">
         <h4>Enter your login credentials</h4>
-        <form onSubmit={handleSubmit} method="POST">
+        <form onSubmit={handleSubmit} method="POST" id="login">
           {errorMsg && <div style={{ color: "red" }}>{errorMsg}</div>}
           {successMsg && <div style={{ color: "green" }}>{successMsg}</div>}
           <div className="form-group">

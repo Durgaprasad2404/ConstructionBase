@@ -12,7 +12,7 @@ function Services() {
     });
   };
   useEffect(() => {
-    scrollToTop();
+    scrollToTop(); //by this page scroll to top
   });
   return (
     <>
@@ -23,6 +23,7 @@ function Services() {
             <h6 className="lookingFor-heading">What are you Looking for ?</h6>
             <div className="all-services">
               {services.slice(0, 15).map((i) => {
+                // services data came from itemsdata folder(services.js file)
                 return (
                   <Link
                     to={`/services/${i.SERVICE}`}
@@ -65,6 +66,7 @@ function Services() {
           <h2 className="Most-demand-heading">Most demand services</h2>
           <div className="Most-demand-services">
             {mostDemanded.map((i) => {
+              // mostDemanded data came from itemsdata folder(services.js file)
               return (
                 <div key={i.ID}>
                   <div
@@ -91,9 +93,9 @@ function Services() {
             materials to ensure a flawless finish that revitalizes any space.
             Trust us to bring your vision to life with precision and care.
           </p>
-          <Serviceslanding service="Painters" />
+          <Serviceslanding service="Painters" />{" "}
+          {/* this component goes to service folder(Serviceslanding) */}
         </div>
-        {/* <button className="book-button">Book now</button> */}
         <hr />
         <div>
           <h2 className="Most-demand-heading">Roofing service </h2>
@@ -103,6 +105,7 @@ function Services() {
             inspection.
           </p>
           <Serviceslanding service="Roofing" />
+          {/* this component goes to service folder(Serviceslanding) */}
         </div>
         <div>
           <h2 className="Most-demand-heading">HVAC service </h2>
@@ -113,6 +116,7 @@ function Services() {
             environments.
           </p>
           <Serviceslanding service="HVAC" />
+          {/* this component goes to service folder(Serviceslanding) */}
         </div>
         <div>
           <h2 className="Most-demand-heading">CCTV service </h2>
@@ -126,6 +130,7 @@ function Services() {
             comprehensive protection.
           </p>
           <Serviceslanding service="CCTV" />
+          {/* this component goes to service folder(Serviceslanding) */}
         </div>
       </div>
       <Footer />

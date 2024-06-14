@@ -61,6 +61,7 @@ function Productnavbar() {
               value={searchTerm}
               onChange={handleChange}
               className="product-search-input"
+              id="filters"
             />
           </li>
         </ul>

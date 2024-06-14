@@ -61,7 +61,7 @@ function Products() {
               <div className="most-like-product-cont">
                 <Link to={`/product/101`}>
                   <img
-                    src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717414057/ProductsPics/Steel-Rebar_alg336.jpg"
+                    src="https://res.cloudinary.com/dppxcekqu/image/upload/v1718342178/steel-tmt-bar-12mm_hu27bf43258f24c66ff68508f230458b39_116653_600x600_resize_q50_box-removebg-preview_nfp0vr.png"
                     alt="#img"
                     className="img"
                   />

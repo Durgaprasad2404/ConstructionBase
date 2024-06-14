@@ -803,7 +803,7 @@ export const RentalData = [
   {
     id: "100",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher1.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Charlotte",
     contactNumber: "9999999991",
     amount: "5500",
@@ -811,7 +811,7 @@ export const RentalData = [
   {
     id: "101",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher2.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Liam",
     contactNumber: "9999999992",
     amount: "5600",
@@ -819,7 +819,7 @@ export const RentalData = [
   {
     id: "102",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher3.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Emma",
     contactNumber: "9999999993",
     amount: "5700",
@@ -827,7 +827,7 @@ export const RentalData = [
   {
     id: "103",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher4.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Noah",
     contactNumber: "9999999994",
     amount: "5800",
@@ -835,7 +835,7 @@ export const RentalData = [
   {
     id: "104",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher5.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Olivia",
     contactNumber: "9999999995",
     amount: "5900",
@@ -843,7 +843,7 @@ export const RentalData = [
   {
     id: "105",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher6.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "William",
     contactNumber: "9999999996",
     amount: "6000",
@@ -851,7 +851,7 @@ export const RentalData = [
   {
     id: "106",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher7.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Sophia",
     contactNumber: "9999999997",
     amount: "6100",
@@ -859,7 +859,7 @@ export const RentalData = [
   {
     id: "107",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher8.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "James",
     contactNumber: "9999999998",
     amount: "6200",
@@ -867,7 +867,7 @@ export const RentalData = [
   {
     id: "108",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher9.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Isabella",
     contactNumber: "9999999999",
     amount: "6300",
@@ -875,7 +875,7 @@ export const RentalData = [
   {
     id: "109",
     category: "Trenchers",
-    imgUrl: "../Assets/rentalImg/Trencher10.jpeg",
+    imgUrl: "../Assets/rentalImg/Trenchers.jpg",
     ownerName: "Benjamin",
     contactNumber: "9999999990",
     amount: "6400",
@@ -1063,7 +1063,7 @@ export const RentalData = [
   {
     id: "130",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler1.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Charlotte",
     contactNumber: "9999999961",
     amount: "7000",
@@ -1071,7 +1071,7 @@ export const RentalData = [
   {
     id: "131",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler2.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Liam",
     contactNumber: "9999999962",
     amount: "7100",
@@ -1079,7 +1079,7 @@ export const RentalData = [
   {
     id: "132",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler3.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Emma",
     contactNumber: "9999999963",
     amount: "7200",
@@ -1087,7 +1087,7 @@ export const RentalData = [
   {
     id: "133",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler4.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Noah",
     contactNumber: "9999999964",
     amount: "7300",
@@ -1095,7 +1095,7 @@ export const RentalData = [
   {
     id: "134",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler5.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Olivia",
     contactNumber: "9999999965",
     amount: "7400",
@@ -1103,7 +1103,7 @@ export const RentalData = [
   {
     id: "135",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler6.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "William",
     contactNumber: "9999999966",
     amount: "7500",
@@ -1111,7 +1111,7 @@ export const RentalData = [
   {
     id: "136",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler7.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Sophia",
     contactNumber: "9999999967",
     amount: "7600",
@@ -1119,7 +1119,7 @@ export const RentalData = [
   {
     id: "137",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler8.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "James",
     contactNumber: "9999999968",
     amount: "7700",
@@ -1127,7 +1127,7 @@ export const RentalData = [
   {
     id: "138",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler9.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Isabella",
     contactNumber: "9999999969",
     amount: "7800",
@@ -1135,7 +1135,7 @@ export const RentalData = [
   {
     id: "139",
     category: "Telehandlers",
-    imgUrl: "../Assets/rentalImg/Telehandler10.jpeg",
+    imgUrl: "../Assets/rentalImg/Telehandlers.jpeg",
     ownerName: "Benjamin",
     contactNumber: "9999999960",
     amount: "7900",
@@ -1223,7 +1223,7 @@ export const RentalData = [
   {
     id: "150",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver1.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Charlotte",
     contactNumber: "9999999941",
     amount: "9000",
@@ -1231,7 +1231,7 @@ export const RentalData = [
   {
     id: "151",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver2.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Liam",
     contactNumber: "9999999942",
     amount: "9100",
@@ -1239,7 +1239,7 @@ export const RentalData = [
   {
     id: "152",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver3.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Emma",
     contactNumber: "9999999943",
     amount: "9200",
@@ -1247,7 +1247,7 @@ export const RentalData = [
   {
     id: "153",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver4.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Noah",
     contactNumber: "9999999944",
     amount: "9300",
@@ -1255,7 +1255,7 @@ export const RentalData = [
   {
     id: "154",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver5.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Olivia",
     contactNumber: "9999999945",
     amount: "9400",
@@ -1263,7 +1263,7 @@ export const RentalData = [
   {
     id: "155",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver6.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "William",
     contactNumber: "9999999946",
     amount: "9500",
@@ -1271,7 +1271,7 @@ export const RentalData = [
   {
     id: "156",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver7.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Sophia",
     contactNumber: "9999999947",
     amount: "9600",
@@ -1279,7 +1279,7 @@ export const RentalData = [
   {
     id: "157",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver8.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "James",
     contactNumber: "9999999948",
     amount: "9700",
@@ -1287,7 +1287,7 @@ export const RentalData = [
   {
     id: "158",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver9.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Isabella",
     contactNumber: "9999999949",
     amount: "9800",
@@ -1295,7 +1295,7 @@ export const RentalData = [
   {
     id: "159",
     category: "Pile Drivers",
-    imgUrl: "../Assets/rentalImg/PileDriver10.jpeg",
+    imgUrl: "../Assets/rentalImg/Pile Drivers.jpg",
     ownerName: "Benjamin",
     contactNumber: "9999999940",
     amount: "9900",
@@ -1303,7 +1303,7 @@ export const RentalData = [
   {
     id: "160",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader1.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Charlotte",
     contactNumber: "9999999931",
     amount: "10000",
@@ -1311,7 +1311,7 @@ export const RentalData = [
   {
     id: "161",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader2.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Liam",
     contactNumber: "9999999932",
     amount: "10100",
@@ -1319,7 +1319,7 @@ export const RentalData = [
   {
     id: "162",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader3.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Emma",
     contactNumber: "9999999933",
     amount: "10200",
@@ -1327,7 +1327,7 @@ export const RentalData = [
   {
     id: "163",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader4.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Noah",
     contactNumber: "9999999934",
     amount: "10300",
@@ -1335,7 +1335,7 @@ export const RentalData = [
   {
     id: "164",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader5.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Olivia",
     contactNumber: "9999999935",
     amount: "10400",
@@ -1343,7 +1343,7 @@ export const RentalData = [
   {
     id: "165",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader6.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "William",
     contactNumber: "9999999936",
     amount: "10500",
@@ -1351,7 +1351,7 @@ export const RentalData = [
   {
     id: "166",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader7.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Sophia",
     contactNumber: "9999999937",
     amount: "10600",
@@ -1359,7 +1359,7 @@ export const RentalData = [
   {
     id: "167",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader8.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "James",
     contactNumber: "9999999938",
     amount: "10700",
@@ -1367,7 +1367,7 @@ export const RentalData = [
   {
     id: "168",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader9.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Isabella",
     contactNumber: "9999999939",
     amount: "10800",
@@ -1375,7 +1375,7 @@ export const RentalData = [
   {
     id: "169",
     category: "Skid Steer Loaders",
-    imgUrl: "../Assets/rentalImg/SkidSteerLoader10.jpeg",
+    imgUrl: "../Assets/rentalImg/Skid Steer Loaders.jpg",
     ownerName: "Benjamin",
     contactNumber: "9999999930",
     amount: "10900",
@@ -1383,7 +1383,7 @@ export const RentalData = [
   {
     id: "170",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine1.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Charlotte",
     contactNumber: "9999999921",
     amount: "11000",
@@ -1391,7 +1391,7 @@ export const RentalData = [
   {
     id: "171",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine2.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Liam",
     contactNumber: "9999999922",
     amount: "11100",
@@ -1399,7 +1399,7 @@ export const RentalData = [
   {
     id: "172",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine3.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Emma",
     contactNumber: "9999999923",
     amount: "11200",
@@ -1407,7 +1407,7 @@ export const RentalData = [
   {
     id: "173",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine4.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Noah",
     contactNumber: "9999999924",
     amount: "11300",
@@ -1415,7 +1415,7 @@ export const RentalData = [
   {
     id: "174",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine5.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Olivia",
     contactNumber: "9999999925",
     amount: "11400",
@@ -1423,7 +1423,7 @@ export const RentalData = [
   {
     id: "175",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine6.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "William",
     contactNumber: "9999999926",
     amount: "11500",
@@ -1431,7 +1431,7 @@ export const RentalData = [
   {
     id: "176",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine7.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Sophia",
     contactNumber: "9999999927",
     amount: "11600",
@@ -1439,7 +1439,7 @@ export const RentalData = [
   {
     id: "177",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine8.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "James",
     contactNumber: "9999999928",
     amount: "11700",
@@ -1447,7 +1447,7 @@ export const RentalData = [
   {
     id: "178",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine9.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Isabella",
     contactNumber: "9999999929",
     amount: "11800",
@@ -1455,7 +1455,7 @@ export const RentalData = [
   {
     id: "179",
     category: "Asphalt Milling Machines",
-    imgUrl: "../Assets/rentalImg/AsphaltMillingMachine10.jpeg",
+    imgUrl: "../Assets/rentalImg/Asphalt Milling Machines.png",
     ownerName: "Benjamin",
     contactNumber: "9999999920",
     amount: "11900",
@@ -1463,7 +1463,7 @@ export const RentalData = [
   {
     id: "180",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift1.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Charlotte",
     contactNumber: "9999999911",
     amount: "12000",
@@ -1471,7 +1471,7 @@ export const RentalData = [
   {
     id: "181",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift2.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Liam",
     contactNumber: "9999999912",
     amount: "12100",
@@ -1479,7 +1479,7 @@ export const RentalData = [
   {
     id: "182",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift3.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Emma",
     contactNumber: "9999999913",
     amount: "12200",
@@ -1487,7 +1487,7 @@ export const RentalData = [
   {
     id: "183",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift4.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Noah",
     contactNumber: "9999999914",
     amount: "12300",
@@ -1495,7 +1495,7 @@ export const RentalData = [
   {
     id: "184",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift5.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Olivia",
     contactNumber: "9999999915",
     amount: "12400",
@@ -1503,7 +1503,7 @@ export const RentalData = [
   {
     id: "185",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift6.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "William",
     contactNumber: "9999999916",
     amount: "12500",
@@ -1511,7 +1511,7 @@ export const RentalData = [
   {
     id: "186",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift7.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Sophia",
     contactNumber: "9999999917",
     amount: "12600",
@@ -1519,7 +1519,7 @@ export const RentalData = [
   {
     id: "187",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift8.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "James",
     contactNumber: "9999999918",
     amount: "12700",
@@ -1527,7 +1527,7 @@ export const RentalData = [
   {
     id: "188",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift9.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Isabella",
     contactNumber: "9999999919",
     amount: "12800",
@@ -1535,7 +1535,7 @@ export const RentalData = [
   {
     id: "189",
     category: "Boom Lifts",
-    imgUrl: "../Assets/rentalImg/BoomLift10.jpeg",
+    imgUrl: "../Assets/rentalImg/Boom-Lifts.jpg",
     ownerName: "Benjamin",
     contactNumber: "9999999910",
     amount: "12900",
@@ -1543,7 +1543,7 @@ export const RentalData = [
   {
     id: "190",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker1.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Charlotte",
     contactNumber: "9999999901",
     amount: "13000",
@@ -1551,7 +1551,7 @@ export const RentalData = [
   {
     id: "191",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker2.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Liam",
     contactNumber: "9999999902",
     amount: "13100",
@@ -1559,7 +1559,7 @@ export const RentalData = [
   {
     id: "192",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker3.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Emma",
     contactNumber: "9999999903",
     amount: "13200",
@@ -1567,7 +1567,7 @@ export const RentalData = [
   {
     id: "193",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker4.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Noah",
     contactNumber: "9999999904",
     amount: "13300",
@@ -1575,7 +1575,7 @@ export const RentalData = [
   {
     id: "194",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker5.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Olivia",
     contactNumber: "9999999905",
     amount: "13400",
@@ -1583,7 +1583,7 @@ export const RentalData = [
   {
     id: "195",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker6.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "William",
     contactNumber: "9999999906",
     amount: "13500",
@@ -1591,7 +1591,7 @@ export const RentalData = [
   {
     id: "196",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker7.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Sophia",
     contactNumber: "9999999907",
     amount: "13600",
@@ -1599,7 +1599,7 @@ export const RentalData = [
   {
     id: "197",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker8.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "James",
     contactNumber: "9999999908",
     amount: "13700",
@@ -1607,7 +1607,7 @@ export const RentalData = [
   {
     id: "198",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker9.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Isabella",
     contactNumber: "9999999909",
     amount: "13800",
@@ -1615,7 +1615,7 @@ export const RentalData = [
   {
     id: "199",
     category: "Hydraulic Breakers",
-    imgUrl: "../Assets/rentalImg/HydraulicBreaker10.jpeg",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Breakers.png",
     ownerName: "Benjamin",
     contactNumber: "9999999900",
     amount: "13900",
@@ -1623,7 +1623,7 @@ export const RentalData = [
   {
     id: "200",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller1.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Charlotte",
     contactNumber: "9999999991",
     amount: "14000",
@@ -1631,7 +1631,7 @@ export const RentalData = [
   {
     id: "201",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller2.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Liam",
     contactNumber: "9999999992",
     amount: "14100",
@@ -1639,7 +1639,7 @@ export const RentalData = [
   {
     id: "202",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller3.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Emma",
     contactNumber: "9999999993",
     amount: "14200",
@@ -1647,7 +1647,7 @@ export const RentalData = [
   {
     id: "203",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller4.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Noah",
     contactNumber: "9999999994",
     amount: "14300",
@@ -1655,7 +1655,7 @@ export const RentalData = [
   {
     id: "204",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller5.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Olivia",
     contactNumber: "9999999995",
     amount: "14400",
@@ -1663,7 +1663,7 @@ export const RentalData = [
   {
     id: "205",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller6.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "William",
     contactNumber: "9999999996",
     amount: "14500",
@@ -1671,7 +1671,7 @@ export const RentalData = [
   {
     id: "206",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller7.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Sophia",
     contactNumber: "9999999997",
     amount: "14600",
@@ -1679,7 +1679,7 @@ export const RentalData = [
   {
     id: "207",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller8.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "James",
     contactNumber: "9999999998",
     amount: "14700",
@@ -1687,7 +1687,7 @@ export const RentalData = [
   {
     id: "208",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller9.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Isabella",
     contactNumber: "9999999999",
     amount: "14800",
@@ -1695,9 +1695,169 @@ export const RentalData = [
   {
     id: "209",
     category: "Road Rollers",
-    imgUrl: "../Assets/rentalImg/RoadRoller10.jpeg",
+    imgUrl: "../Assets/rentalImg/Road-Rollers.jpg",
     ownerName: "Benjamin",
     contactNumber: "9999999990",
     amount: "14900",
+  },
+  {
+    id: "210",
+    category: "Tractor-Loaders",
+    imgUrl: "../Assets/rentalImg/Tractor-Loaders.jpg",
+    ownerName: "Benjamin",
+    contactNumber: "9999999990",
+    amount: "18500",
+  },
+  {
+    id: "211",
+    category: "Hydraulic Excavators",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Excavators.jpg",
+    ownerName: "Sophia",
+    contactNumber: "9998888880",
+    amount: "28900",
+  },
+  {
+    id: "212",
+    category: "Tower Cranes",
+    imgUrl: "../Assets/rentalImg/Tower-Cranes.jpg",
+    ownerName: "Michael",
+    contactNumber: "9997777770",
+    amount: "53000",
+  },
+  {
+    id: "213",
+    category: "Off-Highway Trucks",
+    imgUrl: "../Assets/rentalImg/Off-Highway-Trucks.jpg",
+    ownerName: "Emily",
+    contactNumber: "9996666660",
+    amount: "38000",
+  },
+  {
+    id: "214",
+    category: "Street Sweepers",
+    imgUrl: "../Assets/rentalImg/Street-Sweepers.png",
+    ownerName: "Daniel",
+    contactNumber: "9995555550",
+    amount: "14900",
+  },
+  {
+    id: "215",
+    category: "Tractor-Loaders",
+    imgUrl: "../Assets/rentalImg/Tractor-Loaders.jpg",
+    ownerName: "Isabella",
+    contactNumber: "9994444440",
+    amount: "20000",
+  },
+  {
+    id: "216",
+    category: "Hydraulic Excavators",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Excavators.jpg",
+    ownerName: "David",
+    contactNumber: "9993333330",
+    amount: "32000",
+  },
+  {
+    id: "217",
+    category: "Tower Cranes",
+    imgUrl: "../Assets/rentalImg/Tower-Cranes.jpg",
+    ownerName: "Emma",
+    contactNumber: "9992222220",
+    amount: "60000",
+  },
+  {
+    id: "218",
+    category: "Off-Highway Trucks",
+    imgUrl: "../Assets/rentalImg/Off-Highway-Trucks.jpg",
+    ownerName: "William",
+    contactNumber: "9991111110",
+    amount: "42000",
+  },
+  {
+    id: "219",
+    category: "Street Sweepers",
+    imgUrl: "../Assets/rentalImg/Street-Sweepers.png",
+    ownerName: "Ava",
+    contactNumber: "9990000000",
+    amount: "16500",
+  },
+  {
+    id: "220",
+    category: "Tractor-Loaders",
+    imgUrl: "../Assets/rentalImg/Tractor-Loaders.jpg",
+    ownerName: "Liam",
+    contactNumber: "9989999990",
+    amount: "21000",
+  },
+  {
+    id: "221",
+    category: "Hydraulic Excavators",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Excavators.jpg",
+    ownerName: "Olivia",
+    contactNumber: "9988888880",
+    amount: "30000",
+  },
+  {
+    id: "222",
+    category: "Tower Cranes",
+    imgUrl: "../Assets/rentalImg/Tower-Cranes.jpg",
+    ownerName: "Noah",
+    contactNumber: "9987777770",
+    amount: "55000",
+  },
+  {
+    id: "223",
+    category: "Off-Highway Trucks",
+    imgUrl: "../Assets/rentalImg/Off-Highway-Trucks.jpg",
+    ownerName: "Emma",
+    contactNumber: "9986666660",
+    amount: "39000",
+  },
+  {
+    id: "224",
+    category: "Street Sweepers",
+    imgUrl: "../Assets/rentalImg/Street-Sweepers.png",
+    ownerName: "James",
+    contactNumber: "9985555550",
+    amount: "16000",
+  },
+  {
+    id: "225",
+    category: "Tractor-Loaders",
+    imgUrl: "../Assets/rentalImg/Tractor-Loaders.jpg",
+    ownerName: "Sophia",
+    contactNumber: "9984444440",
+    amount: "19000",
+  },
+  {
+    id: "226",
+    category: "Hydraulic Excavators",
+    imgUrl: "../Assets/rentalImg/Hydraulic-Excavators.jpg",
+    ownerName: "Daniel",
+    contactNumber: "9983333330",
+    amount: "31000",
+  },
+  {
+    id: "227",
+    category: "Tower Cranes",
+    imgUrl: "../Assets/rentalImg/Tower-Cranes.jpg",
+    ownerName: "Isabella",
+    contactNumber: "9982222220",
+    amount: "58000",
+  },
+  {
+    id: "228",
+    category: "Off-Highway Trucks",
+    imgUrl: "../Assets/rentalImg/Off-Highway-Trucks.jpg",
+    ownerName: "William",
+    contactNumber: "9981111110",
+    amount: "43000",
+  },
+  {
+    id: "229",
+    category: "Street Sweepers",
+    imgUrl: "../Assets/rentalImg/Street-Sweepers.png",
+    ownerName: "Oliver",
+    contactNumber: "9980000000",
+    amount: "15500",
   },
 ];

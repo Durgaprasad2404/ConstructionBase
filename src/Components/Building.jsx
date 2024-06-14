@@ -23,7 +23,7 @@ function Building() {
                     price={i.PRICE}
                     oldprice={i.OLDPRICE}
                     offer={i.OFFER}
-                  />
+                  /> //it goes to ProductDisplay folder (allproducts)
                 );
               } else {
                 return null;

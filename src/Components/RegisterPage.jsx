@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
-import { Link, useNavigate } from "react-router-dom";
-import URL_FOR_API from "../API/UrlOfApi";
-import Loader from "./Loader/Loader";
+import { Link } from "react-router-dom";
 
 function RegisterPage() {
-  const history = useNavigate();
   const [formData, setFormData] = useState({
     Username: "",
     email: "",
@@ -14,7 +11,6 @@ function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -40,7 +36,7 @@ function RegisterPage() {
     );
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     const { Username, email, password } = formData;
 
@@ -60,46 +56,20 @@ function RegisterPage() {
 
     // Clear error message if validation passed
     setErrorMsg("");
+    setSuccessMsg("Form validation passed! (No API call will be made)");
 
-    try {
-      setIsLoading(true);
-      const res = await fetch(URL_FOR_API + "/api/register", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ Username, email, password }),
-      });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data.message || "Registration failed");
-      }
-
-      window.alert("Registration succeeded");
-      setSuccessMsg("Registration successful!");
-      history("/login");
-
-      // Clear form fields after successful registration
-      setFormData({
-        Username: "",
-        email: "",
-        password: "",
-      });
-    } catch (error) {
-      console.error("Registration failed:", error);
-      setErrorMsg(error.message || "Registration failed");
-    } finally {
-      setIsLoading(false); // Hide loader
-    }
+    // Clear form fields after successful validation
+    setFormData({
+      Username: "",
+      email: "",
+      password: "",
+    });
   };
 
   return (
     <div className="register-form">
-      {isLoading && <Loader />}
       <h2>Register</h2>
-      <form onSubmit={handleSubmit} method="POST">
+      <form onSubmit={handleSubmit} method="POST" id="register">
         {errorMsg && <div style={{ color: "red" }}>{errorMsg}</div>}
         {successMsg && <div style={{ color: "green" }}>{successMsg}</div>}
         <div>

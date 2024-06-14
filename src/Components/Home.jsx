@@ -36,32 +36,39 @@ function Home() {
         <div className="rental-home-container">
           <div className="rental-home-container1">
             <h3 className="rent-heading">For Rent</h3>
-            <div className="rent-home-image-container">
+            <div className="rent-home-image-container my-2">
               <Carousel>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent.png"
+                    src="./Assets/bgs/autonomous-construction.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent2.jpg"
+                    src="./Assets/bgs/crane.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent3.jpg"
+                    src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent4.png"
+                    src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/off-highway-truck.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
@@ -82,25 +89,39 @@ function Home() {
           </div>
           <div className="rental-home-container2">
             <h3 className="rent-heading">For Sale</h3>
-            <div className="rent-home-image-container">
+            <div className="rent-home-image-container my-2">
               <Carousel>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent3.jpg"
+                    src="./Assets/bgs/crane.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent2.jpg"
+                    src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <img
-                    src="./Assets/bgs/rent.png"
+                    src="./Assets/bgs/off-highway-truck.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/autonomous-construction.jpg"
+                    alt="#rent"
+                    className="rent-home-image"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <img
+                    src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
                     alt="#rent"
                     className="rent-home-image"
                   />

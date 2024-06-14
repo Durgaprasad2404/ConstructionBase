@@ -57,7 +57,6 @@
 }
 
 .servicers {
-    box-shadow: 2px 2px 2px 2px gray;
     width: 400px;
     padding: 10px 20px;
     margin: 15px 10px;
@@ -65,6 +64,14 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    background-color: rgba(137, 43, 226, 0.233);
+    border: 1px solid #333;
+
+    &:hover {
+        transform: translateY(-10px);
+        border: none;
+        box-shadow: 2px 2px 2px 2px gray;
+    }
 }
 
 .service-detailed {
