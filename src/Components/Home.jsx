@@ -34,112 +34,116 @@ function Home() {
         <h2 className="rental-home-Heading">Get Vehicles for Rent & Sale</h2>
         <div className="heading-line"></div>
         <div className="rental-home-container">
-          <div className="rental-home-container1">
-            <h3 className="rent-heading">For Rent</h3>
-            <div className="rent-home-image-container my-2">
-              <Carousel>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/autonomous-construction.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/crane.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/off-highway-truck.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-              </Carousel>
+          <Slide direction="left">
+            <div className="rental-home-container1">
+              <h3 className="rent-heading">For Rent</h3>
+              <div className="rent-home-image-container my-2">
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/autonomous-construction.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/crane.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/off-highway-truck.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+              <p className="rent-sale-para">
+                Access top-quality construction vehicles without ownership
+                commitments through our rental service. With a diverse fleet,
+                flexible rental plans, and expert support, we ensure your
+                project gets the right equipment, precisely when needed. Trust
+                our well-maintained vehicles and dedicated team to keep your
+                operations running smoothly.
+              </p>
+              <Link to="/rentalSale">
+                <button className="rent-home-btn">Click here</button>
+              </Link>
             </div>
-            <p>
-              Access top-quality construction vehicles without ownership
-              commitments through our rental service. With a diverse fleet,
-              flexible rental plans, and expert support, we ensure your project
-              gets the right equipment, precisely when needed. Trust our
-              well-maintained vehicles and dedicated team to keep your
-              operations running smoothly.
-            </p>
-            <Link to="/rentalSale">
-              <button className="rent-home-btn">Click here</button>
-            </Link>
-          </div>
-          <div className="rental-home-container2">
-            <h3 className="rent-heading">For Sale</h3>
-            <div className="rent-home-image-container my-2">
-              <Carousel>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/crane.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/off-highway-truck.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/autonomous-construction.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
-                    alt="#rent"
-                    className="rent-home-image"
-                  />
-                </Carousel.Item>
-              </Carousel>
+          </Slide>
+          <Slide direction="right">
+            <div className="rental-home-container2">
+              <h3 className="rent-heading">For Sale</h3>
+              <div className="rent-home-image-container my-2">
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/crane.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/istockphoto-887224718-612x612.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/off-highway-truck.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/autonomous-construction.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      src="./Assets/bgs/G5wnPiuLhIYcDNXqlwi7GmOhlfPLCtx01697554568.jpg"
+                      alt="#rent"
+                      className="rent-home-image"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+              <p className="rent-sale-para">
+                Invest in long-term construction fleet solutions with our
+                diverse inventory of new and used vehicles for sale. Benefit
+                from quality-assured equipment, customizable options, and
+                flexible financing plans tailored to your needs. Plus, our
+                commitment to after-sales support guarantees your satisfaction
+                throughout the lifespan of your equipment.
+              </p>
+              <Link to="/Sales">
+                <button className="rent-home-btn">Click here</button>
+              </Link>
             </div>
-            <p>
-              Invest in long-term construction fleet solutions with our diverse
-              inventory of new and used vehicles for sale. Benefit from
-              quality-assured equipment, customizable options, and flexible
-              financing plans tailored to your needs. Plus, our commitment to
-              after-sales support guarantees your satisfaction throughout the
-              lifespan of your equipment.
-            </p>
-            <Link to="/Sales">
-              <button className="rent-home-btn">Click here</button>
-            </Link>
-          </div>
+          </Slide>
         </div>
       </div>
       <div className="Caros">
@@ -158,81 +162,87 @@ function Home() {
       <div className="linebt"></div>
       <div className="shopCategory">
         <h2 className="categoryHeading">Shop By Category Wise</h2>
-        <div className="shopItemCon">
-          <h4>Construction Equipment</h4>
-          <div className="shoplanding">
-            <div>
-              <img
-                src="../Assets/EquipmentLand.png"
-                alt="#"
-                className="shopImg"
-              />
-            </div>
-            <div>
-              <p className="shopPara">
-                Construction equipment, from excavators to cranes, is essential
-                for project execution. Advancements enhance efficiency, safety,
-                and environmental impact. Proper equipment selection boosts
-                productivity and reduces costs. Utilizing the right tools
-                ensures timely project completion and shapes infrastructure
-                development.
-              </p>
-              <Link to="/EquipmentItems">
-                <button className="shopBtn">Shop Now</button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div className="shopItemCon">
-          <h4>Electronics & Electrical</h4>
-          <div className="shoplanding">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/EElanding_lfbhgz.jpg"
-                alt="#"
-                className="shopImg"
-              />
-            </div>
-            <div>
-              <p className="shopPara">
-                Electronics and electrical items are essential in construction,
-                powering lighting, HVAC, security, and automation systems. They
-                encompass wiring, circuitry, and power distribution, ensuring
-                buildings are functional and safe. Incorporating smart
-                technologies optimizes resource usage, driving innovation for
-                smarter, more connected spaces.
-              </p>
-              <Link to="/Electrical_Electronic_Items">
-                <button className="shopBtn">Shop Now</button>
-              </Link>
+        <Slide direction="left" triggerOnce="true">
+          <div className="shopItemCon">
+            <h4>Construction Equipment</h4>
+            <div className="shoplanding">
+              <div>
+                <img
+                  src="../Assets/EquipmentLand.png"
+                  alt="#"
+                  className="shopImg"
+                />
+              </div>
+              <div>
+                <p className="shopPara">
+                  Construction equipment, from excavators to cranes, is
+                  essential for project execution. Advancements enhance
+                  efficiency, safety, and environmental impact. Proper equipment
+                  selection boosts productivity and reduces costs. Utilizing the
+                  right tools ensures timely project completion and shapes
+                  infrastructure development.
+                </p>
+                <Link to="/EquipmentItems">
+                  <button className="shopBtn">Shop Now</button>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="shopItemCon">
-          <h4>Building & Construction Material</h4>
-          <div className="shoplanding">
-            <div>
-              <img
-                src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/Blanding_nrqzxg.png"
-                alt="#"
-                className="shopImg"
-              />
-            </div>
-            <div>
-              <p className="shopPara">
-                Building materials are the backbone of construction, ranging
-                from wood and concrete to advanced composites. They determine
-                structural integrity, aesthetics, and environmental impact.
-                Innovations in material science offer enhanced durability and
-                sustainability. Careful selection shapes functional excellence
-                and sustainability goals in the built environment.
-              </p>
-              <Link to="/buildingItem">
-                <button className="shopBtn">Shop Now</button>
-              </Link>
+        </Slide>
+        <Slide direction="left" triggerOnce="true">
+          <div className="shopItemCon">
+            <h4>Electronics & Electrical</h4>
+            <div className="shoplanding">
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/EElanding_lfbhgz.jpg"
+                  alt="#"
+                  className="shopImg"
+                />
+              </div>
+              <div>
+                <p className="shopPara">
+                  Electronics and electrical items are essential in
+                  construction, powering lighting, HVAC, security, and
+                  automation systems. They encompass wiring, circuitry, and
+                  power distribution, ensuring buildings are functional and
+                  safe. Incorporating smart technologies optimizes resource
+                  usage, driving innovation for smarter, more connected spaces.
+                </p>
+                <Link to="/Electrical_Electronic_Items">
+                  <button className="shopBtn">Shop Now</button>
+                </Link>
+              </div>
             </div>
           </div>
-        </div>
+        </Slide>
+        <Slide direction="left" triggerOnce="true">
+          <div className="shopItemCon">
+            <h4>Building & Construction Material</h4>
+            <div className="shoplanding">
+              <div>
+                <img
+                  src="https://res.cloudinary.com/dppxcekqu/image/upload/v1717564688/Blanding_nrqzxg.png"
+                  alt="#"
+                  className="shopImg"
+                />
+              </div>
+              <div>
+                <p className="shopPara">
+                  Building materials are the backbone of construction, ranging
+                  from wood and concrete to advanced composites. They determine
+                  structural integrity, aesthetics, and environmental impact.
+                  Innovations in material science offer enhanced durability and
+                  sustainability. Careful selection shapes functional excellence
+                  and sustainability goals in the built environment.
+                </p>
+                <Link to="/buildingItem">
+                  <button className="shopBtn">Shop Now</button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </Slide>
       </div>
       <div className="home-page-service-mainContainer">
         <h2 className="home-page-service-heading">Services To be Provided</h2>
@@ -248,9 +258,11 @@ function Home() {
               reliable plumbing and sanitation. Together, these professionals
               ensure the successful completion of construction projects
             </p>
-            <button>
-              services <RiShareForward2Fill />
-            </button>
+            <Link to="/allservices">
+              <button>
+                services <RiShareForward2Fill />
+              </button>
+            </Link>
           </div>
           <div className="home-page-services">
             {services.slice(0, 7).map((i) => {

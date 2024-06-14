@@ -965,7 +965,7 @@ export const RentalData = [
     id: "119",
     category: "Compactors",
     imgUrl:
-      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717764050/45662-Compactors-1_nfiozf.webpg",
+      "https://res.cloudinary.com/dppxcekqu/image/upload/v1717764050/45662-Compactors-1_nfiozf.webp",
     ownerName: "Benjamin",
     contactNumber: "9999999980",
     amount: "5900",

@@ -17,9 +17,9 @@ function ShowOwners() {
   });
   return (
     <div className="backGround">
-      <h1>
+      <h1 className="my-2">
         Here are some{" "}
-        <q style={{ color: "red", fontSize: "35px" }}>{category}</q>{" "}
+        <q style={{ color: "red", fontSize: "35px" }}>{category}</q> providers
       </h1>
       {RentalData.map((i) => {
         if (i.category === category) {

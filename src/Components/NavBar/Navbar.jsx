@@ -15,7 +15,7 @@ const Navbar = (props) => {
     <nav className="navbar sticky-top">
       <div className="navbar-container">
         <Link to="/">
-          <img src="../Assets/E-logo.png" alt="#" className="logo" />
+          <img src="../Assets/constructionbase.png" alt="#" className="logo" />
         </Link>
         <ul className="navbar-links">
           <li className="nav-item">

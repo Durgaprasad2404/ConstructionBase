@@ -7,7 +7,7 @@ import SaleVehicles from "./SaleVehicles";
 function RentedVehicles() {
   return (
     <>
-      <div className="backGround">
+      <div className="rental-backGround">
         <h1 className="rent-page-heading">Rental Vehicles</h1>
         <p className="ps-2">
           Trust our well-maintained vehicles and dedicated team to keep your

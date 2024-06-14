@@ -28,7 +28,11 @@ function Footer() {
       <hr />
       <footer>
         <div className="footCon1">
-          <img src="../Assets/E-logo.png" alt="#" className="logofoot" />
+          <img
+            src="../Assets/Constructionbase.png"
+            alt="#"
+            className="logofoot mb-3"
+          />
           <p>Your one-stop shop for the tools that build tomorrow.</p>
         </div>
         <div className="footCon2">

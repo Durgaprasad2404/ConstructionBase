@@ -40,7 +40,9 @@ nav {
 
 .logo {
   height: 70px;
-  border-radius: 15px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .heading-line {
@@ -197,6 +199,17 @@ nav {
   }
 }
 
+.rent-sale-para {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+
+  &:hover {
+    display: block;
+  }
+}
+
 .rent-home-btn {
   color: #fff;
   padding: 5px 10px;
@@ -333,6 +346,10 @@ nav {
   font-weight: 700;
   text-decoration: underline;
   text-underline-offset: 4px;
+
+  &:hover {
+    transform: translateX(10px);
+  }
 }
 
 .home-page-services {
@@ -355,6 +372,7 @@ nav {
   border-radius: 7px;
 
   &:hover {
+    transform: translateY(-10px);
     box-shadow: 3px 3px 3px 3px rgb(96, 97, 97);
   }
 }
@@ -422,7 +440,9 @@ footer {
 }
 
 .logofoot {
-  height: 130px;
+  height: 110px;
+  width: 250px;
+  object-fit: cover;
   border-radius: 13px;
 }
 
@@ -471,12 +491,16 @@ b {
 
 
 /* rental styles */
+.rental-backGround {
+  background-color: #86868619;
+}
+
 .rent-page-heading {
   color: #9e943c;
   margin: 10px;
   font-size: xx-large;
   padding: 5px 15px;
-  background-color: #b0b3b6a1;
+  background-color: rgba(137, 43, 226, 0.247);
 }
 
 .rentalVehicles {
@@ -484,7 +508,6 @@ b {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-
 }
 
 
@@ -870,6 +893,11 @@ label {
 }
 
 @media screen and (max-width:576px) {
+  .logo {
+    height: 50px;
+    width: 100px;
+  }
+
   .backGround {
     padding: 5px;
   }

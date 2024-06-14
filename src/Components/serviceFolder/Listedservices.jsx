@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./services.css";
 import { Link } from "react-router-dom";
 import { TbArrowMoveDown } from "react-icons/tb";
 import { services } from "../../itemsData/services";
 
 function Listedservices() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    scrollToTop(); //by this page scroll to top
+  });
   return (
     <>
       <h3 className="listed-services-heading">

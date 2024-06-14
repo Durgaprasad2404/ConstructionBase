@@ -6,7 +6,8 @@
     align-items: center;
     border: 1px solid gray;
     padding: 10px 25px;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: rgba(137, 43, 226, 0.247);
 
     &:hover {
         box-shadow: 1px 1px 1px 1px gray;
@@ -80,6 +81,10 @@
     border: 1px solid #000;
     border-radius: 10px;
     padding: 5px 10px;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 }
 
 .OwnerChatBtn {
@@ -87,10 +92,14 @@
     border: 1px solid #000;
     border-radius: 10px;
     padding: 5px 10px;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
 }
 
 .hourspan {
-    color: #dea90b;
+    color: #1d0bde;
     font-size: x-small;
 }
 
